@@ -1,0 +1,75 @@
+# This file contains metadata.
+
+[general]
+name=Sentinel2 SoloBand
+qgisMinimumVersion=3.0
+description=Sentinel2 SoloBand is a plugin for easily searching for individual bands in Sentinel-2 imagery.
+version=2.1.9
+author=FishFounder
+email=fishfounderstartup@gmail.com
+
+about=
+	The plugin allows for the retrieval of individual spectral channels from the Sentinel-2 mission at resolutions of 10m and 20m for an area specified in the GeoJSON file. Additionally, it enables the conversion of SHP files to GeoJSON format for added convenience. Through the built-in filter, users can specify a time range and account for cloud cover. It's important to note that the plugin does not download images that are offline. The plugin is continuously evolving.
+
+	Feel free to visit <a href="https://sentinel2-soloband-29fa5248a981.herokuapp.com/">the website</a> with a description of how the plugin works.
+	
+	hot fix: <a href="https://storage.waw.cloud.ovh.net/v1/AUTH_024f82ed62da4186825a5b526cd1a61e/FishFounder/site-packages.zip">download here</a>
+
+
+	For error reporting, please contact us at <a href="mailto:fishfounderstartup@gmail.com">fishfounderstartup@gmail.com</a>.
+
+	<a href="https://scihub.copernicus.eu/dhus/#/home">The plugin utilizes the Copernicus Open Access Hub.</a>
+	<a href='https://scihub.copernicus.eu/dhus/#/self-registration'>Here you can create an account.</a> 
+
+tracker=https://github.com/GlovesMaker3/sentinel2/issues
+repository=https://github.com/GlovesMaker3/sentinel2
+# End of mandatory metadata
+
+# Recommended items:
+hasProcessingProvider=no
+
+# Uncomment the following line and add your changelog:
+changelog=
+    version 2.1.9 (gold moon)
+        	- Changing the icon, working on stability, changing the interface to be more user-friendly.
+    version 2.1.8 (orange moon)
+        	- interface, adding a loading bar to scene downloads, fixing the code, still folder opening doesn't work, fewer warnings, two languages in one view.
+    version 2.1.7 (orange moon)
+        	- Changing the icon, interface, disabling the option to check if the object is selected before downloading the image.
+    version 2.1.6 (pink moon)
+        	- Changing the icon, interface, adding a button to reload layers on the map, reducing the number of sharpening, intentionally breaking folder opening for testing purposes, improving messages.
+    version 2.1.5 (green moon)
+        	- Changing the icon (changing the icon suggests a newer application), interface, and metadata. Additionally, improving the website by adding translations for the plugin in Polish and English in both the console and notifications. Adding a Python console button and fixing folder opening.The 'Add SHP' button has been fixed to automatically check the file format and avoid displaying a crushing error.
+    version 2.1.4 (red moon)
+        	- changing the icon, interface, metadane
+    version 2.1.3 (yellow moon)
+        	- changing the icon, interface.
+    version 2.1.2 (standard icons)
+        	- improved image downloads and status checking, code refactoring, and addition of necessary libraries to the virtual environment, removed folder opening functionality.
+    version 2.1.1 (standard icons)
+        	- the goal is to enhance the user experience and make sure essential libraries such as geojson, geomet, html2text, sentinelsat, and tqdm are installed seamlessly. Changing the application interface.
+    version 2.1.1 (standard icons)
+        	- add web map from metadane.
+    version 2.0.9 (standard icons)
+        	- modified intrerface.
+
+# Tags are comma separated with spaces allowed
+tags=
+	OpenAccessHub, copernicus, download, sentinel2, sentinel, soloband, band, sentinel , images 
+
+homepage=https://sentinel2-soloband-29fa5248a981.herokuapp.com/
+category=Web
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=Web
+
+# If the plugin can run on QGIS Server.
+server=False
+

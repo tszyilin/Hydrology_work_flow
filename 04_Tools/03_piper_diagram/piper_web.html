@@ -1,0 +1,804 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Piper Diagram Generator</title>
+<style>
+  :root { --border:#ccd; --tint:#f7f7fb; --accent:#2c3e50; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+         color:#222; background:#fafbfd; }
+  header { padding:12px 20px; background:var(--accent); color:#fff;
+           display:flex; align-items:center; gap:18px; }
+  header h1 { margin:0; font-size:18px; font-weight:600; }
+  header small { opacity:0.85; }
+  main { display:grid; grid-template-columns: 440px 1fr; gap:14px; padding:14px; }
+  .panel { background:#fff; border:1px solid var(--border); border-radius:6px;
+           padding:12px; margin-bottom:12px; }
+  .panel h2 { margin:0 0 10px 0; font-size:14px; color:var(--accent);
+              border-bottom:1px solid var(--border); padding-bottom:6px; }
+  label { font-size:12px; color:#333; }
+  input[type="text"], input[type="number"], select, textarea {
+    width:100%; padding:4px 6px; border:1px solid var(--border); border-radius:4px;
+    font: 12px system-ui; background:#fff;
+  }
+  input[type="range"] { width:100%; }
+  button { padding:5px 10px; font-size:12px; border:1px solid var(--border);
+           background:#fff; border-radius:4px; cursor:pointer; }
+  button:hover { background:var(--tint); }
+  button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+  table { border-collapse:collapse; width:100%; font-size:12px; }
+  th, td { padding:3px 4px; border-bottom:1px solid #eee; text-align:left; }
+  th { background:var(--tint); font-weight:600; }
+  td input, td select { padding:2px 4px; font-size:12px; }
+  .row { display:flex; gap:8px; align-items:center; margin:4px 0; }
+  .row > label { min-width:140px; }
+  .row > *:not(label) { flex:1; }
+  .btn-row { display:flex; gap:6px; flex-wrap:wrap; }
+  #plot { width:100%; height:auto; background:#fff; border:1px solid var(--border);
+          border-radius:6px; }
+  .val { display:inline-block; min-width:34px; text-align:right; font-variant-numeric:tabular-nums;
+         color:#666; font-size:11px; }
+  .swatch { display:inline-block; width:16px; height:16px; border:1px solid #999;
+            vertical-align:middle; cursor:pointer; }
+  .muted { color:#888; font-size:11px; }
+  .hint { font-size:11px; color:#555; margin-top:4px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Piper Diagram Generator</h1>
+  <small>Static browser app &mdash; no server, no upload leaves your machine.</small>
+</header>
+
+<main>
+  <div>
+    <div class="panel">
+      <h2>1. Input workbook</h2>
+      <input type="file" id="file" accept=".xlsx,.xlsm">
+      <div class="hint">Needs a sheet named <b>Script Input</b> with rows Ca, Mg, Na, K, Cl, SO4, HCO3, CO3 and one column per sample.</div>
+      <div id="loadStatus" class="muted"></div>
+    </div>
+
+    <div class="panel">
+      <h2>2. Samples</h2>
+      <table id="sampleTable">
+        <thead><tr>
+          <th>Name</th><th>Marker</th><th>Colour</th><th>Size</th><th>Fill</th><th>Order</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="panel">
+      <h2>3. Plot options</h2>
+      <div class="row"><label>Title</label><textarea id="title" rows="2">Piper Diagram - Molyhil Project (C260813)
+Major Ion Composition, 23 June 2026</textarea></div>
+      <div class="row"><label>Triangle gap</label>
+        <input type="range" id="gap" min="0" max="80" value="30" step="1">
+        <span class="val" id="gapVal">30</span>
+      </div>
+      <div class="row"><label>Rotation mode</label>
+        <select id="rotMode"><option value="along">along</option><option value="horizontal">horizontal</option></select>
+      </div>
+      <div class="row"><label>Rotation offset</label>
+        <input type="range" id="rotOff" min="-45" max="45" value="0" step="1">
+        <span class="val" id="rotVal">+0</span>
+      </div>
+      <div class="row"><label>Facies zones</label>
+        <input type="checkbox" id="facies" checked>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>4. Download / project</h2>
+      <div class="btn-row">
+        <button class="primary" id="dlPng">Download plot (PNG)</button>
+        <button id="dlSvg">Download plot (SVG)</button>
+        <button id="dlCsv">Register (CSV)</button>
+        <button id="dlXlsx">Register (XLSX)</button>
+      </div>
+      <div class="btn-row" style="margin-top:8px;">
+        <button id="saveProj">Save project (JSON)</button>
+        <button id="loadProjBtn">Load project&hellip;</button>
+        <input type="file" id="loadProj" accept=".json" hidden>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <svg id="plot" viewBox="-30 -30 300 220" preserveAspectRatio="xMidYMid meet"></svg>
+    <div id="qaTable" class="panel" style="margin-top:10px;"></div>
+  </div>
+</main>
+
+<!-- SheetJS: reads/writes xlsx entirely in-browser. -->
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+<script>
+"use strict";
+
+// ------------------------- Chemistry constants -----------------------------
+const EQ_WT = {Ca:20.04, Mg:12.153, Na:22.99, K:39.098, Cl:35.45, SO4:48.03};
+const CACO3_EQ_WT = 50.04;
+const H = 86.602540378;                          // sqrt(3)/2 * 100
+const NX = 0.8660254, NY = 0.5;                  // (cos30, sin30)
+const IONS = ["Ca","Mg","Na","K","Cl","SO4","HCO3","CO3"];
+
+const DEFAULT_MARKERS = ["o","s","^","D","v","P","X","*"];
+const DEFAULT_COLOURS = ["#c0392b","#2980b9","#27ae60","#8e44ad",
+                         "#e67e22","#16a085","#2c3e50","#d35400"];
+
+// Positioning constants (pinned per user's requests):
+const NAK_TARGET  = [80.4, 53.9];       // Sodium+K axis title centre
+const HCO_TARGET  = [-25.0, 53.9];      // HCO3 title offset from anion left edge midpoint (computed later)
+const DIAMOND_DY  = 23.0;
+const CACL_LABEL  = [117.2, 162.1];
+const NAHCO3_LABEL = [114.9, 55.1];
+
+const GRID_BLUE = "#2e86de", GRID_GREEN = "#27ae60", GRID_RED = "#e74c3c";
+const FACIES_CAT = "#f0ead6", FACIES_AN = "#f3dfdf", FACIES_DIA = "#dfdff0";
+const EDGE = "#333", LABEL_COL = "#222", FACIES_LABEL_COL = "#5a5a5a";
+
+// ------------------------- State -------------------------------------------
+const state = {
+  samples: {},        // {name: {Ca:.., Mg:.., ...}}
+  order: [],          // array of orig names, controls plot order
+  meta: {},           // {orig: {name, marker, colour, size, filled}}
+};
+
+// ------------------------- Chemistry ---------------------------------------
+function toMeq(s) {
+  return {
+    Ca: s.Ca/EQ_WT.Ca, Mg: s.Mg/EQ_WT.Mg, Na: s.Na/EQ_WT.Na, K: s.K/EQ_WT.K,
+    Cl: s.Cl/EQ_WT.Cl, SO4: s.SO4/EQ_WT.SO4,
+    HCO3: s.HCO3/CACO3_EQ_WT, CO3: s.CO3/CACO3_EQ_WT
+  };
+}
+function cationPct(m) {
+  const t = m.Ca+m.Mg+m.Na+m.K;
+  return [{Ca:100*m.Ca/t, Mg:100*m.Mg/t, NaK:100*(m.Na+m.K)/t}, t];
+}
+function anionPct(m) {
+  const t = m.Cl+m.SO4+m.HCO3+m.CO3;
+  return [{Cl:100*m.Cl/t, SO4:100*m.SO4/t, HCO3:100*(m.HCO3+m.CO3)/t}, t];
+}
+function cationXY(c) { return [c.NaK + 0.5*c.Mg, H*c.Mg/100]; }
+function anionXY(a)  { return [100 + a.Cl + 0.5*a.SO4, H*a.SO4/100]; }
+function diamondXY(cxy, axy) {
+  const [xc,yc]=cxy, [xa,ya]=axy;
+  const t = 0.5*((xa-xc)/50 + (ya-yc)/H);
+  return [xc+50*t, yc+H*t];
+}
+function computeAll() {
+  const out = {};
+  for (const name of state.order) {
+    const raw = state.samples[name];
+    if (!raw) continue;
+    const meq = toMeq(raw);
+    const [cat, catT] = cationPct(meq);
+    const [an, anT] = anionPct(meq);
+    const cxy = cationXY(cat);
+    const axy = anionXY(an);
+    const dxy = diamondXY(cxy, axy);
+    const balance = 100*(catT-anT)/((catT+anT)/2);
+    out[name] = {raw, meq, cat, an, catT, anT, balance, cxy, axy, dxy};
+  }
+  return out;
+}
+
+// ------------------------- SVG helpers -------------------------------------
+const SVG = "http://www.w3.org/2000/svg";
+function el(tag, attrs = {}, text) {
+  const n = document.createElementNS(SVG, tag);
+  for (const [k,v] of Object.entries(attrs)) n.setAttribute(k, v);
+  if (text !== undefined) n.textContent = text;
+  return n;
+}
+function polygon(pts, fill, stroke, sw=1, opacity=1) {
+  return el("polygon", {
+    points: pts.map(p => p.join(",")).join(" "),
+    fill: fill || "none",
+    stroke: stroke || "none",
+    "stroke-width": sw,
+    opacity
+  });
+}
+function line(x1,y1,x2,y2,stroke,sw=0.7,opacity=1) {
+  return el("line", {x1,y1,x2,y2,stroke,"stroke-width":sw,opacity});
+}
+function text(x, y, str, opts = {}) {
+  const t = el("text", {
+    x, y,
+    "font-family": opts.family || "Arial, sans-serif",
+    "font-size":   opts.size   || 3.2,
+    "font-weight": opts.weight || "normal",
+    "font-style":  opts.style  || "normal",
+    "text-anchor": opts.anchor || "middle",
+    "dominant-baseline": opts.baseline || "middle",
+    fill: opts.fill || LABEL_COL
+  }, str);
+  if (opts.rotation) t.setAttribute("transform", `rotate(${-opts.rotation} ${x} ${y})`);
+  // Note: SVG rotation is CW positive; matplotlib CCW. Negate to match.
+  return t;
+}
+
+// Marker path/shape generator - returns an SVG element around (cx, cy) with a
+// given visual "size" (matplotlib scatter s ~ marker area in points^2 - we
+// approximate by mapping sqrt(size)*0.14 to a plot-unit radius).
+function marker(cx, cy, kind, size, colour, filled) {
+  const r = Math.max(1.5, Math.sqrt(size) * 0.14);
+  const attrs = filled
+    ? { fill: colour, stroke: "black", "stroke-width": 0.25 }
+    : { fill: "none", stroke: colour,  "stroke-width": 0.55 };
+  switch (kind) {
+    case "o": return el("circle", {cx, cy, r, ...attrs});
+    case "s": return el("rect", {x:cx-r, y:cy-r, width:2*r, height:2*r, ...attrs});
+    case "D": {
+      const pts = [[cx,cy-r],[cx+r,cy],[cx,cy+r],[cx-r,cy]];
+      return polygonFromPts(pts, attrs);
+    }
+    case "^": {
+      const pts = [[cx,cy-r],[cx+r*0.866,cy+r*0.5],[cx-r*0.866,cy+r*0.5]];
+      return polygonFromPts(pts, attrs);
+    }
+    case "v": {
+      const pts = [[cx,cy+r],[cx+r*0.866,cy-r*0.5],[cx-r*0.866,cy-r*0.5]];
+      return polygonFromPts(pts, attrs);
+    }
+    case "<": {
+      const pts = [[cx-r,cy],[cx+r*0.5,cy-r*0.866],[cx+r*0.5,cy+r*0.866]];
+      return polygonFromPts(pts, attrs);
+    }
+    case ">": {
+      const pts = [[cx+r,cy],[cx-r*0.5,cy-r*0.866],[cx-r*0.5,cy+r*0.866]];
+      return polygonFromPts(pts, attrs);
+    }
+    case "P": case "+": {
+      const t = r*0.35;
+      const pts = [[cx-t,cy-r],[cx+t,cy-r],[cx+t,cy-t],[cx+r,cy-t],
+                   [cx+r,cy+t],[cx+t,cy+t],[cx+t,cy+r],[cx-t,cy+r],
+                   [cx-t,cy+t],[cx-r,cy+t],[cx-r,cy-t],[cx-t,cy-t]];
+      return polygonFromPts(pts, attrs);
+    }
+    case "X": case "x": {
+      const t = r*0.28, R = r*0.9;
+      // 12-point cross
+      const pts = [
+        [cx-t,cy-t+R],[cx+t,cy-t+R],
+        [cx-t+R,cy+t],[cx-t+R,cy-t],
+        [cx+t,cy+t-R],[cx-t,cy+t-R],
+        [cx+t-R,cy-t],[cx+t-R,cy+t]
+      ];
+      return polygonFromPts(pts, attrs);
+    }
+    case "*": {
+      const pts = [];
+      const n = 10;
+      for (let i = 0; i < n; i++) {
+        const a = -Math.PI/2 + i * Math.PI/n * 2;
+        const rr = i % 2 === 0 ? r : r*0.42;
+        pts.push([cx + rr*Math.cos(a), cy + rr*Math.sin(a)]);
+      }
+      return polygonFromPts(pts, attrs);
+    }
+    case "h": {
+      const pts = [];
+      for (let i = 0; i < 6; i++) {
+        const a = -Math.PI/2 + i * Math.PI/3;
+        pts.push([cx + r*Math.cos(a), cy + r*Math.sin(a)]);
+      }
+      return polygonFromPts(pts, attrs);
+    }
+    case "p": {
+      const pts = [];
+      for (let i = 0; i < 5; i++) {
+        const a = -Math.PI/2 + i * 2*Math.PI/5;
+        pts.push([cx + r*Math.cos(a), cy + r*Math.sin(a)]);
+      }
+      return polygonFromPts(pts, attrs);
+    }
+    default: return el("circle", {cx, cy, r, ...attrs});
+  }
+}
+function polygonFromPts(pts, attrs) {
+  return el("polygon", {points: pts.map(p => p.join(",")).join(" "), ...attrs});
+}
+
+// ------------------------- Piper drawing -----------------------------------
+function triVertices(x0) { return [[x0,0],[x0+100,0],[x0+50,H]]; }
+
+function gridlinesTri(x0) {
+  // Match piper_diagram.py: colours flip between cation and anion.
+  const cH  = x0 === 0 ? GRID_GREEN : GRID_RED;   // horizontal
+  const cRR = x0 === 0 ? GRID_RED   : GRID_BLUE;  // rising-right
+  const cRL = x0 === 0 ? GRID_BLUE  : GRID_GREEN; // rising-left
+  const segs = [];
+  for (const k of [20,40,60,80]) {
+    const f = k/100;
+    segs.push([[x0+50*f, H*f], [x0+100-50*f, H*f], cH]);
+    segs.push([[x0+100*f, 0], [x0+100*f+50*(1-f), H*(1-f)], cRR]);
+    segs.push([[x0+100*(1-f), 0], [x0+50*(1-f), H*(1-f)], cRL]);
+  }
+  return segs;
+}
+
+function faciesPolys(g, an_x0, dy) {
+  const fills = [];
+  const labels = [];
+  // Cation
+  const Ca=[0,0], NaK=[100,0], Mg=[50,H];
+  const Mb=[50,0], Ml=[25,H/2], Mr=[75,H/2];
+  fills.push([[Ca,Mb,Ml], FACIES_CAT]);
+  fills.push([[NaK,Mb,Mr], FACIES_CAT]);
+  fills.push([[Mg,Ml,Mr], FACIES_CAT]);
+  labels.push(["Calcium Type",           [25, H/6]]);
+  labels.push(["Sodium & Potassium Type",[75, H/6]]);
+  labels.push(["Magnesium Type",         [50, 2*H/3]]);
+  // Anion
+  const HCO=[an_x0,0], Cl=[an_x0+100,0], SO4=[an_x0+50,H];
+  const aMb=[an_x0+50,0], aMl=[an_x0+25,H/2], aMr=[an_x0+75,H/2];
+  fills.push([[HCO,aMb,aMl], FACIES_AN]);
+  fills.push([[Cl,aMb,aMr], FACIES_AN]);
+  fills.push([[SO4,aMl,aMr], FACIES_AN]);
+  labels.push(["Bicarbonate Type", [an_x0+25, H/6]]);
+  labels.push(["Chloride Type",    [an_x0+75, H/6]]);
+  labels.push(["Sulphate Type",    [an_x0+50, 2*H/3]]);
+  // Diamond (with dy)
+  const dx = g/2;
+  const L=[50+dx, H+dy], R=[150+dx, H+dy], T=[100+dx, 2*H+dy], B=[100+dx, 0+dy];
+  const C=[100+dx, H+dy];
+  const tl=[75+dx, 1.5*H+dy], tr=[125+dx, 1.5*H+dy];
+  const br=[125+dx, 0.5*H+dy], bl=[75+dx, 0.5*H+dy];
+  fills.push([[T,tl,tr], FACIES_DIA]);
+  fills.push([[B,bl,br], FACIES_DIA]);
+  fills.push([[L,tl,C,bl], FACIES_DIA]);
+  fills.push([[R,tr,C,br], FACIES_DIA]);
+  labels.push(["Calcium chloride Type", CACL_LABEL]);
+  labels.push(["Sodium bicarbonate Type", NAHCO3_LABEL]);
+  labels.push(["Magnesium\nbicarbonate Type", [72+dx, H+dy]]);
+  labels.push(["Sodium chloride Type", [128+dx, H+dy]]);
+  return {fills, labels};
+}
+
+function labelEdge(svg, pStart, pEnd, ticks, title, titleOffset, rotation, tickOffset, tickColor) {
+  const [sx, sy] = pStart, [ex, ey] = pEnd;
+  const n = ticks.length;
+  for (let i = 0; i < n; i++) {
+    const f = i / (n - 1);
+    const x = sx + f * (ex - sx) + tickOffset[0];
+    const y = sy + f * (ey - sy) + tickOffset[1];
+    svg.appendChild(text(x, y, String(ticks[i]),
+      {size: 2.6, fill: tickColor, rotation}));
+  }
+  const mx = 0.5 * (sx + ex) + titleOffset[0];
+  const my = 0.5 * (sy + ey) + titleOffset[1];
+  // Multi-line titles: split by \n, offset each line perpendicular to rotation.
+  const lines = title.split("\n");
+  const lineH = 3.4;
+  lines.forEach((ln, i) => {
+    const yOff = (i - (lines.length - 1) / 2) * lineH;
+    // Offset perpendicular to the text direction
+    const rad = rotation * Math.PI / 180;
+    const dx = -Math.sin(rad) * yOff;
+    const dy =  Math.cos(rad) * yOff;
+    svg.appendChild(text(mx + dx, my + dy, ln,
+      {size: 3.2, weight: "bold", fill: LABEL_COL, rotation}));
+  });
+}
+
+function drawPiper() {
+  const svg = document.getElementById("plot");
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+
+  const g = parseFloat(document.getElementById("gap").value);
+  const an_x0 = 100 + g, dx = g/2, dy = DIAMOND_DY;
+  const rotMode = document.getElementById("rotMode").value;
+  const rotOff  = parseFloat(document.getElementById("rotOff").value);
+  const showFacies = document.getElementById("facies").checked;
+  const title = document.getElementById("title").value;
+
+  const horiz = rotMode !== "along";
+  const rot = base => (horiz ? 0 : base) + rotOff;
+
+  // Adjust viewBox to fit content
+  const xmin = -30, xmax = 235 + g;
+  const ymin = -30, ymax = 2*H + dy + 30;
+  svg.setAttribute("viewBox", `${xmin} ${ymin} ${xmax-xmin} ${ymax-ymin}`);
+  // Flip y so bigger y = up (matches maths coords, not screen).
+  const gRoot = el("g", {transform: `translate(0 ${ymin+ymax}) scale(1 -1)`});
+  svg.appendChild(gRoot);
+
+  // ---- Facies fills (below everything) ----
+  if (showFacies) {
+    const {fills, labels} = faciesPolys(g, an_x0, dy);
+    for (const [verts, tint] of fills) {
+      gRoot.appendChild(polygon(verts, tint, "none", 0, 0.55));
+    }
+    for (const [txt, [lx, ly]] of labels) {
+      // Text has to be un-flipped so it reads normally.
+      const lines = txt.split("\n");
+      lines.forEach((ln, i) => {
+        const yOff = (i - (lines.length - 1) / 2) * 3.4;
+        const g2 = el("g", {transform: `translate(${lx} ${ly - yOff}) scale(1 -1)`});
+        g2.appendChild(text(0, 0, ln, {size: 2.9, style: "italic",
+                                       fill: FACIES_LABEL_COL, baseline: "middle"}));
+        gRoot.appendChild(g2);
+      });
+    }
+  }
+
+  // ---- Outlines ----
+  gRoot.appendChild(polygon(triVertices(0), "none", EDGE, 0.5));
+  gRoot.appendChild(polygon(triVertices(an_x0), "none", EDGE, 0.5));
+  const diamond = [[100+dx, 0+dy], [50+dx, H+dy], [100+dx, 2*H+dy], [150+dx, H+dy]];
+  gRoot.appendChild(polygon(diamond, "none", EDGE, 0.5));
+
+  // ---- Gridlines ----
+  for (const x0 of [0, an_x0]) {
+    for (const [p1, p2, c] of gridlinesTri(x0)) {
+      gRoot.appendChild(line(p1[0], p1[1], p2[0], p2[1], c, 0.25, 0.55));
+    }
+  }
+  for (const k of [20,40,60,80]) {
+    const f = k/100;
+    gRoot.appendChild(line(100+dx-50*f, H*f+dy, 150+dx-50*f, H*f+H+dy, GRID_GREEN, 0.25, 0.55));
+    gRoot.appendChild(line(100+dx+50*f, H*f+dy, 50+dx+50*f, H*f+H+dy, GRID_RED, 0.25, 0.55));
+  }
+
+  // ---- Axis labels ----
+  // Because we scale(1,-1), labelEdge would produce upside-down text. Work
+  // around by putting labels in their OWN unflipped group.
+  const labelGroup = el("g");
+  svg.appendChild(labelGroup);
+  const yFlipTo = (x, y) => [x, (ymin + ymax) - y];
+
+  const putLabel = (pStart, pEnd, ticks, title, titleOffset, rotation,
+                    tickOffset, tickColor) => {
+    // Flip endpoints/offsets to real (screen) coords before drawing.
+    const [sx, sy] = yFlipTo(pStart[0], pStart[1]);
+    const [ex, ey] = yFlipTo(pEnd[0], pEnd[1]);
+    // Because y is flipped, positive tickOffset[1] should still push OUTSIDE
+    // the shape in world coords; flip its sign for screen coords.
+    const to = [tickOffset[0], -tickOffset[1]];
+    const tio = [titleOffset[0], -titleOffset[1]];
+    // Rotation sign: matplotlib CCW in world = CW in flipped screen. Because
+    // the `text()` helper already negates, and we're in screen coords, pass
+    // rotation as-is; but negate again to counteract the earlier negation.
+    labelEdge(labelGroup, [sx,sy], [ex,ey], ticks, title, tio, -rotation,
+              to, tickColor);
+  };
+
+  const ticksUp = [0,20,40,60,80,100];
+  const ticksDn = [100,80,60,40,20,0];
+  const slantD = 13;
+  const slantOff = horiz ? 18 : 11;
+  const diamondD = 11;
+  const horizDiamond = 16;
+  const tri_off = (dir) => horiz
+    ? (dir === "left" ? [-slantOff, 0] : [slantOff, 0])
+    : (dir === "left" ? [-NX*slantD, NY*slantD] : [NX*slantD, NY*slantD]);
+  const diamond_off = (dir) => horiz
+    ? (dir === "left" ? [-horizDiamond, 3] : [horizDiamond, 3])
+    : (dir === "left" ? [-NX*diamondD, NY*diamondD] : [NX*diamondD, NY*diamondD]);
+
+  // Cation
+  putLabel([0,0],[100,0],  ticksDn, "Calcium (Ca)",       [0,-11], rot(0),  [0,-3.5], GRID_BLUE);
+  putLabel([0,0],[50,H],   ticksUp, "Magnesium (Mg)",     tri_off("left"),  rot(60), [-3.5,0], GRID_GREEN);
+  // Na+K: fixed centre at NAK_TARGET (offset computed from edge midpoint 75, H/2).
+  const nakOff = [NAK_TARGET[0]-75, NAK_TARGET[1]-H/2];
+  putLabel([100,0],[50,H], ticksDn, "Sodium (Na) + Potassium (K)",
+           nakOff, rot(-60), [3.5,0], GRID_RED);
+  // Anion
+  putLabel([an_x0,0],[an_x0+100,0], ticksUp, "Chloride (Cl)",  [0,-11], rot(0), [0,-3.5], GRID_BLUE);
+  // HCO3 centre pinned at (146.2, 53.1) - offset from anion left edge midpoint.
+  const hcoMid = [an_x0+25, H/2];
+  const hcoOff = [146.2 - hcoMid[0], 53.1 - hcoMid[1]];
+  putLabel([an_x0,0],[an_x0+50,H], ticksDn,
+           "Carbonate (CO₃²⁻) + Bicarbonate (HCO₃⁻)",
+           hcoOff, rot(60), [-3.5,0], GRID_GREEN);
+  putLabel([an_x0+100,0],[an_x0+50,H], ticksUp, "Sulfate (SO4)",
+           tri_off("right"), rot(-60), [3.5,0], GRID_RED);
+  // Diamond upper edges (shifted by dy)
+  putLabel([150+dx, H+dy], [100+dx, 2*H+dy], ticksUp,
+           "Calcium (Ca) + Magnesium (Mg)",
+           diamond_off("right"), rot(-60), [3.2, 1.6], GRID_GREEN);
+  putLabel([50+dx, H+dy], [100+dx, 2*H+dy], ticksUp,
+           "Sulfate (SO4) + Chloride (Cl)",
+           diamond_off("left"), rot(60), [-3.2, 1.6], GRID_RED);
+
+  // ---- Sample points ----
+  const results = computeAll();
+  const orderKeys = state.order;
+  for (const name of orderKeys) {
+    const m = state.meta[name];
+    if (!m || !results[name]) continue;
+    const r = results[name];
+    const [cx, cy] = r.cxy;
+    const [ax, ay] = r.axy;
+    const [dxp, dyp] = r.dxy;
+    const points = [[cx, cy], [ax + g, ay], [dxp + dx, dyp + dy]];
+    for (const [x, y] of points) {
+      gRoot.appendChild(marker(x, y, m.marker, m.size, m.colour, m.filled));
+    }
+  }
+
+  // ---- Title (top, in flipped-back group) ----
+  const titleG = el("g");
+  svg.appendChild(titleG);
+  const titleLines = title.split("\n");
+  titleLines.forEach((ln, i) => {
+    titleG.appendChild(text((xmin+xmax)/2, 4 + i * 6, ln,
+      {size: 4.5, weight: "bold"}));
+  });
+
+  // ---- Legend ----
+  const legendG = el("g");
+  svg.appendChild(legendG);
+  const [lx0, ly0] = [xmax - 55, 22];
+  legendG.appendChild(text(lx0 + 22, ly0 - 6, "Sample", {size: 3.8, weight: "bold", anchor: "middle"}));
+  orderKeys.forEach((name, i) => {
+    const m = state.meta[name];
+    if (!m) return;
+    const y = ly0 + i * 5;
+    legendG.appendChild(marker(lx0, y, m.marker, m.size * 0.9, m.colour, m.filled));
+    legendG.appendChild(text(lx0 + 4, y, m.name, {size: 3.2, anchor: "start"}));
+  });
+
+  renderQaTable(results);
+}
+
+// ------------------------- QA + register -----------------------------------
+function renderQaTable(results) {
+  const div = document.getElementById("qaTable");
+  const rows = state.order.filter(n => results[n]);
+  if (!rows.length) { div.innerHTML = ""; return; }
+  let html = "<h2>Charge balance QA</h2><table><thead><tr>" +
+    "<th>Sample</th><th>Cations (meq/L)</th><th>Anions (meq/L)</th>" +
+    "<th>Balance error</th><th>OK (±5%)</th></tr></thead><tbody>";
+  for (const n of rows) {
+    const r = results[n];
+    const ok = Math.abs(r.balance) <= 5;
+    html += `<tr><td>${state.meta[n].name}</td>` +
+      `<td>${r.catT.toFixed(2)}</td><td>${r.anT.toFixed(2)}</td>` +
+      `<td>${r.balance >= 0 ? "+" : ""}${r.balance.toFixed(1)}%</td>` +
+      `<td style="color:${ok?'green':'red'}">${ok?'Yes':'No'}</td></tr>`;
+  }
+  html += "</tbody></table>";
+  div.innerHTML = html;
+}
+
+function buildRegister() {
+  const results = computeAll();
+  const rows = [];
+  for (const orig of state.order) {
+    const r = results[orig];
+    if (!r) continue;
+    const name = state.meta[orig].name;
+    rows.push({ Sample: name,
+      "Ca (mg/L)": r.raw.Ca, "Mg (mg/L)": r.raw.Mg,
+      "Na (mg/L)": r.raw.Na, "K (mg/L)": r.raw.K,
+      "Cl (mg/L)": r.raw.Cl, "SO4 (mg/L)": r.raw.SO4,
+      "HCO3 (mg CaCO3/L)": r.raw.HCO3, "CO3 (mg CaCO3/L)": r.raw.CO3,
+      "Ca (meq/L)": r.meq.Ca, "Mg (meq/L)": r.meq.Mg,
+      "Na (meq/L)": r.meq.Na, "K (meq/L)": r.meq.K,
+      "Cl (meq/L)": r.meq.Cl, "SO4 (meq/L)": r.meq.SO4,
+      "HCO3 (meq/L)": r.meq.HCO3, "CO3 (meq/L)": r.meq.CO3,
+      "Ca (%cat)": r.cat.Ca, "Mg (%cat)": r.cat.Mg, "Na+K (%cat)": r.cat.NaK,
+      "Cl (%an)": r.an.Cl, "SO4 (%an)": r.an.SO4, "HCO3+CO3 (%an)": r.an.HCO3,
+      "Total cations (meq/L)": r.catT, "Total anions (meq/L)": r.anT,
+      "Charge balance error (%)": r.balance,
+      "Charge balance OK (+/-5%)": Math.abs(r.balance) <= 5 ? "Yes" : "No",
+      "Cation X": r.cxy[0], "Cation Y": r.cxy[1],
+      "Anion X":  r.axy[0], "Anion Y":  r.axy[1],
+      "Diamond X":r.dxy[0], "Diamond Y":r.dxy[1],
+    });
+  }
+  // Transpose: parameters go down the rows, one column per sample.
+  const paramCols = Object.keys(rows[0] || {}).filter(k => k !== "Sample");
+  const out = [["Parameter", ...rows.map(r => r.Sample)]];
+  for (const p of paramCols) {
+    out.push([p, ...rows.map(r => r[p])]);
+  }
+  return out;
+}
+
+// ------------------------- UI: samples table -------------------------------
+function refreshSampleTable() {
+  const tbody = document.querySelector("#sampleTable tbody");
+  tbody.innerHTML = "";
+  state.order.forEach((orig, idx) => {
+    const m = state.meta[orig];
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td><input type="text" data-key="name" value="${escapeAttr(m.name)}" style="width:110px"></td>
+      <td><select data-key="marker">${DEFAULT_MARKERS.concat(["<",">","h","p"]).map(
+        mk => `<option${mk===m.marker?' selected':''}>${mk}</option>`).join("")}</select></td>
+      <td><input type="color" data-key="colour" value="${m.colour}"></td>
+      <td><input type="number" data-key="size" value="${m.size}" min="10" max="600" step="10" style="width:60px"></td>
+      <td><input type="checkbox" data-key="filled"${m.filled?' checked':''}></td>
+      <td>
+        <button data-move="-1"${idx===0?' disabled':''}>&uarr;</button>
+        <button data-move="1"${idx===state.order.length-1?' disabled':''}>&darr;</button>
+      </td>`;
+    tr.querySelectorAll("[data-key]").forEach(inp => {
+      inp.addEventListener("input", () => {
+        const k = inp.dataset.key;
+        m[k] = inp.type === "checkbox" ? inp.checked
+             : inp.type === "number"   ? parseFloat(inp.value)
+             : inp.value;
+        drawPiper();
+      });
+    });
+    tr.querySelectorAll("[data-move]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const d = parseInt(btn.dataset.move, 10);
+        const j = idx + d;
+        if (j < 0 || j >= state.order.length) return;
+        [state.order[idx], state.order[j]] = [state.order[j], state.order[idx]];
+        refreshSampleTable();
+        drawPiper();
+      });
+    });
+    tbody.appendChild(tr);
+  });
+}
+function escapeAttr(s) { return String(s).replace(/"/g, "&quot;"); }
+
+// ------------------------- File I/O ----------------------------------------
+document.getElementById("file").addEventListener("change", async (ev) => {
+  const f = ev.target.files[0];
+  if (!f) return;
+  const buf = await f.arrayBuffer();
+  const wb = XLSX.read(buf, {type: "array"});
+  const ws = wb.Sheets["Script Input"] || wb.Sheets[wb.SheetNames[0]];
+  if (!ws) { alert("No 'Script Input' sheet found."); return; }
+  const rows = XLSX.utils.sheet_to_json(ws, {header: 1, defval: null});
+  const header = rows[0];
+  // Column 0 = Ion, column 1 = Unit, rest = samples.
+  const sampleCols = header.slice(2).filter(c => c !== null && c !== "");
+  const ionRow = {};
+  for (let r = 1; r < rows.length; r++) {
+    const ion = rows[r][0];
+    if (!IONS.includes(ion)) continue;
+    ionRow[ion] = rows[r];
+  }
+  state.samples = {};
+  state.order = [];
+  state.meta = {};
+  sampleCols.forEach((c, i) => {
+    const key = String(c);
+    const sample = {};
+    for (const ion of IONS) {
+      const rowArr = ionRow[ion];
+      sample[ion] = rowArr ? Number(rowArr[2 + i]) || 0 : 0;
+    }
+    state.samples[key] = sample;
+    state.order.push(key);
+    state.meta[key] = {
+      name: key,
+      marker: DEFAULT_MARKERS[i % DEFAULT_MARKERS.length],
+      colour: DEFAULT_COLOURS[i % DEFAULT_COLOURS.length],
+      size: 110,
+      filled: true,
+    };
+  });
+  document.getElementById("loadStatus").textContent =
+    `Loaded ${sampleCols.length} sample(s).`;
+  refreshSampleTable();
+  drawPiper();
+});
+
+// ------------------------- Reactive controls -------------------------------
+for (const id of ["gap","rotOff"]) {
+  document.getElementById(id).addEventListener("input", (e) => {
+    const v = parseFloat(e.target.value);
+    if (id === "gap") document.getElementById("gapVal").textContent = v.toFixed(0);
+    if (id === "rotOff") document.getElementById("rotVal").textContent = (v>=0?"+":"") + v.toFixed(0);
+    drawPiper();
+  });
+}
+for (const id of ["rotMode","facies","title"]) {
+  document.getElementById(id).addEventListener("input", drawPiper);
+  document.getElementById(id).addEventListener("change", drawPiper);
+}
+
+// ------------------------- Downloads --------------------------------------
+function downloadBlob(blob, name) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+document.getElementById("dlSvg").addEventListener("click", () => {
+  const svg = document.getElementById("plot");
+  const src = new XMLSerializer().serializeToString(svg);
+  downloadBlob(new Blob([src], {type: "image/svg+xml"}), "piper_diagram.svg");
+});
+
+document.getElementById("dlPng").addEventListener("click", () => {
+  const svg = document.getElementById("plot");
+  const src = new XMLSerializer().serializeToString(svg);
+  const svg64 = btoa(unescape(encodeURIComponent(src)));
+  const img = new Image();
+  img.onload = () => {
+    const canvas = document.createElement("canvas");
+    const scale = 3; // higher-res raster
+    canvas.width  = svg.viewBox.baseVal.width  * scale;
+    canvas.height = svg.viewBox.baseVal.height * scale;
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "white"; ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+    canvas.toBlob(b => downloadBlob(b, "piper_diagram.png"), "image/png");
+  };
+  img.src = "data:image/svg+xml;base64," + svg64;
+});
+
+document.getElementById("dlCsv").addEventListener("click", () => {
+  const table = buildRegister();
+  const csv = table.map(r => r.map(v => {
+    if (v === null || v === undefined) return "";
+    const s = String(v);
+    return /[,"\n]/.test(s) ? `"${s.replace(/"/g,'""')}"` : s;
+  }).join(",")).join("\n");
+  downloadBlob(new Blob([csv], {type: "text/csv"}), "piper_register.csv");
+});
+
+document.getElementById("dlXlsx").addEventListener("click", () => {
+  const table = buildRegister();
+  const ws = XLSX.utils.aoa_to_sheet(table);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Piper Register");
+  const wbout = XLSX.write(wb, {bookType: "xlsx", type: "array"});
+  downloadBlob(new Blob([wbout], {type: "application/octet-stream"}), "piper_register.xlsx");
+});
+
+// ------------------------- Project save / load -----------------------------
+document.getElementById("saveProj").addEventListener("click", () => {
+  const proj = {
+    gap: parseFloat(document.getElementById("gap").value),
+    rotMode: document.getElementById("rotMode").value,
+    rotOff: parseFloat(document.getElementById("rotOff").value),
+    facies: document.getElementById("facies").checked,
+    title: document.getElementById("title").value,
+    order: state.order,
+    meta: state.meta,
+  };
+  downloadBlob(new Blob([JSON.stringify(proj, null, 2)], {type: "application/json"}),
+               "piper_project.json");
+});
+document.getElementById("loadProjBtn").addEventListener("click", () => {
+  document.getElementById("loadProj").click();
+});
+document.getElementById("loadProj").addEventListener("change", async (ev) => {
+  const f = ev.target.files[0]; if (!f) return;
+  const txt = await f.text();
+  const proj = JSON.parse(txt);
+  document.getElementById("gap").value = proj.gap ?? 30;
+  document.getElementById("gapVal").textContent = document.getElementById("gap").value;
+  document.getElementById("rotMode").value = proj.rotMode ?? "along";
+  document.getElementById("rotOff").value = proj.rotOff ?? 0;
+  document.getElementById("rotVal").textContent = (proj.rotOff>=0?"+":"") + (proj.rotOff ?? 0);
+  document.getElementById("facies").checked = proj.facies ?? true;
+  document.getElementById("title").value = proj.title ?? "";
+  // Preserve current samples; overlay meta+order from project for matching keys.
+  if (proj.order && proj.meta) {
+    const newOrder = [];
+    for (const k of proj.order) {
+      if (state.samples[k]) { newOrder.push(k); state.meta[k] = {...state.meta[k], ...proj.meta[k]}; }
+    }
+    for (const k of Object.keys(state.samples)) if (!newOrder.includes(k)) newOrder.push(k);
+    state.order = newOrder;
+    refreshSampleTable();
+  }
+  drawPiper();
+});
+
+// Initial empty draw so the SVG isn't blank.
+drawPiper();
+</script>
+</body>
+</html>

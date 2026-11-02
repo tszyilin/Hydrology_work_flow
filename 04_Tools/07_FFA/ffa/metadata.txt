@@ -1,0 +1,17 @@
+[general]
+name=Flood Frequency Analysis
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Fit flood frequency distributions (LP3, GEV, Gumbel, GPD) to an annual-maximum series with L-moments or MLE and bootstrap confidence intervals.
+version=0.1.0
+author=User
+email=user@example.com
+about=Loads an AMS CSV (or a continuous time-series CSV from which an AMS is extracted by water year) and fits Log-Pearson III, GEV, Gumbel and generalised Pareto distributions via L-moments (default) or maximum likelihood. Produces a return-period table with bootstrap 95%% confidence intervals and a Gumbel-reduced-variate probability plot. Uses a vendored, pure-Python copy of lmoments3 (GPL-3) alongside QGIS's bundled NumPy / SciPy / Matplotlib.
+tracker=
+repository=
+tags=hydrology,flood,frequency,ffa,lp3,gev,gumbel,gpd,arr
+homepage=
+category=Analysis
+icon=
+experimental=True
+deprecated=False

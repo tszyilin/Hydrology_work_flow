@@ -1,0 +1,17 @@
+[general]
+name=Raster Footprint
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Extract the valid-data footprint polygon of a GeoTIFF as a shapefile (NoData excluded).
+version=1.0.0
+author=User
+email=user@example.com
+about=Pick a GeoTIFF and click Run. The plugin polygonizes the raster's validity mask (using GDAL's per-band mask, so NoData pixels are excluded) and writes an ESRI Shapefile of the data footprint, dissolved into a single feature by default. The resulting layer is added to the current QGIS project.
+tracker=
+repository=
+tags=raster,footprint,polygonize,nodata,extent,tif,geotiff
+homepage=
+category=Raster
+icon=
+experimental=False
+deprecated=False

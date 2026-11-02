@@ -1,0 +1,5698 @@
+[
+	{
+		"MATINH": "92",
+		"TINH": "Thành phố Cần Thơ",
+		"MAHUYEN": "925",
+		"HUYEN": "Huyện Cờ Đỏ",
+		"TINHVT": "ThanhphoCanTho",
+		"HUYENVT": "HuyenCoDo"
+	},
+	{
+		"MATINH": "92",
+		"TINH": "Thành phố Cần Thơ",
+		"MAHUYEN": "926",
+		"HUYEN": "Huyện Phong Điền",
+		"TINHVT": "ThanhphoCanTho",
+		"HUYENVT": "HuyenPhongDien"
+	},
+	{
+		"MATINH": "92",
+		"TINH": "Thành phố Cần Thơ",
+		"MAHUYEN": "927",
+		"HUYEN": "Huyện Thới Lai",
+		"TINHVT": "ThanhphoCanTho",
+		"HUYENVT": "HuyenThoiLai"
+	},
+	{
+		"MATINH": "92",
+		"TINH": "Thành phố Cần Thơ",
+		"MAHUYEN": "924",
+		"HUYEN": "Huyện Vĩnh Thạnh",
+		"TINHVT": "ThanhphoCanTho",
+		"HUYENVT": "HuyenVinhThanh"
+	},
+	{
+		"MATINH": "92",
+		"TINH": "Thành phố Cần Thơ",
+		"MAHUYEN": "918",
+		"HUYEN": "Quận Bình Thuỷ",
+		"TINHVT": "ThanhphoCanTho",
+		"HUYENVT": "QuanBinhThuy"
+	},
+	{
+		"MATINH": "92",
+		"TINH": "Thành phố Cần Thơ",
+		"MAHUYEN": "919",
+		"HUYEN": "Quận Cái Răng",
+		"TINHVT": "ThanhphoCanTho",
+		"HUYENVT": "QuanCaiRang"
+	},
+	{
+		"MATINH": "92",
+		"TINH": "Thành phố Cần Thơ",
+		"MAHUYEN": "916",
+		"HUYEN": "Quận Ninh Kiều",
+		"TINHVT": "ThanhphoCanTho",
+		"HUYENVT": "QuanNinhKieu"
+	},
+	{
+		"MATINH": "92",
+		"TINH": "Thành phố Cần Thơ",
+		"MAHUYEN": "917",
+		"HUYEN": "Quận Ô Môn",
+		"TINHVT": "ThanhphoCanTho",
+		"HUYENVT": "QuanOMon"
+	},
+	{
+		"MATINH": "92",
+		"TINH": "Thành phố Cần Thơ",
+		"MAHUYEN": "923",
+		"HUYEN": "Quận Thốt Nốt",
+		"TINHVT": "ThanhphoCanTho",
+		"HUYENVT": "QuanThotNot"
+	},
+	{
+		"MATINH": "48",
+		"TINH": "Thành phố Đà Nẵng",
+		"MAHUYEN": "497",
+		"HUYEN": "Huyện Hòa Vang",
+		"TINHVT": "ThanhphoDaNang",
+		"HUYENVT": "HuyenHoaVang"
+	},
+	{
+		"MATINH": "48",
+		"TINH": "Thành phố Đà Nẵng",
+		"MAHUYEN": "495",
+		"HUYEN": "Quận Cẩm Lệ",
+		"TINHVT": "ThanhphoDaNang",
+		"HUYENVT": "QuanCamLe"
+	},
+	{
+		"MATINH": "48",
+		"TINH": "Thành phố Đà Nẵng",
+		"MAHUYEN": "492",
+		"HUYEN": "Quận Hải Châu",
+		"TINHVT": "ThanhphoDaNang",
+		"HUYENVT": "QuanHaiChau"
+	},
+	{
+		"MATINH": "48",
+		"TINH": "Thành phố Đà Nẵng",
+		"MAHUYEN": "490",
+		"HUYEN": "Quận Liên Chiểu",
+		"TINHVT": "ThanhphoDaNang",
+		"HUYENVT": "QuanLienChieu"
+	},
+	{
+		"MATINH": "48",
+		"TINH": "Thành phố Đà Nẵng",
+		"MAHUYEN": "494",
+		"HUYEN": "Quận Ngũ Hành Sơn",
+		"TINHVT": "ThanhphoDaNang",
+		"HUYENVT": "QuanNguHanhSon"
+	},
+	{
+		"MATINH": "48",
+		"TINH": "Thành phố Đà Nẵng",
+		"MAHUYEN": "493",
+		"HUYEN": "Quận Sơn Trà",
+		"TINHVT": "ThanhphoDaNang",
+		"HUYENVT": "QuanSonTra"
+	},
+	{
+		"MATINH": "48",
+		"TINH": "Thành phố Đà Nẵng",
+		"MAHUYEN": "491",
+		"HUYEN": "Quận Thanh Khê",
+		"TINHVT": "ThanhphoDaNang",
+		"HUYENVT": "QuanThanhKhe"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "271",
+		"HUYEN": "Huyện Ba Vì",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenBaVi"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "277",
+		"HUYEN": "Huyện Chương Mỹ",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenChuongMy"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "273",
+		"HUYEN": "Huyện Đan Phượng",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenDanPhuong"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "17",
+		"HUYEN": "Huyện Đông Anh",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenDongAnh"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "18",
+		"HUYEN": "Huyện Gia Lâm",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenGiaLam"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "274",
+		"HUYEN": "Huyện Hoài Đức",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenHoaiDuc"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "250",
+		"HUYEN": "Huyện Mê Linh",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenMeLinh"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "282",
+		"HUYEN": "Huyện Mỹ Đức",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenMyDuc"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "280",
+		"HUYEN": "Huyện Phú Xuyên",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenPhuXuyen"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "272",
+		"HUYEN": "Huyện Phúc Thọ",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenPhucTho"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "275",
+		"HUYEN": "Huyện Quốc Oai",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenQuocOai"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "16",
+		"HUYEN": "Huyện Sóc Sơn",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenSocSon"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "276",
+		"HUYEN": "Huyện Thạch Thất",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenThachThat"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "278",
+		"HUYEN": "Huyện Thanh Oai",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenThanhOai"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "20",
+		"HUYEN": "Huyện Thanh Trì",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenThanhTri"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "279",
+		"HUYEN": "Huyện Thường Tín",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenThuongTin"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "281",
+		"HUYEN": "Huyện ứng Hòa",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "HuyenungHoa"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "1",
+		"HUYEN": "Quận Ba Đình",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanBaDinh"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "21",
+		"HUYEN": "Quận Bắc Từ Liêm",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanBacTuLiem"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "5",
+		"HUYEN": "Quận Cầu Giấy",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanCauGiay"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "6",
+		"HUYEN": "Quận Đống Đa",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanDongDa"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "268",
+		"HUYEN": "Quận Hà Đông",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanHaDong"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "7",
+		"HUYEN": "Quận Hai Bà Trưng",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanHaiBaTrung"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "2",
+		"HUYEN": "Quận Hoàn Kiếm",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanHoanKiem"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "8",
+		"HUYEN": "Quận Hoàng Mai",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanHoangMai"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "4",
+		"HUYEN": "Quận Long Biên",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanLongBien"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "19",
+		"HUYEN": "Quận Nam Từ Liêm",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanNamTuLiem"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "3",
+		"HUYEN": "Quận Tây Hồ",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanTayHo"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "9",
+		"HUYEN": "Quận Thanh Xuân",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "QuanThanhXuan"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"MAHUYEN": "269",
+		"HUYEN": "Thị xã Sơn Tây",
+		"TINHVT": "ThanhphoHaNoi",
+		"HUYENVT": "ThixaSonTay"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "318",
+		"HUYEN": "Bạch Long Vỹ",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "BachLongVy"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "312",
+		"HUYEN": "Huyện An Dương",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "HuyenAnDuong"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "313",
+		"HUYEN": "Huyện An Lão",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "HuyenAnLao"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "317",
+		"HUYEN": "Huyện Cát Hải",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "HuyenCatHai"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "314",
+		"HUYEN": "Huyện Kiến Thuỵ",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "HuyenKienThuy"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "311",
+		"HUYEN": "Huyện Thuỷ Nguyên",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "HuyenThuyNguyen"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "315",
+		"HUYEN": "Huyện Tiên Lãng",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "HuyenTienLang"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "316",
+		"HUYEN": "Huyện Vĩnh Bảo",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "HuyenVinhBao"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "308",
+		"HUYEN": "Quận Đồ Sơn",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "QuanDoSon"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "309",
+		"HUYEN": "Quận Dương Kinh",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "QuanDuongKinh"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "306",
+		"HUYEN": "Quận Hải An",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "QuanHaiAn"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "303",
+		"HUYEN": "Quận Hồng Bàng",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "QuanHongBang"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "307",
+		"HUYEN": "Quận Kiến An",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "QuanKienAn"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "305",
+		"HUYEN": "Quận Lê Chân",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "QuanLeChan"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"MAHUYEN": "304",
+		"HUYEN": "Quận Ngô Quyền",
+		"TINHVT": "ThanhphoHaiPhong",
+		"HUYENVT": "QuanNgoQuyen"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "785",
+		"HUYEN": "Huyện Bình Chánh",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "HuyenBinhChanh"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "787",
+		"HUYEN": "Huyện Cần Giờ",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "HuyenCanGio"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "783",
+		"HUYEN": "Huyện Củ Chi",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "HuyenCuChi"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "784",
+		"HUYEN": "Huyện Hóc Môn",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "HuyenHocMon"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "786",
+		"HUYEN": "Huyện Nhà Bè",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "HuyenNhaBe"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "760",
+		"HUYEN": "Quận 1",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan1"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "771",
+		"HUYEN": "Quận 10",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan10"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "772",
+		"HUYEN": "Quận 11",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan11"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "761",
+		"HUYEN": "Quận 12",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan12"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "769",
+		"HUYEN": "Quận 2",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan2"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "770",
+		"HUYEN": "Quận 3",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan3"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "773",
+		"HUYEN": "Quận 4",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan4"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "774",
+		"HUYEN": "Quận 5",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan5"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "775",
+		"HUYEN": "Quận 6",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan6"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "778",
+		"HUYEN": "Quận 7",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan7"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "776",
+		"HUYEN": "Quận 8",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan8"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "763",
+		"HUYEN": "Quận 9",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "Quan9"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "777",
+		"HUYEN": "Quận Bình Tân",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "QuanBinhTan"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "765",
+		"HUYEN": "Quận Bình Thạnh",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "QuanBinhThanh"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "764",
+		"HUYEN": "Quận Gò Vấp",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "QuanGoVap"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "768",
+		"HUYEN": "Quận Phú Nhuận",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "QuanPhuNhuan"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "766",
+		"HUYEN": "Quận Tân Bình",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "QuanTanBinh"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "767",
+		"HUYEN": "Quận Tân Phú",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "QuanTanPhu"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"MAHUYEN": "762",
+		"HUYEN": "Quận Thủ Đức",
+		"TINHVT": "ThanhphoHoChiMinh",
+		"HUYENVT": "QuanThuDuc"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "886",
+		"HUYEN": "Huyện An Phú",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "HuyenAnPhu"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "889",
+		"HUYEN": "Huyện Châu Phú",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "HuyenChauPhu"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "892",
+		"HUYEN": "Huyện Châu Thành",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "HuyenChauThanh"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "893",
+		"HUYEN": "Huyện Chợ Mới",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "HuyenChoMoi"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "888",
+		"HUYEN": "Huyện Phú Tân",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "HuyenPhuTan"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "894",
+		"HUYEN": "Huyện Thoại Sơn",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "HuyenThoaiSon"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "890",
+		"HUYEN": "Huyện Tịnh Biên",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "HuyenTinhBien"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "891",
+		"HUYEN": "Huyện Tri Tôn",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "HuyenTriTon"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "884",
+		"HUYEN": "Thành phố Châu Đốc",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "ThanhphoChauDoc"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "883",
+		"HUYEN": "Thành phố Long Xuyên",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "ThanhphoLongXuyen"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"MAHUYEN": "887",
+		"HUYEN": "Thị xã Tân Châu",
+		"TINHVT": "TinhAnGiang",
+		"HUYENVT": "ThixaTanChau"
+	},
+	{
+		"MATINH": "77",
+		"TINH": "Tỉnh Bà Rịa - Vũng Tàu",
+		"MAHUYEN": "755",
+		"HUYEN": "Côn Đảo",
+		"TINHVT": "TinhBaRia-VungTau",
+		"HUYENVT": "ConDao"
+	},
+	{
+		"MATINH": "77",
+		"TINH": "Tỉnh Bà Rịa - Vũng Tàu",
+		"MAHUYEN": "750",
+		"HUYEN": "Huyện Châu Đức",
+		"TINHVT": "TinhBaRia-VungTau",
+		"HUYENVT": "HuyenChauDuc"
+	},
+	{
+		"MATINH": "77",
+		"TINH": "Tỉnh Bà Rịa - Vũng Tàu",
+		"MAHUYEN": "753",
+		"HUYEN": "Huyện Đất Đỏ",
+		"TINHVT": "TinhBaRia-VungTau",
+		"HUYENVT": "HuyenDatDo"
+	},
+	{
+		"MATINH": "77",
+		"TINH": "Tỉnh Bà Rịa - Vũng Tàu",
+		"MAHUYEN": "752",
+		"HUYEN": "Huyện Long Điền",
+		"TINHVT": "TinhBaRia-VungTau",
+		"HUYENVT": "HuyenLongDien"
+	},
+	{
+		"MATINH": "77",
+		"TINH": "Tỉnh Bà Rịa - Vũng Tàu",
+		"MAHUYEN": "754",
+		"HUYEN": "Huyện Tân Thành",
+		"TINHVT": "TinhBaRia-VungTau",
+		"HUYENVT": "HuyenTanThanh"
+	},
+	{
+		"MATINH": "77",
+		"TINH": "Tỉnh Bà Rịa - Vũng Tàu",
+		"MAHUYEN": "751",
+		"HUYEN": "Huyện Xuyên Mộc",
+		"TINHVT": "TinhBaRia-VungTau",
+		"HUYENVT": "HuyenXuyenMoc"
+	},
+	{
+		"MATINH": "77",
+		"TINH": "Tỉnh Bà Rịa - Vũng Tàu",
+		"MAHUYEN": "748",
+		"HUYEN": "Thành phố Bà Rịa",
+		"TINHVT": "TinhBaRia-VungTau",
+		"HUYENVT": "ThanhphoBaRia"
+	},
+	{
+		"MATINH": "77",
+		"TINH": "Tỉnh Bà Rịa - Vũng Tàu",
+		"MAHUYEN": "747",
+		"HUYEN": "Thành phố Vũng Tàu",
+		"TINHVT": "TinhBaRia-VungTau",
+		"HUYENVT": "ThanhphoVungTau"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"MAHUYEN": "223",
+		"HUYEN": "Huyện Hiệp Hòa",
+		"TINHVT": "TinhBacGiang",
+		"HUYENVT": "HuyenHiepHoa"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"MAHUYEN": "217",
+		"HUYEN": "Huyện Lạng Giang",
+		"TINHVT": "TinhBacGiang",
+		"HUYENVT": "HuyenLangGiang"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"MAHUYEN": "218",
+		"HUYEN": "Huyện Lục Nam",
+		"TINHVT": "TinhBacGiang",
+		"HUYENVT": "HuyenLucNam"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"MAHUYEN": "219",
+		"HUYEN": "Huyện Lục Ngạn",
+		"TINHVT": "TinhBacGiang",
+		"HUYENVT": "HuyenLucNgan"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"MAHUYEN": "220",
+		"HUYEN": "Huyện Sơn Động",
+		"TINHVT": "TinhBacGiang",
+		"HUYENVT": "HuyenSonDong"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"MAHUYEN": "216",
+		"HUYEN": "Huyện Tân Yên",
+		"TINHVT": "TinhBacGiang",
+		"HUYENVT": "HuyenTanYen"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"MAHUYEN": "222",
+		"HUYEN": "Huyện Việt Yên",
+		"TINHVT": "TinhBacGiang",
+		"HUYENVT": "HuyenVietYen"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"MAHUYEN": "221",
+		"HUYEN": "Huyện Yên Dũng",
+		"TINHVT": "TinhBacGiang",
+		"HUYENVT": "HuyenYenDung"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"MAHUYEN": "215",
+		"HUYEN": "Huyện Yên Thế",
+		"TINHVT": "TinhBacGiang",
+		"HUYENVT": "HuyenYenThe"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"MAHUYEN": "213",
+		"HUYEN": "Thành phố Bắc Giang",
+		"TINHVT": "TinhBacGiang",
+		"HUYENVT": "ThanhphoBacGiang"
+	},
+	{
+		"MATINH": "6",
+		"TINH": "Tỉnh Bắc Kạn",
+		"MAHUYEN": "61",
+		"HUYEN": "Huyện Ba Bể",
+		"TINHVT": "TinhBacKan",
+		"HUYENVT": "HuyenBaBe"
+	},
+	{
+		"MATINH": "6",
+		"TINH": "Tỉnh Bắc Kạn",
+		"MAHUYEN": "63",
+		"HUYEN": "Huyện Bạch Thông",
+		"TINHVT": "TinhBacKan",
+		"HUYENVT": "HuyenBachThong"
+	},
+	{
+		"MATINH": "6",
+		"TINH": "Tỉnh Bắc Kạn",
+		"MAHUYEN": "64",
+		"HUYEN": "Huyện Chợ Đồn",
+		"TINHVT": "TinhBacKan",
+		"HUYENVT": "HuyenChoDon"
+	},
+	{
+		"MATINH": "6",
+		"TINH": "Tỉnh Bắc Kạn",
+		"MAHUYEN": "65",
+		"HUYEN": "Huyện Chợ Mới",
+		"TINHVT": "TinhBacKan",
+		"HUYENVT": "HuyenChoMoi"
+	},
+	{
+		"MATINH": "6",
+		"TINH": "Tỉnh Bắc Kạn",
+		"MAHUYEN": "66",
+		"HUYEN": "Huyện Na Rì",
+		"TINHVT": "TinhBacKan",
+		"HUYENVT": "HuyenNaRi"
+	},
+	{
+		"MATINH": "6",
+		"TINH": "Tỉnh Bắc Kạn",
+		"MAHUYEN": "62",
+		"HUYEN": "Huyện Ngân Sơn",
+		"TINHVT": "TinhBacKan",
+		"HUYENVT": "HuyenNganSon"
+	},
+	{
+		"MATINH": "6",
+		"TINH": "Tỉnh Bắc Kạn",
+		"MAHUYEN": "60",
+		"HUYEN": "Huyện Pác Nặm",
+		"TINHVT": "TinhBacKan",
+		"HUYENVT": "HuyenPacNam"
+	},
+	{
+		"MATINH": "6",
+		"TINH": "Tỉnh Bắc Kạn",
+		"MAHUYEN": "58",
+		"HUYEN": "Thành Phố Bắc Kạn",
+		"TINHVT": "TinhBacKan",
+		"HUYENVT": "ThanhPhoBacKan"
+	},
+	{
+		"MATINH": "95",
+		"TINH": "Tỉnh Bạc Liêu",
+		"MAHUYEN": "960",
+		"HUYEN": "Huyện Đông Hải",
+		"TINHVT": "TinhBacLieu",
+		"HUYENVT": "HuyenDongHai"
+	},
+	{
+		"MATINH": "95",
+		"TINH": "Tỉnh Bạc Liêu",
+		"MAHUYEN": "961",
+		"HUYEN": "Huyện Hoà Bình",
+		"TINHVT": "TinhBacLieu",
+		"HUYENVT": "HuyenHoaBinh"
+	},
+	{
+		"MATINH": "95",
+		"TINH": "Tỉnh Bạc Liêu",
+		"MAHUYEN": "956",
+		"HUYEN": "Huyện Hồng Dân",
+		"TINHVT": "TinhBacLieu",
+		"HUYENVT": "HuyenHongDan"
+	},
+	{
+		"MATINH": "95",
+		"TINH": "Tỉnh Bạc Liêu",
+		"MAHUYEN": "957",
+		"HUYEN": "Huyện Phước Long",
+		"TINHVT": "TinhBacLieu",
+		"HUYENVT": "HuyenPhuocLong"
+	},
+	{
+		"MATINH": "95",
+		"TINH": "Tỉnh Bạc Liêu",
+		"MAHUYEN": "958",
+		"HUYEN": "Huyện Vĩnh Lợi",
+		"TINHVT": "TinhBacLieu",
+		"HUYENVT": "HuyenVinhLoi"
+	},
+	{
+		"MATINH": "95",
+		"TINH": "Tỉnh Bạc Liêu",
+		"MAHUYEN": "954",
+		"HUYEN": "Thành phố Bạc Liêu",
+		"TINHVT": "TinhBacLieu",
+		"HUYENVT": "ThanhphoBacLieu"
+	},
+	{
+		"MATINH": "95",
+		"TINH": "Tỉnh Bạc Liêu",
+		"MAHUYEN": "959",
+		"HUYEN": "Thị xã Giá Rai",
+		"TINHVT": "TinhBacLieu",
+		"HUYENVT": "ThixaGiaRai"
+	},
+	{
+		"MATINH": "27",
+		"TINH": "Tỉnh Bắc Ninh",
+		"MAHUYEN": "263",
+		"HUYEN": "Huyện Gia Bình",
+		"TINHVT": "TinhBacNinh",
+		"HUYENVT": "HuyenGiaBinh"
+	},
+	{
+		"MATINH": "27",
+		"TINH": "Tỉnh Bắc Ninh",
+		"MAHUYEN": "264",
+		"HUYEN": "Huyện Lương Tài",
+		"TINHVT": "TinhBacNinh",
+		"HUYENVT": "HuyenLuongTai"
+	},
+	{
+		"MATINH": "27",
+		"TINH": "Tỉnh Bắc Ninh",
+		"MAHUYEN": "259",
+		"HUYEN": "Huyện Quế Võ",
+		"TINHVT": "TinhBacNinh",
+		"HUYENVT": "HuyenQueVo"
+	},
+	{
+		"MATINH": "27",
+		"TINH": "Tỉnh Bắc Ninh",
+		"MAHUYEN": "262",
+		"HUYEN": "Huyện Thuận Thành",
+		"TINHVT": "TinhBacNinh",
+		"HUYENVT": "HuyenThuanThanh"
+	},
+	{
+		"MATINH": "27",
+		"TINH": "Tỉnh Bắc Ninh",
+		"MAHUYEN": "260",
+		"HUYEN": "Huyện Tiên Du",
+		"TINHVT": "TinhBacNinh",
+		"HUYENVT": "HuyenTienDu"
+	},
+	{
+		"MATINH": "27",
+		"TINH": "Tỉnh Bắc Ninh",
+		"MAHUYEN": "258",
+		"HUYEN": "Huyện Yên Phong",
+		"TINHVT": "TinhBacNinh",
+		"HUYENVT": "HuyenYenPhong"
+	},
+	{
+		"MATINH": "27",
+		"TINH": "Tỉnh Bắc Ninh",
+		"MAHUYEN": "256",
+		"HUYEN": "Thành phố Bắc Ninh",
+		"TINHVT": "TinhBacNinh",
+		"HUYENVT": "ThanhphoBacNinh"
+	},
+	{
+		"MATINH": "27",
+		"TINH": "Tỉnh Bắc Ninh",
+		"MAHUYEN": "261",
+		"HUYEN": "Thị xã Từ Sơn",
+		"TINHVT": "TinhBacNinh",
+		"HUYENVT": "ThixaTuSon"
+	},
+	{
+		"MATINH": "83",
+		"TINH": "Tỉnh Bến Tre",
+		"MAHUYEN": "836",
+		"HUYEN": "Huyện Ba Tri",
+		"TINHVT": "TinhBenTre",
+		"HUYENVT": "HuyenBaTri"
+	},
+	{
+		"MATINH": "83",
+		"TINH": "Tỉnh Bến Tre",
+		"MAHUYEN": "835",
+		"HUYEN": "Huyện Bình Đại",
+		"TINHVT": "TinhBenTre",
+		"HUYENVT": "HuyenBinhDai"
+	},
+	{
+		"MATINH": "83",
+		"TINH": "Tỉnh Bến Tre",
+		"MAHUYEN": "831",
+		"HUYEN": "Huyện Châu Thành",
+		"TINHVT": "TinhBenTre",
+		"HUYENVT": "HuyenChauThanh"
+	},
+	{
+		"MATINH": "83",
+		"TINH": "Tỉnh Bến Tre",
+		"MAHUYEN": "832",
+		"HUYEN": "Huyện Chợ Lách",
+		"TINHVT": "TinhBenTre",
+		"HUYENVT": "HuyenChoLach"
+	},
+	{
+		"MATINH": "83",
+		"TINH": "Tỉnh Bến Tre",
+		"MAHUYEN": "834",
+		"HUYEN": "Huyện Giồng Trôm",
+		"TINHVT": "TinhBenTre",
+		"HUYENVT": "HuyenGiongTrom"
+	},
+	{
+		"MATINH": "83",
+		"TINH": "Tỉnh Bến Tre",
+		"MAHUYEN": "838",
+		"HUYEN": "Huyện Mỏ Cày Bắc",
+		"TINHVT": "TinhBenTre",
+		"HUYENVT": "HuyenMoCayBac"
+	},
+	{
+		"MATINH": "83",
+		"TINH": "Tỉnh Bến Tre",
+		"MAHUYEN": "833",
+		"HUYEN": "Huyện Mỏ Cày Nam",
+		"TINHVT": "TinhBenTre",
+		"HUYENVT": "HuyenMoCayNam"
+	},
+	{
+		"MATINH": "83",
+		"TINH": "Tỉnh Bến Tre",
+		"MAHUYEN": "837",
+		"HUYEN": "Huyện Thạnh Phú",
+		"TINHVT": "TinhBenTre",
+		"HUYENVT": "HuyenThanhPhu"
+	},
+	{
+		"MATINH": "83",
+		"TINH": "Tỉnh Bến Tre",
+		"MAHUYEN": "829",
+		"HUYEN": "Thành phố Bến Tre",
+		"TINHVT": "TinhBenTre",
+		"HUYENVT": "ThanhphoBenTre"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "542",
+		"HUYEN": "Huyện An Lão",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "HuyenAnLao"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "544",
+		"HUYEN": "Huyện Hoài Ân",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "HuyenHoaiAn"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "543",
+		"HUYEN": "Huyện Hoài Nhơn",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "HuyenHoaiNhon"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "548",
+		"HUYEN": "Huyện Phù Cát",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "HuyenPhuCat"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "545",
+		"HUYEN": "Huyện Phù Mỹ",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "HuyenPhuMy"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "547",
+		"HUYEN": "Huyện Tây Sơn",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "HuyenTaySon"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "550",
+		"HUYEN": "Huyện Tuy Phước",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "HuyenTuyPhuoc"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "551",
+		"HUYEN": "Huyện Vân Canh",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "HuyenVanCanh"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "546",
+		"HUYEN": "Huyện Vĩnh Thạnh",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "HuyenVinhThanh"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "540",
+		"HUYEN": "Thành phố Qui Nhơn",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "ThanhphoQuiNhon"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"MAHUYEN": "549",
+		"HUYEN": "Thị xã An Nhơn",
+		"TINHVT": "TinhBinhDinh",
+		"HUYENVT": "ThixaAnNhon"
+	},
+	{
+		"MATINH": "74",
+		"TINH": "Tỉnh Bình Dương",
+		"MAHUYEN": "726",
+		"HUYEN": "Huyện Bắc Tân Uyên",
+		"TINHVT": "TinhBinhDuong",
+		"HUYENVT": "HuyenBacTanUyen"
+	},
+	{
+		"MATINH": "74",
+		"TINH": "Tỉnh Bình Dương",
+		"MAHUYEN": "719",
+		"HUYEN": "Huyện Bàu Bàng",
+		"TINHVT": "TinhBinhDuong",
+		"HUYENVT": "HuyenBauBang"
+	},
+	{
+		"MATINH": "74",
+		"TINH": "Tỉnh Bình Dương",
+		"MAHUYEN": "720",
+		"HUYEN": "Huyện Dầu Tiếng",
+		"TINHVT": "TinhBinhDuong",
+		"HUYENVT": "HuyenDauTieng"
+	},
+	{
+		"MATINH": "74",
+		"TINH": "Tỉnh Bình Dương",
+		"MAHUYEN": "722",
+		"HUYEN": "Huyện Phú Giáo",
+		"TINHVT": "TinhBinhDuong",
+		"HUYENVT": "HuyenPhuGiao"
+	},
+	{
+		"MATINH": "74",
+		"TINH": "Tỉnh Bình Dương",
+		"MAHUYEN": "718",
+		"HUYEN": "Thành phố Thủ Dầu Một",
+		"TINHVT": "TinhBinhDuong",
+		"HUYENVT": "ThanhphoThuDauMot"
+	},
+	{
+		"MATINH": "74",
+		"TINH": "Tỉnh Bình Dương",
+		"MAHUYEN": "721",
+		"HUYEN": "Thị xã Bến Cát",
+		"TINHVT": "TinhBinhDuong",
+		"HUYENVT": "ThixaBenCat"
+	},
+	{
+		"MATINH": "74",
+		"TINH": "Tỉnh Bình Dương",
+		"MAHUYEN": "724",
+		"HUYEN": "Thị xã Dĩ An",
+		"TINHVT": "TinhBinhDuong",
+		"HUYENVT": "ThixaDiAn"
+	},
+	{
+		"MATINH": "74",
+		"TINH": "Tỉnh Bình Dương",
+		"MAHUYEN": "723",
+		"HUYEN": "Thị xã Tân Uyên",
+		"TINHVT": "TinhBinhDuong",
+		"HUYENVT": "ThixaTanUyen"
+	},
+	{
+		"MATINH": "74",
+		"TINH": "Tỉnh Bình Dương",
+		"MAHUYEN": "725",
+		"HUYEN": "Thị xã Thuận An",
+		"TINHVT": "TinhBinhDuong",
+		"HUYENVT": "ThixaThuanAn"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "696",
+		"HUYEN": "Huyện Bù Đăng",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "HuyenBuDang"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "693",
+		"HUYEN": "Huyện Bù Đốp",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "HuyenBuDop"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "691",
+		"HUYEN": "Huyện Bù Gia Mập",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "HuyenBuGiaMap"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "697",
+		"HUYEN": "Huyện Chơn Thành",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "HuyenChonThanh"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "695",
+		"HUYEN": "Huyện Đồng Phú",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "HuyenDongPhu"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "694",
+		"HUYEN": "Huyện Hớn Quản",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "HuyenHonQuan"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "692",
+		"HUYEN": "Huyện Lộc Ninh",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "HuyenLocNinh"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "698",
+		"HUYEN": "Huyện Phú Riềng",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "HuyenPhuRieng"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "690",
+		"HUYEN": "Thị xã Bình Long",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "ThixaBinhLong"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "689",
+		"HUYEN": "Thị xã Đồng Xoài",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "ThixaDongXoai"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"MAHUYEN": "688",
+		"HUYEN": "Thị xã Phước Long",
+		"TINHVT": "TinhBinhPhuoc",
+		"HUYENVT": "ThixaPhuocLong"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"MAHUYEN": "596",
+		"HUYEN": "Huyện Bắc Bình",
+		"TINHVT": "TinhBinhThuan",
+		"HUYENVT": "HuyenBacBinh"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"MAHUYEN": "600",
+		"HUYEN": "Huyện Đức Linh",
+		"TINHVT": "TinhBinhThuan",
+		"HUYENVT": "HuyenDucLinh"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"MAHUYEN": "601",
+		"HUYEN": "Huyện Hàm Tân",
+		"TINHVT": "TinhBinhThuan",
+		"HUYENVT": "HuyenHamTan"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"MAHUYEN": "597",
+		"HUYEN": "Huyện Hàm Thuận Bắc",
+		"TINHVT": "TinhBinhThuan",
+		"HUYENVT": "HuyenHamThuanBac"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"MAHUYEN": "598",
+		"HUYEN": "Huyện Hàm Thuận Nam",
+		"TINHVT": "TinhBinhThuan",
+		"HUYENVT": "HuyenHamThuanNam"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"MAHUYEN": "602",
+		"HUYEN": "Huyện Phú Quí",
+		"TINHVT": "TinhBinhThuan",
+		"HUYENVT": "HuyenPhuQui"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"MAHUYEN": "599",
+		"HUYEN": "Huyện Tánh Linh",
+		"TINHVT": "TinhBinhThuan",
+		"HUYENVT": "HuyenTanhLinh"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"MAHUYEN": "595",
+		"HUYEN": "Huyện Tuy Phong",
+		"TINHVT": "TinhBinhThuan",
+		"HUYENVT": "HuyenTuyPhong"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"MAHUYEN": "593",
+		"HUYEN": "Thành phố Phan Thiết",
+		"TINHVT": "TinhBinhThuan",
+		"HUYENVT": "ThanhphoPhanThiet"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"MAHUYEN": "594",
+		"HUYEN": "Thị xã La Gi",
+		"TINHVT": "TinhBinhThuan",
+		"HUYENVT": "ThixaLaGi"
+	},
+	{
+		"MATINH": "96",
+		"TINH": "Tỉnh Cà Mau",
+		"MAHUYEN": "969",
+		"HUYEN": "Huyện Cái Nước",
+		"TINHVT": "TinhCaMau",
+		"HUYENVT": "HuyenCaiNuoc"
+	},
+	{
+		"MATINH": "96",
+		"TINH": "Tỉnh Cà Mau",
+		"MAHUYEN": "970",
+		"HUYEN": "Huyện Đầm Dơi",
+		"TINHVT": "TinhCaMau",
+		"HUYENVT": "HuyenDamDoi"
+	},
+	{
+		"MATINH": "96",
+		"TINH": "Tỉnh Cà Mau",
+		"MAHUYEN": "971",
+		"HUYEN": "Huyện Năm Căn",
+		"TINHVT": "TinhCaMau",
+		"HUYENVT": "HuyenNamCan"
+	},
+	{
+		"MATINH": "96",
+		"TINH": "Tỉnh Cà Mau",
+		"MAHUYEN": "973",
+		"HUYEN": "Huyện Ngọc Hiển",
+		"TINHVT": "TinhCaMau",
+		"HUYENVT": "HuyenNgocHien"
+	},
+	{
+		"MATINH": "96",
+		"TINH": "Tỉnh Cà Mau",
+		"MAHUYEN": "972",
+		"HUYEN": "Huyện Phú Tân",
+		"TINHVT": "TinhCaMau",
+		"HUYENVT": "HuyenPhuTan"
+	},
+	{
+		"MATINH": "96",
+		"TINH": "Tỉnh Cà Mau",
+		"MAHUYEN": "967",
+		"HUYEN": "Huyện Thới Bình",
+		"TINHVT": "TinhCaMau",
+		"HUYENVT": "HuyenThoiBinh"
+	},
+	{
+		"MATINH": "96",
+		"TINH": "Tỉnh Cà Mau",
+		"MAHUYEN": "968",
+		"HUYEN": "Huyện Trần Văn Thời",
+		"TINHVT": "TinhCaMau",
+		"HUYENVT": "HuyenTranVanThoi"
+	},
+	{
+		"MATINH": "96",
+		"TINH": "Tỉnh Cà Mau",
+		"MAHUYEN": "966",
+		"HUYEN": "Huyện U Minh",
+		"TINHVT": "TinhCaMau",
+		"HUYENVT": "HuyenUMinh"
+	},
+	{
+		"MATINH": "96",
+		"TINH": "Tỉnh Cà Mau",
+		"MAHUYEN": "964",
+		"HUYEN": "Thành phố Cà Mau",
+		"TINHVT": "TinhCaMau",
+		"HUYENVT": "ThanhphoCaMau"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "43",
+		"HUYEN": "Huyện Bảo Lạc",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenBaoLac"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "42",
+		"HUYEN": "Huyện Bảo Lâm",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenBaoLam"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "48",
+		"HUYEN": "Huyện Hạ Lang",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenHaLang"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "45",
+		"HUYEN": "Huyện Hà Quảng",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenHaQuang"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "51",
+		"HUYEN": "Huyện Hoà An",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenHoaAn"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "52",
+		"HUYEN": "Huyện Nguyên Bình",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenNguyenBinh"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "50",
+		"HUYEN": "Huyện Phục Hoà",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenPhucHoa"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "49",
+		"HUYEN": "Huyện Quảng Uyên",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenQuangUyen"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "53",
+		"HUYEN": "Huyện Thạch An",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenThachAn"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "44",
+		"HUYEN": "Huyện Thông Nông",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenThongNong"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "46",
+		"HUYEN": "Huyện Trà Lĩnh",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenTraLinh"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "47",
+		"HUYEN": "Huyện Trùng Khánh",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "HuyenTrungKhanh"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"MAHUYEN": "40",
+		"HUYEN": "Thành phố Cao Bằng",
+		"TINHVT": "TinhCaoBang",
+		"HUYENVT": "ThanhphoCaoBang"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "647",
+		"HUYEN": "Huyện Buôn Đôn",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenBuonDon"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "657",
+		"HUYEN": "Huyện Cư Kuin",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenCuKuin"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "648",
+		"HUYEN": "Huyện Cư M'gar",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenCuM'gar"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "645",
+		"HUYEN": "Huyện Ea H'leo",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenEaH'leo"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "651",
+		"HUYEN": "Huyện Ea Kar",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenEaKar"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "646",
+		"HUYEN": "Huyện Ea Súp",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenEaSup"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "655",
+		"HUYEN": "Huyện Krông A Na",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenKrongANa"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "653",
+		"HUYEN": "Huyện Krông Bông",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenKrongBong"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "649",
+		"HUYEN": "Huyện Krông Búk",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenKrongBuk"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "650",
+		"HUYEN": "Huyện Krông Năng",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenKrongNang"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "654",
+		"HUYEN": "Huyện Krông Pắc",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenKrongPac"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "656",
+		"HUYEN": "Huyện Lắk",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenLak"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "652",
+		"HUYEN": "Huyện M'Đrắk",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "HuyenM'Drak"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "643",
+		"HUYEN": "Thành phố Buôn Ma Thuột",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "ThanhphoBuonMaThuot"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"MAHUYEN": "644",
+		"HUYEN": "Thị Xã Buôn Hồ",
+		"TINHVT": "TinhDakLak",
+		"HUYENVT": "ThiXaBuonHo"
+	},
+	{
+		"MATINH": "67",
+		"TINH": "Tỉnh Đắk Nông",
+		"MAHUYEN": "662",
+		"HUYEN": "Huyện Cư Jút",
+		"TINHVT": "TinhDakNong",
+		"HUYENVT": "HuyenCuJut"
+	},
+	{
+		"MATINH": "67",
+		"TINH": "Tỉnh Đắk Nông",
+		"MAHUYEN": "661",
+		"HUYEN": "Huyện Đăk Glong",
+		"TINHVT": "TinhDakNong",
+		"HUYENVT": "HuyenDakGlong"
+	},
+	{
+		"MATINH": "67",
+		"TINH": "Tỉnh Đắk Nông",
+		"MAHUYEN": "663",
+		"HUYEN": "Huyện Đắk Mil",
+		"TINHVT": "TinhDakNong",
+		"HUYENVT": "HuyenDakMil"
+	},
+	{
+		"MATINH": "67",
+		"TINH": "Tỉnh Đắk Nông",
+		"MAHUYEN": "666",
+		"HUYEN": "Huyện Đắk R'Lấp",
+		"TINHVT": "TinhDakNong",
+		"HUYENVT": "HuyenDakR'Lap"
+	},
+	{
+		"MATINH": "67",
+		"TINH": "Tỉnh Đắk Nông",
+		"MAHUYEN": "665",
+		"HUYEN": "Huyện Đắk Song",
+		"TINHVT": "TinhDakNong",
+		"HUYENVT": "HuyenDakSong"
+	},
+	{
+		"MATINH": "67",
+		"TINH": "Tỉnh Đắk Nông",
+		"MAHUYEN": "664",
+		"HUYEN": "Huyện Krông Nô",
+		"TINHVT": "TinhDakNong",
+		"HUYENVT": "HuyenKrongNo"
+	},
+	{
+		"MATINH": "67",
+		"TINH": "Tỉnh Đắk Nông",
+		"MAHUYEN": "667",
+		"HUYEN": "Huyện Tuy Đức",
+		"TINHVT": "TinhDakNong",
+		"HUYENVT": "HuyenTuyDuc"
+	},
+	{
+		"MATINH": "67",
+		"TINH": "Tỉnh Đắk Nông",
+		"MAHUYEN": "660",
+		"HUYEN": "Thị xã Gia Nghĩa",
+		"TINHVT": "TinhDakNong",
+		"HUYENVT": "ThixaGiaNghia"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"MAHUYEN": "100",
+		"HUYEN": "Huyện Điện Biên",
+		"TINHVT": "TinhDienBien",
+		"HUYENVT": "HuyenDienBien"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"MAHUYEN": "101",
+		"HUYEN": "Huyện Điện Biên Đông",
+		"TINHVT": "TinhDienBien",
+		"HUYENVT": "HuyenDienBienDong"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"MAHUYEN": "102",
+		"HUYEN": "Huyện Mường ảng",
+		"TINHVT": "TinhDienBien",
+		"HUYENVT": "HuyenMuongang"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"MAHUYEN": "97",
+		"HUYEN": "Huyện Mường Chà",
+		"TINHVT": "TinhDienBien",
+		"HUYENVT": "HuyenMuongCha"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"MAHUYEN": "96",
+		"HUYEN": "Huyện Mường Nhé",
+		"TINHVT": "TinhDienBien",
+		"HUYENVT": "HuyenMuongNhe"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"MAHUYEN": "103",
+		"HUYEN": "Huyện Nậm Pồ",
+		"TINHVT": "TinhDienBien",
+		"HUYENVT": "HuyenNamPo"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"MAHUYEN": "98",
+		"HUYEN": "Huyện Tủa Chùa",
+		"TINHVT": "TinhDienBien",
+		"HUYENVT": "HuyenTuaChua"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"MAHUYEN": "99",
+		"HUYEN": "Huyện Tuần Giáo",
+		"TINHVT": "TinhDienBien",
+		"HUYENVT": "HuyenTuanGiao"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"MAHUYEN": "94",
+		"HUYEN": "Thành phố Điện Biên Phủ",
+		"TINHVT": "TinhDienBien",
+		"HUYENVT": "ThanhphoDienBienPhu"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"MAHUYEN": "95",
+		"HUYEN": "Thị Xã Mường Lay",
+		"TINHVT": "TinhDienBien",
+		"HUYENVT": "ThiXaMuongLay"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "739",
+		"HUYEN": "Huyện Cẩm Mỹ",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "HuyenCamMy"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "736",
+		"HUYEN": "Huyện Định Quán",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "HuyenDinhQuan"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "740",
+		"HUYEN": "Huyện Long Thành",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "HuyenLongThanh"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "742",
+		"HUYEN": "Huyện Nhơn Trạch",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "HuyenNhonTrach"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "734",
+		"HUYEN": "Huyện Tân Phú",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "HuyenTanPhu"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "738",
+		"HUYEN": "Huyện Thống Nhất",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "HuyenThongNhat"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "737",
+		"HUYEN": "Huyện Trảng Bom",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "HuyenTrangBom"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "735",
+		"HUYEN": "Huyện Vĩnh Cửu",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "HuyenVinhCuu"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "741",
+		"HUYEN": "Huyện Xuân Lộc",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "HuyenXuanLoc"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "731",
+		"HUYEN": "Thành phố Biên Hòa",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "ThanhphoBienHoa"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"MAHUYEN": "732",
+		"HUYEN": "Thị xã Long Khánh",
+		"TINHVT": "TinhDongNai",
+		"HUYENVT": "ThixaLongKhanh"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "873",
+		"HUYEN": "Huyện Cao Lãnh",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "HuyenCaoLanh"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "877",
+		"HUYEN": "Huyện Châu Thành",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "HuyenChauThanh"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "870",
+		"HUYEN": "Huyện Hồng Ngự",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "HuyenHongNgu"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "876",
+		"HUYEN": "Huyện Lai Vung",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "HuyenLaiVung"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "875",
+		"HUYEN": "Huyện Lấp Vò",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "HuyenLapVo"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "871",
+		"HUYEN": "Huyện Tam Nông",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "HuyenTamNong"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "869",
+		"HUYEN": "Huyện Tân Hồng",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "HuyenTanHong"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "874",
+		"HUYEN": "Huyện Thanh Bình",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "HuyenThanhBinh"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "872",
+		"HUYEN": "Huyện Tháp Mười",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "HuyenThapMuoi"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "866",
+		"HUYEN": "Thành phố Cao Lãnh",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "ThanhphoCaoLanh"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "867",
+		"HUYEN": "Thành phố Sa Đéc",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "ThanhphoSaDec"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"MAHUYEN": "868",
+		"HUYEN": "Thị xã Hồng Ngự",
+		"TINHVT": "TinhDongThap",
+		"HUYENVT": "ThixaHongNgu"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "627",
+		"HUYEN": "Huyện Chư Păh",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenChuPah"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "632",
+		"HUYEN": "Huyện Chư Prông",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenChuProng"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "639",
+		"HUYEN": "Huyện Chư Pưh",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenChuPuh"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "633",
+		"HUYEN": "Huyện Chư Sê",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenChuSe"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "626",
+		"HUYEN": "Huyện Đăk Đoa",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenDakDoa"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "634",
+		"HUYEN": "Huyện Đăk Pơ",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenDakPo"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "631",
+		"HUYEN": "Huyện Đức Cơ",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenDucCo"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "628",
+		"HUYEN": "Huyện Ia Grai",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenIaGrai"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "635",
+		"HUYEN": "Huyện Ia Pa",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenIaPa"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "625",
+		"HUYEN": "Huyện KBang",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenKBang"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "630",
+		"HUYEN": "Huyện Kông Chro",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenKongChro"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "637",
+		"HUYEN": "Huyện Krông Pa",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenKrongPa"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "629",
+		"HUYEN": "Huyện Mang Yang",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenMangYang"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "638",
+		"HUYEN": "Huyện Phú Thiện",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "HuyenPhuThien"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "622",
+		"HUYEN": "Thành phố Pleiku",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "ThanhphoPleiku"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "623",
+		"HUYEN": "Thị xã An Khê",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "ThixaAnKhe"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"MAHUYEN": "624",
+		"HUYEN": "Thị xã Ayun Pa",
+		"TINHVT": "TinhGiaLai",
+		"HUYENVT": "ThixaAyunPa"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "31",
+		"HUYEN": "Huyện Bắc Mê",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "HuyenBacMe"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "34",
+		"HUYEN": "Huyện Bắc Quang",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "HuyenBacQuang"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "26",
+		"HUYEN": "Huyện Đồng Văn",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "HuyenDongVan"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "32",
+		"HUYEN": "Huyện Hoàng Su Phì",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "HuyenHoangSuPhi"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "27",
+		"HUYEN": "Huyện Mèo Vạc",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "HuyenMeoVac"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "29",
+		"HUYEN": "Huyện Quản Bạ",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "HuyenQuanBa"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "35",
+		"HUYEN": "Huyện Quang Bình",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "HuyenQuangBinh"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "30",
+		"HUYEN": "Huyện Vị Xuyên",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "HuyenViXuyen"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "33",
+		"HUYEN": "Huyện Xín Mần",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "HuyenXinMan"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "28",
+		"HUYEN": "Huyện Yên Minh",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "HuyenYenMinh"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"MAHUYEN": "24",
+		"HUYEN": "Thành phố Hà Giang",
+		"TINHVT": "TinhHaGiang",
+		"HUYENVT": "ThanhphoHaGiang"
+	},
+	{
+		"MATINH": "35",
+		"TINH": "Tỉnh Hà Nam",
+		"MAHUYEN": "352",
+		"HUYEN": "Huyện Bình Lục",
+		"TINHVT": "TinhHaNam",
+		"HUYENVT": "HuyenBinhLuc"
+	},
+	{
+		"MATINH": "35",
+		"TINH": "Tỉnh Hà Nam",
+		"MAHUYEN": "349",
+		"HUYEN": "Huyện Duy Tiên",
+		"TINHVT": "TinhHaNam",
+		"HUYENVT": "HuyenDuyTien"
+	},
+	{
+		"MATINH": "35",
+		"TINH": "Tỉnh Hà Nam",
+		"MAHUYEN": "350",
+		"HUYEN": "Huyện Kim Bảng",
+		"TINHVT": "TinhHaNam",
+		"HUYENVT": "HuyenKimBang"
+	},
+	{
+		"MATINH": "35",
+		"TINH": "Tỉnh Hà Nam",
+		"MAHUYEN": "353",
+		"HUYEN": "Huyện Lý Nhân",
+		"TINHVT": "TinhHaNam",
+		"HUYENVT": "HuyenLyNhan"
+	},
+	{
+		"MATINH": "35",
+		"TINH": "Tỉnh Hà Nam",
+		"MAHUYEN": "351",
+		"HUYEN": "Huyện Thanh Liêm",
+		"TINHVT": "TinhHaNam",
+		"HUYENVT": "HuyenThanhLiem"
+	},
+	{
+		"MATINH": "35",
+		"TINH": "Tỉnh Hà Nam",
+		"MAHUYEN": "347",
+		"HUYEN": "Thành phố Phủ Lý",
+		"TINHVT": "TinhHaNam",
+		"HUYENVT": "ThanhphoPhuLy"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "446",
+		"HUYEN": "Huyện Cẩm Xuyên",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "HuyenCamXuyen"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "443",
+		"HUYEN": "Huyện Can Lộc",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "HuyenCanLoc"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "440",
+		"HUYEN": "Huyện Đức Thọ",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "HuyenDucTho"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "444",
+		"HUYEN": "Huyện Hương Khê",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "HuyenHuongKhe"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "439",
+		"HUYEN": "Huyện Hương Sơn",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "HuyenHuongSon"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "447",
+		"HUYEN": "Huyện Kỳ Anh",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "HuyenKyAnh"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "438",
+		"HUYEN": "Huyện Lộc Hà",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "HuyenLocHa"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "442",
+		"HUYEN": "Huyện Nghi Xuân",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "HuyenNghiXuan"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "445",
+		"HUYEN": "Huyện Thạch Hà",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "HuyenThachHa"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "441",
+		"HUYEN": "Huyện Vũ Quang",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "HuyenVuQuang"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "436",
+		"HUYEN": "Thành phố Hà Tĩnh",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "ThanhphoHaTinh"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "437",
+		"HUYEN": "Thị xã Hồng Lĩnh",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "ThixaHongLinh"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"MAHUYEN": "449",
+		"HUYEN": "Thị xã Kỳ Anh",
+		"TINHVT": "TinhHaTinh",
+		"HUYENVT": "ThixaKyAnh"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "296",
+		"HUYEN": "Huyện Bình Giang",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "HuyenBinhGiang"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "295",
+		"HUYEN": "Huyện Cẩm Giàng",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "HuyenCamGiang"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "297",
+		"HUYEN": "Huyện Gia Lộc",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "HuyenGiaLoc"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "293",
+		"HUYEN": "Huyện Kim Thành",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "HuyenKimThanh"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "292",
+		"HUYEN": "Huyện Kinh Môn",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "HuyenKinhMon"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "291",
+		"HUYEN": "Huyện Nam Sách",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "HuyenNamSach"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "299",
+		"HUYEN": "Huyện Ninh Giang",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "HuyenNinhGiang"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "294",
+		"HUYEN": "Huyện Thanh Hà",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "HuyenThanhHa"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "300",
+		"HUYEN": "Huyện Thanh Miện",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "HuyenThanhMien"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "298",
+		"HUYEN": "Huyện Tứ Kỳ",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "HuyenTuKy"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "288",
+		"HUYEN": "Thành phố Hải Dương",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "ThanhphoHaiDuong"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"MAHUYEN": "290",
+		"HUYEN": "Thị xã Chí Linh",
+		"TINHVT": "TinhHaiDuong",
+		"HUYENVT": "ThixaChiLinh"
+	},
+	{
+		"MATINH": "93",
+		"TINH": "Tỉnh Hậu Giang",
+		"MAHUYEN": "933",
+		"HUYEN": "Huyện Châu Thành",
+		"TINHVT": "TinhHauGiang",
+		"HUYENVT": "HuyenChauThanh"
+	},
+	{
+		"MATINH": "93",
+		"TINH": "Tỉnh Hậu Giang",
+		"MAHUYEN": "932",
+		"HUYEN": "Huyện Châu Thành A",
+		"TINHVT": "TinhHauGiang",
+		"HUYENVT": "HuyenChauThanhA"
+	},
+	{
+		"MATINH": "93",
+		"TINH": "Tỉnh Hậu Giang",
+		"MAHUYEN": "936",
+		"HUYEN": "Huyện Long Mỹ",
+		"TINHVT": "TinhHauGiang",
+		"HUYENVT": "HuyenLongMy"
+	},
+	{
+		"MATINH": "93",
+		"TINH": "Tỉnh Hậu Giang",
+		"MAHUYEN": "934",
+		"HUYEN": "Huyện Phụng Hiệp",
+		"TINHVT": "TinhHauGiang",
+		"HUYENVT": "HuyenPhungHiep"
+	},
+	{
+		"MATINH": "93",
+		"TINH": "Tỉnh Hậu Giang",
+		"MAHUYEN": "935",
+		"HUYEN": "Huyện Vị Thuỷ",
+		"TINHVT": "TinhHauGiang",
+		"HUYENVT": "HuyenViThuy"
+	},
+	{
+		"MATINH": "93",
+		"TINH": "Tỉnh Hậu Giang",
+		"MAHUYEN": "930",
+		"HUYEN": "Thành phố Vị Thanh",
+		"TINHVT": "TinhHauGiang",
+		"HUYENVT": "ThanhphoViThanh"
+	},
+	{
+		"MATINH": "93",
+		"TINH": "Tỉnh Hậu Giang",
+		"MAHUYEN": "937",
+		"HUYEN": "Thị xã Long Mỹ",
+		"TINHVT": "TinhHauGiang",
+		"HUYENVT": "ThixaLongMy"
+	},
+	{
+		"MATINH": "93",
+		"TINH": "Tỉnh Hậu Giang",
+		"MAHUYEN": "931",
+		"HUYEN": "Thị xã Ngã Bảy",
+		"TINHVT": "TinhHauGiang",
+		"HUYENVT": "ThixaNgaBay"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "154",
+		"HUYEN": "Huyện Cao Phong",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "HuyenCaoPhong"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "150",
+		"HUYEN": "Huyện Đà Bắc",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "HuyenDaBac"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "153",
+		"HUYEN": "Huyện Kim Bôi",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "HuyenKimBoi"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "151",
+		"HUYEN": "Huyện Kỳ Sơn",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "HuyenKySon"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "157",
+		"HUYEN": "Huyện Lạc Sơn",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "HuyenLacSon"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "159",
+		"HUYEN": "Huyện Lạc Thủy",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "HuyenLacThuy"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "152",
+		"HUYEN": "Huyện Lương Sơn",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "HuyenLuongSon"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "156",
+		"HUYEN": "Huyện Mai Châu",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "HuyenMaiChau"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "155",
+		"HUYEN": "Huyện Tân Lạc",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "HuyenTanLac"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "158",
+		"HUYEN": "Huyện Yên Thủy",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "HuyenYenThuy"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"MAHUYEN": "148",
+		"HUYEN": "Thành phố Hòa Bình",
+		"TINHVT": "TinhHoaBinh",
+		"HUYENVT": "ThanhphoHoaBinh"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"MAHUYEN": "329",
+		"HUYEN": "Huyện Ân Thi",
+		"TINHVT": "TinhHungYen",
+		"HUYENVT": "HuyenAnThi"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"MAHUYEN": "330",
+		"HUYEN": "Huyện Khoái Châu",
+		"TINHVT": "TinhHungYen",
+		"HUYENVT": "HuyenKhoaiChau"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"MAHUYEN": "331",
+		"HUYEN": "Huyện Kim Động",
+		"TINHVT": "TinhHungYen",
+		"HUYENVT": "HuyenKimDong"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"MAHUYEN": "328",
+		"HUYEN": "Huyện Mỹ Hào",
+		"TINHVT": "TinhHungYen",
+		"HUYENVT": "HuyenMyHao"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"MAHUYEN": "333",
+		"HUYEN": "Huyện Phù Cừ",
+		"TINHVT": "TinhHungYen",
+		"HUYENVT": "HuyenPhuCu"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"MAHUYEN": "332",
+		"HUYEN": "Huyện Tiên Lữ",
+		"TINHVT": "TinhHungYen",
+		"HUYENVT": "HuyenTienLu"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"MAHUYEN": "326",
+		"HUYEN": "Huyện Văn Giang",
+		"TINHVT": "TinhHungYen",
+		"HUYENVT": "HuyenVanGiang"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"MAHUYEN": "325",
+		"HUYEN": "Huyện Văn Lâm",
+		"TINHVT": "TinhHungYen",
+		"HUYENVT": "HuyenVanLam"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"MAHUYEN": "327",
+		"HUYEN": "Huyện Yên Mỹ",
+		"TINHVT": "TinhHungYen",
+		"HUYENVT": "HuyenYenMy"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"MAHUYEN": "323",
+		"HUYEN": "Thành phố Hưng Yên",
+		"TINHVT": "TinhHungYen",
+		"HUYENVT": "ThanhphoHungYen"
+	},
+	{
+		"MATINH": "56",
+		"TINH": "Tỉnh Khánh Hòa",
+		"MAHUYEN": "570",
+		"HUYEN": "Huyện Cam Lâm",
+		"TINHVT": "TinhKhanhHoa",
+		"HUYENVT": "HuyenCamLam"
+	},
+	{
+		"MATINH": "56",
+		"TINH": "Tỉnh Khánh Hòa",
+		"MAHUYEN": "574",
+		"HUYEN": "Huyện Diên Khánh",
+		"TINHVT": "TinhKhanhHoa",
+		"HUYENVT": "HuyenDienKhanh"
+	},
+	{
+		"MATINH": "56",
+		"TINH": "Tỉnh Khánh Hòa",
+		"MAHUYEN": "575",
+		"HUYEN": "Huyện Khánh Sơn",
+		"TINHVT": "TinhKhanhHoa",
+		"HUYENVT": "HuyenKhanhSon"
+	},
+	{
+		"MATINH": "56",
+		"TINH": "Tỉnh Khánh Hòa",
+		"MAHUYEN": "573",
+		"HUYEN": "Huyện Khánh Vĩnh",
+		"TINHVT": "TinhKhanhHoa",
+		"HUYENVT": "HuyenKhanhVinh"
+	},
+	{
+		"MATINH": "56",
+		"TINH": "Tỉnh Khánh Hòa",
+		"MAHUYEN": "576",
+		"HUYEN": "Huyện Trường Sa",
+		"TINHVT": "TinhKhanhHoa",
+		"HUYENVT": "HuyenTruongSa"
+	},
+	{
+		"MATINH": "56",
+		"TINH": "Tỉnh Khánh Hòa",
+		"MAHUYEN": "571",
+		"HUYEN": "Huyện Vạn Ninh",
+		"TINHVT": "TinhKhanhHoa",
+		"HUYENVT": "HuyenVanNinh"
+	},
+	{
+		"MATINH": "56",
+		"TINH": "Tỉnh Khánh Hòa",
+		"MAHUYEN": "569",
+		"HUYEN": "Thành phố Cam Ranh",
+		"TINHVT": "TinhKhanhHoa",
+		"HUYENVT": "ThanhphoCamRanh"
+	},
+	{
+		"MATINH": "56",
+		"TINH": "Tỉnh Khánh Hòa",
+		"MAHUYEN": "568",
+		"HUYEN": "Thành phố Nha Trang",
+		"TINHVT": "TinhKhanhHoa",
+		"HUYENVT": "ThanhphoNhaTrang"
+	},
+	{
+		"MATINH": "56",
+		"TINH": "Tỉnh Khánh Hòa",
+		"MAHUYEN": "572",
+		"HUYEN": "Thị xã Ninh Hòa",
+		"TINHVT": "TinhKhanhHoa",
+		"HUYENVT": "ThixaNinhHoa"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "908",
+		"HUYEN": "Huyện An Biên",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenAnBien"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "909",
+		"HUYEN": "Huyện An Minh",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenAnMinh"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "905",
+		"HUYEN": "Huyện Châu Thành",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenChauThanh"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "914",
+		"HUYEN": "Huyện Giang Thành",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenGiangThanh"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "906",
+		"HUYEN": "Huyện Giồng Riềng",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenGiongRieng"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "907",
+		"HUYEN": "Huyện Gò Quao",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenGoQuao"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "903",
+		"HUYEN": "Huyện Hòn Đất",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenHonDat"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "912",
+		"HUYEN": "Huyện Kiên Hải",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenKienHai"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "902",
+		"HUYEN": "Huyện Kiên Lương",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenKienLuong"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "911",
+		"HUYEN": "Huyện Phú Quốc",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenPhuQuoc"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "904",
+		"HUYEN": "Huyện Tân Hiệp",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenTanHiep"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "913",
+		"HUYEN": "Huyện U Minh Thượng",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenUMinhThuong"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "910",
+		"HUYEN": "Huyện Vĩnh Thuận",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "HuyenVinhThuan"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "899",
+		"HUYEN": "Thành phố Rạch Giá",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "ThanhphoRachGia"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"MAHUYEN": "900",
+		"HUYEN": "Thị xã Hà Tiên",
+		"TINHVT": "TinhKienGiang",
+		"HUYENVT": "ThixaHaTien"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"MAHUYEN": "610",
+		"HUYEN": "Huyện Đắk Glei",
+		"TINHVT": "TinhKonTum",
+		"HUYENVT": "HuyenDakGlei"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"MAHUYEN": "615",
+		"HUYEN": "Huyện Đắk Hà",
+		"TINHVT": "TinhKonTum",
+		"HUYENVT": "HuyenDakHa"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"MAHUYEN": "612",
+		"HUYEN": "Huyện Đắk Tô",
+		"TINHVT": "TinhKonTum",
+		"HUYENVT": "HuyenDakTo"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"MAHUYEN": "618",
+		"HUYEN": "Huyện Ia H' Drai",
+		"TINHVT": "TinhKonTum",
+		"HUYENVT": "HuyenIaH'Drai"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"MAHUYEN": "613",
+		"HUYEN": "Huyện Kon Plông",
+		"TINHVT": "TinhKonTum",
+		"HUYENVT": "HuyenKonPlong"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"MAHUYEN": "614",
+		"HUYEN": "Huyện Kon Rẫy",
+		"TINHVT": "TinhKonTum",
+		"HUYENVT": "HuyenKonRay"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"MAHUYEN": "611",
+		"HUYEN": "Huyện Ngọc Hồi",
+		"TINHVT": "TinhKonTum",
+		"HUYENVT": "HuyenNgocHoi"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"MAHUYEN": "616",
+		"HUYEN": "Huyện Sa Thầy",
+		"TINHVT": "TinhKonTum",
+		"HUYENVT": "HuyenSaThay"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"MAHUYEN": "617",
+		"HUYEN": "Huyện Tu Mơ Rông",
+		"TINHVT": "TinhKonTum",
+		"HUYENVT": "HuyenTuMoRong"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"MAHUYEN": "608",
+		"HUYEN": "Thành phố Kon Tum",
+		"TINHVT": "TinhKonTum",
+		"HUYENVT": "ThanhphoKonTum"
+	},
+	{
+		"MATINH": "12",
+		"TINH": "Tỉnh Lai Châu",
+		"MAHUYEN": "107",
+		"HUYEN": "Huyện Mường Tè",
+		"TINHVT": "TinhLaiChau",
+		"HUYENVT": "HuyenMuongTe"
+	},
+	{
+		"MATINH": "12",
+		"TINH": "Tỉnh Lai Châu",
+		"MAHUYEN": "112",
+		"HUYEN": "Huyện Nậm Nhùn",
+		"TINHVT": "TinhLaiChau",
+		"HUYENVT": "HuyenNamNhun"
+	},
+	{
+		"MATINH": "12",
+		"TINH": "Tỉnh Lai Châu",
+		"MAHUYEN": "109",
+		"HUYEN": "Huyện Phong Thổ",
+		"TINHVT": "TinhLaiChau",
+		"HUYENVT": "HuyenPhongTho"
+	},
+	{
+		"MATINH": "12",
+		"TINH": "Tỉnh Lai Châu",
+		"MAHUYEN": "108",
+		"HUYEN": "Huyện Sìn Hồ",
+		"TINHVT": "TinhLaiChau",
+		"HUYENVT": "HuyenSinHo"
+	},
+	{
+		"MATINH": "12",
+		"TINH": "Tỉnh Lai Châu",
+		"MAHUYEN": "106",
+		"HUYEN": "Huyện Tam Đường",
+		"TINHVT": "TinhLaiChau",
+		"HUYENVT": "HuyenTamDuong"
+	},
+	{
+		"MATINH": "12",
+		"TINH": "Tỉnh Lai Châu",
+		"MAHUYEN": "111",
+		"HUYEN": "Huyện Tân Uyên",
+		"TINHVT": "TinhLaiChau",
+		"HUYENVT": "HuyenTanUyen"
+	},
+	{
+		"MATINH": "12",
+		"TINH": "Tỉnh Lai Châu",
+		"MAHUYEN": "110",
+		"HUYEN": "Huyện Than Uyên",
+		"TINHVT": "TinhLaiChau",
+		"HUYENVT": "HuyenThanUyen"
+	},
+	{
+		"MATINH": "12",
+		"TINH": "Tỉnh Lai Châu",
+		"MAHUYEN": "105",
+		"HUYEN": "Thành phố Lai Châu",
+		"TINHVT": "TinhLaiChau",
+		"HUYENVT": "ThanhphoLaiChau"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "680",
+		"HUYEN": "Huyện Bảo Lâm",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "HuyenBaoLam"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "683",
+		"HUYEN": "Huyện Cát Tiên",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "HuyenCatTien"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "681",
+		"HUYEN": "Huyện Đạ Huoai",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "HuyenDaHuoai"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "682",
+		"HUYEN": "Huyện Đạ Tẻh",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "HuyenDaTeh"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "674",
+		"HUYEN": "Huyện Đam Rông",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "HuyenDamRong"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "679",
+		"HUYEN": "Huyện Di Linh",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "HuyenDiLinh"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "677",
+		"HUYEN": "Huyện Đơn Dương",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "HuyenDonDuong"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "678",
+		"HUYEN": "Huyện Đức Trọng",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "HuyenDucTrong"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "675",
+		"HUYEN": "Huyện Lạc Dương",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "HuyenLacDuong"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "676",
+		"HUYEN": "Huyện Lâm Hà",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "HuyenLamHa"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "673",
+		"HUYEN": "Thành phố Bảo Lộc",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "ThanhphoBaoLoc"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"MAHUYEN": "672",
+		"HUYEN": "Thành phố Đà Lạt",
+		"TINHVT": "TinhLamDong",
+		"HUYENVT": "ThanhphoDaLat"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "185",
+		"HUYEN": "Huyện Bắc Sơn",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "HuyenBacSon"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "181",
+		"HUYEN": "Huyện Bình Gia",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "HuyenBinhGia"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "183",
+		"HUYEN": "Huyện Cao Lộc",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "HuyenCaoLoc"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "187",
+		"HUYEN": "Huyện Chi Lăng",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "HuyenChiLang"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "189",
+		"HUYEN": "Huyện Đình Lập",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "HuyenDinhLap"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "186",
+		"HUYEN": "Huyện Hữu Lũng",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "HuyenHuuLung"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "188",
+		"HUYEN": "Huyện Lộc Bình",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "HuyenLocBinh"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "180",
+		"HUYEN": "Huyện Tràng Định",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "HuyenTrangDinh"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "182",
+		"HUYEN": "Huyện Văn Lãng",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "HuyenVanLang"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "184",
+		"HUYEN": "Huyện Văn Quan",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "HuyenVanQuan"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"MAHUYEN": "178",
+		"HUYEN": "Thành phố Lạng Sơn",
+		"TINHVT": "TinhLangSon",
+		"HUYENVT": "ThanhphoLangSon"
+	},
+	{
+		"MATINH": "10",
+		"TINH": "Tỉnh Lào Cai",
+		"MAHUYEN": "85",
+		"HUYEN": "Huyện Bắc Hà",
+		"TINHVT": "TinhLaoCai",
+		"HUYENVT": "HuyenBacHa"
+	},
+	{
+		"MATINH": "10",
+		"TINH": "Tỉnh Lào Cai",
+		"MAHUYEN": "86",
+		"HUYEN": "Huyện Bảo Thắng",
+		"TINHVT": "TinhLaoCai",
+		"HUYENVT": "HuyenBaoThang"
+	},
+	{
+		"MATINH": "10",
+		"TINH": "Tỉnh Lào Cai",
+		"MAHUYEN": "87",
+		"HUYEN": "Huyện Bảo Yên",
+		"TINHVT": "TinhLaoCai",
+		"HUYENVT": "HuyenBaoYen"
+	},
+	{
+		"MATINH": "10",
+		"TINH": "Tỉnh Lào Cai",
+		"MAHUYEN": "82",
+		"HUYEN": "Huyện Bát Xát",
+		"TINHVT": "TinhLaoCai",
+		"HUYENVT": "HuyenBatXat"
+	},
+	{
+		"MATINH": "10",
+		"TINH": "Tỉnh Lào Cai",
+		"MAHUYEN": "83",
+		"HUYEN": "Huyện Mường Khương",
+		"TINHVT": "TinhLaoCai",
+		"HUYENVT": "HuyenMuongKhuong"
+	},
+	{
+		"MATINH": "10",
+		"TINH": "Tỉnh Lào Cai",
+		"MAHUYEN": "88",
+		"HUYEN": "Huyện Sa Pa",
+		"TINHVT": "TinhLaoCai",
+		"HUYENVT": "HuyenSaPa"
+	},
+	{
+		"MATINH": "10",
+		"TINH": "Tỉnh Lào Cai",
+		"MAHUYEN": "84",
+		"HUYEN": "Huyện Si Ma Cai",
+		"TINHVT": "TinhLaoCai",
+		"HUYENVT": "HuyenSiMaCai"
+	},
+	{
+		"MATINH": "10",
+		"TINH": "Tỉnh Lào Cai",
+		"MAHUYEN": "89",
+		"HUYEN": "Huyện Văn Bàn",
+		"TINHVT": "TinhLaoCai",
+		"HUYENVT": "HuyenVanBan"
+	},
+	{
+		"MATINH": "10",
+		"TINH": "Tỉnh Lào Cai",
+		"MAHUYEN": "80",
+		"HUYEN": "Thành phố Lào Cai",
+		"TINHVT": "TinhLaoCai",
+		"HUYENVT": "ThanhphoLaoCai"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "803",
+		"HUYEN": "Huyện Bến Lức",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenBenLuc"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "806",
+		"HUYEN": "Huyện Cần Đước",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenCanDuoc"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "807",
+		"HUYEN": "Huyện Cần Giuộc",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenCanGiuoc"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "808",
+		"HUYEN": "Huyện Châu Thành",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenChauThanh"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "802",
+		"HUYEN": "Huyện Đức Hòa",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenDucHoa"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "801",
+		"HUYEN": "Huyện Đức Huệ",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenDucHue"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "798",
+		"HUYEN": "Huyện Mộc Hóa",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenMocHoa"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "796",
+		"HUYEN": "Huyện Tân Hưng",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenTanHung"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "799",
+		"HUYEN": "Huyện Tân Thạnh",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenTanThanh"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "805",
+		"HUYEN": "Huyện Tân Trụ",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenTanTru"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "800",
+		"HUYEN": "Huyện Thạnh Hóa",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenThanhHoa"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "804",
+		"HUYEN": "Huyện Thủ Thừa",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenThuThua"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "797",
+		"HUYEN": "Huyện Vĩnh Hưng",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "HuyenVinhHung"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "794",
+		"HUYEN": "Thành phố Tân An",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "ThanhphoTanAn"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"MAHUYEN": "795",
+		"HUYEN": "Thị xã Kiến Tường",
+		"TINHVT": "TinhLongAn",
+		"HUYENVT": "ThixaKienTuong"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"MAHUYEN": "365",
+		"HUYEN": "Huyện Giao Thủy",
+		"TINHVT": "TinhNamDinh",
+		"HUYENVT": "HuyenGiaoThuy"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"MAHUYEN": "366",
+		"HUYEN": "Huyện Hải Hậu",
+		"TINHVT": "TinhNamDinh",
+		"HUYENVT": "HuyenHaiHau"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"MAHUYEN": "358",
+		"HUYEN": "Huyện Mỹ Lộc",
+		"TINHVT": "TinhNamDinh",
+		"HUYENVT": "HuyenMyLoc"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"MAHUYEN": "362",
+		"HUYEN": "Huyện Nam Trực",
+		"TINHVT": "TinhNamDinh",
+		"HUYENVT": "HuyenNamTruc"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"MAHUYEN": "361",
+		"HUYEN": "Huyện Nghĩa Hưng",
+		"TINHVT": "TinhNamDinh",
+		"HUYENVT": "HuyenNghiaHung"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"MAHUYEN": "363",
+		"HUYEN": "Huyện Trực Ninh",
+		"TINHVT": "TinhNamDinh",
+		"HUYENVT": "HuyenTrucNinh"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"MAHUYEN": "359",
+		"HUYEN": "Huyện Vụ Bản",
+		"TINHVT": "TinhNamDinh",
+		"HUYENVT": "HuyenVuBan"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"MAHUYEN": "364",
+		"HUYEN": "Huyện Xuân Trường",
+		"TINHVT": "TinhNamDinh",
+		"HUYENVT": "HuyenXuanTruong"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"MAHUYEN": "360",
+		"HUYEN": "Huyện ý Yên",
+		"TINHVT": "TinhNamDinh",
+		"HUYENVT": "HuyenyYen"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"MAHUYEN": "356",
+		"HUYEN": "Thành phố Nam Định",
+		"TINHVT": "TinhNamDinh",
+		"HUYENVT": "ThanhphoNamDinh"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "424",
+		"HUYEN": "Huyện Anh Sơn",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenAnhSon"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "422",
+		"HUYEN": "Huyện Con Cuông",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenConCuong"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "425",
+		"HUYEN": "Huyện Diễn Châu",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenDienChau"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "427",
+		"HUYEN": "Huyện Đô Lương",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenDoLuong"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "431",
+		"HUYEN": "Huyện Hưng Nguyên",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenHungNguyen"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "417",
+		"HUYEN": "Huyện Kỳ Sơn",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenKySon"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "430",
+		"HUYEN": "Huyện Nam Đàn",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenNamDan"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "429",
+		"HUYEN": "Huyện Nghi Lộc",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenNghiLoc"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "419",
+		"HUYEN": "Huyện Nghĩa Đàn",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenNghiaDan"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "415",
+		"HUYEN": "Huyện Quế Phong",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenQuePhong"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "416",
+		"HUYEN": "Huyện Quỳ Châu",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenQuyChau"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "420",
+		"HUYEN": "Huyện Quỳ Hợp",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenQuyHop"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "421",
+		"HUYEN": "Huyện Quỳnh Lưu",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenQuynhLuu"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "423",
+		"HUYEN": "Huyện Tân Kỳ",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenTanKy"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "428",
+		"HUYEN": "Huyện Thanh Chương",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenThanhChuong"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "418",
+		"HUYEN": "Huyện Tương Dương",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenTuongDuong"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "426",
+		"HUYEN": "Huyện Yên Thành",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "HuyenYenThanh"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "412",
+		"HUYEN": "Thành phố Vinh",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "ThanhphoVinh"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "413",
+		"HUYEN": "Thị xã Cửa Lò",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "ThixaCuaLo"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "432",
+		"HUYEN": "Thị xã Hoàng Mai",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "ThixaHoangMai"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"MAHUYEN": "414",
+		"HUYEN": "Thị xã Thái Hoà",
+		"TINHVT": "TinhNgheAn",
+		"HUYENVT": "ThixaThaiHoa"
+	},
+	{
+		"MATINH": "37",
+		"TINH": "Tỉnh Ninh Bình",
+		"MAHUYEN": "373",
+		"HUYEN": "Huyện Gia Viễn",
+		"TINHVT": "TinhNinhBinh",
+		"HUYENVT": "HuyenGiaVien"
+	},
+	{
+		"MATINH": "37",
+		"TINH": "Tỉnh Ninh Bình",
+		"MAHUYEN": "374",
+		"HUYEN": "Huyện Hoa Lư",
+		"TINHVT": "TinhNinhBinh",
+		"HUYENVT": "HuyenHoaLu"
+	},
+	{
+		"MATINH": "37",
+		"TINH": "Tỉnh Ninh Bình",
+		"MAHUYEN": "376",
+		"HUYEN": "Huyện Kim Sơn",
+		"TINHVT": "TinhNinhBinh",
+		"HUYENVT": "HuyenKimSon"
+	},
+	{
+		"MATINH": "37",
+		"TINH": "Tỉnh Ninh Bình",
+		"MAHUYEN": "372",
+		"HUYEN": "Huyện Nho Quan",
+		"TINHVT": "TinhNinhBinh",
+		"HUYENVT": "HuyenNhoQuan"
+	},
+	{
+		"MATINH": "37",
+		"TINH": "Tỉnh Ninh Bình",
+		"MAHUYEN": "375",
+		"HUYEN": "Huyện Yên Khánh",
+		"TINHVT": "TinhNinhBinh",
+		"HUYENVT": "HuyenYenKhanh"
+	},
+	{
+		"MATINH": "37",
+		"TINH": "Tỉnh Ninh Bình",
+		"MAHUYEN": "377",
+		"HUYEN": "Huyện Yên Mô",
+		"TINHVT": "TinhNinhBinh",
+		"HUYENVT": "HuyenYenMo"
+	},
+	{
+		"MATINH": "37",
+		"TINH": "Tỉnh Ninh Bình",
+		"MAHUYEN": "369",
+		"HUYEN": "Thành phố Ninh Bình",
+		"TINHVT": "TinhNinhBinh",
+		"HUYENVT": "ThanhphoNinhBinh"
+	},
+	{
+		"MATINH": "37",
+		"TINH": "Tỉnh Ninh Bình",
+		"MAHUYEN": "370",
+		"HUYEN": "Thành phố Tam Điệp",
+		"TINHVT": "TinhNinhBinh",
+		"HUYENVT": "ThanhphoTamDiep"
+	},
+	{
+		"MATINH": "58",
+		"TINH": "Tỉnh Ninh Thuận",
+		"MAHUYEN": "584",
+		"HUYEN": "Huyện Bác ái",
+		"TINHVT": "TinhNinhThuan",
+		"HUYENVT": "HuyenBacai"
+	},
+	{
+		"MATINH": "58",
+		"TINH": "Tỉnh Ninh Thuận",
+		"MAHUYEN": "586",
+		"HUYEN": "Huyện Ninh Hải",
+		"TINHVT": "TinhNinhThuan",
+		"HUYENVT": "HuyenNinhHai"
+	},
+	{
+		"MATINH": "58",
+		"TINH": "Tỉnh Ninh Thuận",
+		"MAHUYEN": "587",
+		"HUYEN": "Huyện Ninh Phước",
+		"TINHVT": "TinhNinhThuan",
+		"HUYENVT": "HuyenNinhPhuoc"
+	},
+	{
+		"MATINH": "58",
+		"TINH": "Tỉnh Ninh Thuận",
+		"MAHUYEN": "585",
+		"HUYEN": "Huyện Ninh Sơn",
+		"TINHVT": "TinhNinhThuan",
+		"HUYENVT": "HuyenNinhSon"
+	},
+	{
+		"MATINH": "58",
+		"TINH": "Tỉnh Ninh Thuận",
+		"MAHUYEN": "588",
+		"HUYEN": "Huyện Thuận Bắc",
+		"TINHVT": "TinhNinhThuan",
+		"HUYENVT": "HuyenThuanBac"
+	},
+	{
+		"MATINH": "58",
+		"TINH": "Tỉnh Ninh Thuận",
+		"MAHUYEN": "589",
+		"HUYEN": "Huyện Thuận Nam",
+		"TINHVT": "TinhNinhThuan",
+		"HUYENVT": "HuyenThuanNam"
+	},
+	{
+		"MATINH": "58",
+		"TINH": "Tỉnh Ninh Thuận",
+		"MAHUYEN": "582",
+		"HUYEN": "Thành phố Phan Rang-Tháp Chàm",
+		"TINHVT": "TinhNinhThuan",
+		"HUYENVT": "ThanhphoPhanRang-ThapCham"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "235",
+		"HUYEN": "Huyện Cẩm Khê",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenCamKhe"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "230",
+		"HUYEN": "Huyện Đoan Hùng",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenDoanHung"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "231",
+		"HUYEN": "Huyện Hạ Hoà",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenHaHoa"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "237",
+		"HUYEN": "Huyện Lâm Thao",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenLamThao"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "233",
+		"HUYEN": "Huyện Phù Ninh",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenPhuNinh"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "236",
+		"HUYEN": "Huyện Tam Nông",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenTamNong"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "240",
+		"HUYEN": "Huyện Tân Sơn",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenTanSon"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "232",
+		"HUYEN": "Huyện Thanh Ba",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenThanhBa"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "238",
+		"HUYEN": "Huyện Thanh Sơn",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenThanhSon"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "239",
+		"HUYEN": "Huyện Thanh Thuỷ",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenThanhThuy"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "234",
+		"HUYEN": "Huyện Yên Lập",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "HuyenYenLap"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "227",
+		"HUYEN": "Thành phố Việt Trì",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "ThanhphoVietTri"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"MAHUYEN": "228",
+		"HUYEN": "Thị xã Phú Thọ",
+		"TINHVT": "TinhPhuTho",
+		"HUYENVT": "ThixaPhuTho"
+	},
+	{
+		"MATINH": "54",
+		"TINH": "Tỉnh Phú Yên",
+		"MAHUYEN": "564",
+		"HUYEN": "Huyện Đông Hòa",
+		"TINHVT": "TinhPhuYen",
+		"HUYENVT": "HuyenDongHoa"
+	},
+	{
+		"MATINH": "54",
+		"TINH": "Tỉnh Phú Yên",
+		"MAHUYEN": "558",
+		"HUYEN": "Huyện Đồng Xuân",
+		"TINHVT": "TinhPhuYen",
+		"HUYENVT": "HuyenDongXuan"
+	},
+	{
+		"MATINH": "54",
+		"TINH": "Tỉnh Phú Yên",
+		"MAHUYEN": "563",
+		"HUYEN": "Huyện Phú Hoà",
+		"TINHVT": "TinhPhuYen",
+		"HUYENVT": "HuyenPhuHoa"
+	},
+	{
+		"MATINH": "54",
+		"TINH": "Tỉnh Phú Yên",
+		"MAHUYEN": "560",
+		"HUYEN": "Huyện Sơn Hòa",
+		"TINHVT": "TinhPhuYen",
+		"HUYENVT": "HuyenSonHoa"
+	},
+	{
+		"MATINH": "54",
+		"TINH": "Tỉnh Phú Yên",
+		"MAHUYEN": "561",
+		"HUYEN": "Huyện Sông Hinh",
+		"TINHVT": "TinhPhuYen",
+		"HUYENVT": "HuyenSongHinh"
+	},
+	{
+		"MATINH": "54",
+		"TINH": "Tỉnh Phú Yên",
+		"MAHUYEN": "562",
+		"HUYEN": "Huyện Tây Hoà",
+		"TINHVT": "TinhPhuYen",
+		"HUYENVT": "HuyenTayHoa"
+	},
+	{
+		"MATINH": "54",
+		"TINH": "Tỉnh Phú Yên",
+		"MAHUYEN": "559",
+		"HUYEN": "Huyện Tuy An",
+		"TINHVT": "TinhPhuYen",
+		"HUYENVT": "HuyenTuyAn"
+	},
+	{
+		"MATINH": "54",
+		"TINH": "Tỉnh Phú Yên",
+		"MAHUYEN": "555",
+		"HUYEN": "Thành phố Tuy Hoà",
+		"TINHVT": "TinhPhuYen",
+		"HUYENVT": "ThanhphoTuyHoa"
+	},
+	{
+		"MATINH": "54",
+		"TINH": "Tỉnh Phú Yên",
+		"MAHUYEN": "557",
+		"HUYEN": "Thị xã Sông Cầu",
+		"TINHVT": "TinhPhuYen",
+		"HUYENVT": "ThixaSongCau"
+	},
+	{
+		"MATINH": "44",
+		"TINH": "Tỉnh Quảng Bình",
+		"MAHUYEN": "455",
+		"HUYEN": "Huyện Bố Trạch",
+		"TINHVT": "TinhQuangBinh",
+		"HUYENVT": "HuyenBoTrach"
+	},
+	{
+		"MATINH": "44",
+		"TINH": "Tỉnh Quảng Bình",
+		"MAHUYEN": "457",
+		"HUYEN": "Huyện Lệ Thủy",
+		"TINHVT": "TinhQuangBinh",
+		"HUYENVT": "HuyenLeThuy"
+	},
+	{
+		"MATINH": "44",
+		"TINH": "Tỉnh Quảng Bình",
+		"MAHUYEN": "452",
+		"HUYEN": "Huyện Minh Hóa",
+		"TINHVT": "TinhQuangBinh",
+		"HUYENVT": "HuyenMinhHoa"
+	},
+	{
+		"MATINH": "44",
+		"TINH": "Tỉnh Quảng Bình",
+		"MAHUYEN": "456",
+		"HUYEN": "Huyện Quảng Ninh",
+		"TINHVT": "TinhQuangBinh",
+		"HUYENVT": "HuyenQuangNinh"
+	},
+	{
+		"MATINH": "44",
+		"TINH": "Tỉnh Quảng Bình",
+		"MAHUYEN": "454",
+		"HUYEN": "Huyện Quảng Trạch",
+		"TINHVT": "TinhQuangBinh",
+		"HUYENVT": "HuyenQuangTrach"
+	},
+	{
+		"MATINH": "44",
+		"TINH": "Tỉnh Quảng Bình",
+		"MAHUYEN": "453",
+		"HUYEN": "Huyện Tuyên Hóa",
+		"TINHVT": "TinhQuangBinh",
+		"HUYENVT": "HuyenTuyenHoa"
+	},
+	{
+		"MATINH": "44",
+		"TINH": "Tỉnh Quảng Bình",
+		"MAHUYEN": "450",
+		"HUYEN": "Thành Phố Đồng Hới",
+		"TINHVT": "TinhQuangBinh",
+		"HUYENVT": "ThanhPhoDongHoi"
+	},
+	{
+		"MATINH": "44",
+		"TINH": "Tỉnh Quảng Bình",
+		"MAHUYEN": "458",
+		"HUYEN": "Thị xã Ba Đồn",
+		"TINHVT": "TinhQuangBinh",
+		"HUYENVT": "ThixaBaDon"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "515",
+		"HUYEN": "Huyện Bắc Trà My",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenBacTraMy"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "506",
+		"HUYEN": "Huyện Đại Lộc",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenDaiLoc"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "505",
+		"HUYEN": "Huyện Đông Giang",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenDongGiang"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "508",
+		"HUYEN": "Huyện Duy Xuyên",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenDuyXuyen"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "512",
+		"HUYEN": "Huyện Hiệp Đức",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenHiepDuc"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "510",
+		"HUYEN": "Huyện Nam Giang",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenNamGiang"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "516",
+		"HUYEN": "Huyện Nam Trà My",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenNamTraMy"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "519",
+		"HUYEN": "Huyện Nông Sơn",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenNongSon"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "517",
+		"HUYEN": "Huyện Núi Thành",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenNuiThanh"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "518",
+		"HUYEN": "Huyện Phú Ninh",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenPhuNinh"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "511",
+		"HUYEN": "Huyện Phước Sơn",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenPhuocSon"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "509",
+		"HUYEN": "Huyện Quế Sơn",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenQueSon"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "504",
+		"HUYEN": "Huyện Tây Giang",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenTayGiang"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "513",
+		"HUYEN": "Huyện Thăng Bình",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenThangBinh"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "514",
+		"HUYEN": "Huyện Tiên Phước",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "HuyenTienPhuoc"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "503",
+		"HUYEN": "Thành phố Hội An",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "ThanhphoHoiAn"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "502",
+		"HUYEN": "Thành phố Tam Kỳ",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "ThanhphoTamKy"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"MAHUYEN": "507",
+		"HUYEN": "Thị xã Điện Bàn",
+		"TINHVT": "TinhQuangNam",
+		"HUYENVT": "ThixaDienBan"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "535",
+		"HUYEN": "Huyện Ba Tơ",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenBaTo"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "524",
+		"HUYEN": "Huyện Bình Sơn",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenBinhSon"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "534",
+		"HUYEN": "Huyện Đức Phổ",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenDucPho"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "536",
+		"HUYEN": "Huyện Lý Sơn",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenLySon"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "531",
+		"HUYEN": "Huyện Minh Long",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenMinhLong"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "533",
+		"HUYEN": "Huyện Mộ Đức",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenMoDuc"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "532",
+		"HUYEN": "Huyện Nghĩa Hành",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenNghiaHanh"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "529",
+		"HUYEN": "Huyện Sơn Hà",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenSonHa"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "530",
+		"HUYEN": "Huyện Sơn Tây",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenSonTay"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "527",
+		"HUYEN": "Huyện Sơn Tịnh",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenSonTinh"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "526",
+		"HUYEN": "Huyện Tây Trà",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenTayTra"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "525",
+		"HUYEN": "Huyện Trà Bồng",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenTraBong"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "528",
+		"HUYEN": "Huyện Tư Nghĩa",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "HuyenTuNghia"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"MAHUYEN": "522",
+		"HUYEN": "Thành phố Quảng Ngãi",
+		"TINHVT": "TinhQuangNgai",
+		"HUYENVT": "ThanhphoQuangNgai"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "202",
+		"HUYEN": "Huyện Ba Chẽ",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "HuyenBaChe"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "198",
+		"HUYEN": "Huyện Bình Liêu",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "HuyenBinhLieu"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "207",
+		"HUYEN": "Huyện Cô Tô",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "HuyenCoTo"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "200",
+		"HUYEN": "Huyện Đầm Hà",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "HuyenDamHa"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "201",
+		"HUYEN": "Huyện Hải Hà",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "HuyenHaiHa"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "204",
+		"HUYEN": "Huyện Hoành Bồ",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "HuyenHoanhBo"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "199",
+		"HUYEN": "Huyện Tiên Yên",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "HuyenTienYen"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "203",
+		"HUYEN": "Huyện Vân Đồn",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "HuyenVanDon"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "195",
+		"HUYEN": "Thành phố Cẩm Phả",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "ThanhphoCamPha"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "193",
+		"HUYEN": "Thành phố Hạ Long",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "ThanhphoHaLong"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "194",
+		"HUYEN": "Thành phố Móng Cái",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "ThanhphoMongCai"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "196",
+		"HUYEN": "Thành phố Uông Bí",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "ThanhphoUongBi"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "205",
+		"HUYEN": "Thị xã Đông Triều",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "ThixaDongTrieu"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"MAHUYEN": "206",
+		"HUYEN": "Thị xã Quảng Yên",
+		"TINHVT": "TinhQuangNinh",
+		"HUYENVT": "ThixaQuangYen"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"MAHUYEN": "471",
+		"HUYEN": "Cồn Cỏ",
+		"TINHVT": "TinhQuangTri",
+		"HUYENVT": "ConCo"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"MAHUYEN": "468",
+		"HUYEN": "Huyện Cam Lộ",
+		"TINHVT": "TinhQuangTri",
+		"HUYENVT": "HuyenCamLo"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"MAHUYEN": "467",
+		"HUYEN": "Huyện Đa Krông",
+		"TINHVT": "TinhQuangTri",
+		"HUYENVT": "HuyenDaKrong"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"MAHUYEN": "466",
+		"HUYEN": "Huyện Gio Linh",
+		"TINHVT": "TinhQuangTri",
+		"HUYENVT": "HuyenGioLinh"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"MAHUYEN": "470",
+		"HUYEN": "Huyện Hải Lăng",
+		"TINHVT": "TinhQuangTri",
+		"HUYENVT": "HuyenHaiLang"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"MAHUYEN": "465",
+		"HUYEN": "Huyện Hướng Hóa",
+		"TINHVT": "TinhQuangTri",
+		"HUYENVT": "HuyenHuongHoa"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"MAHUYEN": "469",
+		"HUYEN": "Huyện Triệu Phong",
+		"TINHVT": "TinhQuangTri",
+		"HUYENVT": "HuyenTrieuPhong"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"MAHUYEN": "464",
+		"HUYEN": "Huyện Vĩnh Linh",
+		"TINHVT": "TinhQuangTri",
+		"HUYENVT": "HuyenVinhLinh"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"MAHUYEN": "461",
+		"HUYEN": "Thành phố Đông Hà",
+		"TINHVT": "TinhQuangTri",
+		"HUYENVT": "ThanhphoDongHa"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"MAHUYEN": "462",
+		"HUYEN": "Thị xã Quảng Trị",
+		"TINHVT": "TinhQuangTri",
+		"HUYENVT": "ThixaQuangTri"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "942",
+		"HUYEN": "Huyện Châu Thành",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "HuyenChauThanh"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "945",
+		"HUYEN": "Huyện Cù Lao Dung",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "HuyenCuLaoDung"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "943",
+		"HUYEN": "Huyện Kế Sách",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "HuyenKeSach"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "946",
+		"HUYEN": "Huyện Long Phú",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "HuyenLongPhu"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "944",
+		"HUYEN": "Huyện Mỹ Tú",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "HuyenMyTu"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "947",
+		"HUYEN": "Huyện Mỹ Xuyên",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "HuyenMyXuyen"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "949",
+		"HUYEN": "Huyện Thạnh Trị",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "HuyenThanhTri"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "951",
+		"HUYEN": "Huyện Trần Đề",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "HuyenTranDe"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "941",
+		"HUYEN": "Thành phố Sóc Trăng",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "ThanhphoSocTrang"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "948",
+		"HUYEN": "Thị xã Ngã Năm",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "ThixaNgaNam"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"MAHUYEN": "950",
+		"HUYEN": "Thị xã Vĩnh Châu",
+		"TINHVT": "TinhSocTrang",
+		"HUYENVT": "ThixaVinhChau"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "121",
+		"HUYEN": "Huyện Bắc Yên",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenBacYen"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "125",
+		"HUYEN": "Huyện Mai Sơn",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenMaiSon"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "123",
+		"HUYEN": "Huyện Mộc Châu",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenMocChau"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "120",
+		"HUYEN": "Huyện Mường La",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenMuongLa"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "122",
+		"HUYEN": "Huyện Phù Yên",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenPhuYen"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "118",
+		"HUYEN": "Huyện Quỳnh Nhai",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenQuynhNhai"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "126",
+		"HUYEN": "Huyện Sông Mã",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenSongMa"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "127",
+		"HUYEN": "Huyện Sốp Cộp",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenSopCop"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "119",
+		"HUYEN": "Huyện Thuận Châu",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenThuanChau"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "128",
+		"HUYEN": "Huyện Vân Hồ",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenVanHo"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "124",
+		"HUYEN": "Huyện Yên Châu",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "HuyenYenChau"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"MAHUYEN": "116",
+		"HUYEN": "Thành phố Sơn La",
+		"TINHVT": "TinhSonLa",
+		"HUYENVT": "ThanhphoSonLa"
+	},
+	{
+		"MATINH": "72",
+		"TINH": "Tỉnh Tây Ninh",
+		"MAHUYEN": "711",
+		"HUYEN": "Huyện Bến Cầu",
+		"TINHVT": "TinhTayNinh",
+		"HUYENVT": "HuyenBenCau"
+	},
+	{
+		"MATINH": "72",
+		"TINH": "Tỉnh Tây Ninh",
+		"MAHUYEN": "708",
+		"HUYEN": "Huyện Châu Thành",
+		"TINHVT": "TinhTayNinh",
+		"HUYENVT": "HuyenChauThanh"
+	},
+	{
+		"MATINH": "72",
+		"TINH": "Tỉnh Tây Ninh",
+		"MAHUYEN": "707",
+		"HUYEN": "Huyện Dương Minh Châu",
+		"TINHVT": "TinhTayNinh",
+		"HUYENVT": "HuyenDuongMinhChau"
+	},
+	{
+		"MATINH": "72",
+		"TINH": "Tỉnh Tây Ninh",
+		"MAHUYEN": "710",
+		"HUYEN": "Huyện Gò Dầu",
+		"TINHVT": "TinhTayNinh",
+		"HUYENVT": "HuyenGoDau"
+	},
+	{
+		"MATINH": "72",
+		"TINH": "Tỉnh Tây Ninh",
+		"MAHUYEN": "709",
+		"HUYEN": "Huyện Hòa Thành",
+		"TINHVT": "TinhTayNinh",
+		"HUYENVT": "HuyenHoaThanh"
+	},
+	{
+		"MATINH": "72",
+		"TINH": "Tỉnh Tây Ninh",
+		"MAHUYEN": "705",
+		"HUYEN": "Huyện Tân Biên",
+		"TINHVT": "TinhTayNinh",
+		"HUYENVT": "HuyenTanBien"
+	},
+	{
+		"MATINH": "72",
+		"TINH": "Tỉnh Tây Ninh",
+		"MAHUYEN": "706",
+		"HUYEN": "Huyện Tân Châu",
+		"TINHVT": "TinhTayNinh",
+		"HUYENVT": "HuyenTanChau"
+	},
+	{
+		"MATINH": "72",
+		"TINH": "Tỉnh Tây Ninh",
+		"MAHUYEN": "712",
+		"HUYEN": "Huyện Trảng Bàng",
+		"TINHVT": "TinhTayNinh",
+		"HUYENVT": "HuyenTrangBang"
+	},
+	{
+		"MATINH": "72",
+		"TINH": "Tỉnh Tây Ninh",
+		"MAHUYEN": "703",
+		"HUYEN": "Thành phố Tây Ninh",
+		"TINHVT": "TinhTayNinh",
+		"HUYENVT": "ThanhphoTayNinh"
+	},
+	{
+		"MATINH": "34",
+		"TINH": "Tỉnh Thái Bình",
+		"MAHUYEN": "340",
+		"HUYEN": "Huyện Đông Hưng",
+		"TINHVT": "TinhThaiBinh",
+		"HUYENVT": "HuyenDongHung"
+	},
+	{
+		"MATINH": "34",
+		"TINH": "Tỉnh Thái Bình",
+		"MAHUYEN": "339",
+		"HUYEN": "Huyện Hưng Hà",
+		"TINHVT": "TinhThaiBinh",
+		"HUYENVT": "HuyenHungHa"
+	},
+	{
+		"MATINH": "34",
+		"TINH": "Tỉnh Thái Bình",
+		"MAHUYEN": "343",
+		"HUYEN": "Huyện Kiến Xương",
+		"TINHVT": "TinhThaiBinh",
+		"HUYENVT": "HuyenKienXuong"
+	},
+	{
+		"MATINH": "34",
+		"TINH": "Tỉnh Thái Bình",
+		"MAHUYEN": "338",
+		"HUYEN": "Huyện Quỳnh Phụ",
+		"TINHVT": "TinhThaiBinh",
+		"HUYENVT": "HuyenQuynhPhu"
+	},
+	{
+		"MATINH": "34",
+		"TINH": "Tỉnh Thái Bình",
+		"MAHUYEN": "341",
+		"HUYEN": "Huyện Thái Thụy",
+		"TINHVT": "TinhThaiBinh",
+		"HUYENVT": "HuyenThaiThuy"
+	},
+	{
+		"MATINH": "34",
+		"TINH": "Tỉnh Thái Bình",
+		"MAHUYEN": "342",
+		"HUYEN": "Huyện Tiền Hải",
+		"TINHVT": "TinhThaiBinh",
+		"HUYENVT": "HuyenTienHai"
+	},
+	{
+		"MATINH": "34",
+		"TINH": "Tỉnh Thái Bình",
+		"MAHUYEN": "344",
+		"HUYEN": "Huyện Vũ Thư",
+		"TINHVT": "TinhThaiBinh",
+		"HUYENVT": "HuyenVuThu"
+	},
+	{
+		"MATINH": "34",
+		"TINH": "Tỉnh Thái Bình",
+		"MAHUYEN": "336",
+		"HUYEN": "Thành phố Thái Bình",
+		"TINHVT": "TinhThaiBinh",
+		"HUYENVT": "ThanhphoThaiBinh"
+	},
+	{
+		"MATINH": "19",
+		"TINH": "Tỉnh Thái Nguyên",
+		"MAHUYEN": "171",
+		"HUYEN": "Huyện Đại Từ",
+		"TINHVT": "TinhThaiNguyen",
+		"HUYENVT": "HuyenDaiTu"
+	},
+	{
+		"MATINH": "19",
+		"TINH": "Tỉnh Thái Nguyên",
+		"MAHUYEN": "167",
+		"HUYEN": "Huyện Định Hóa",
+		"TINHVT": "TinhThaiNguyen",
+		"HUYENVT": "HuyenDinhHoa"
+	},
+	{
+		"MATINH": "19",
+		"TINH": "Tỉnh Thái Nguyên",
+		"MAHUYEN": "169",
+		"HUYEN": "Huyện Đồng Hỷ",
+		"TINHVT": "TinhThaiNguyen",
+		"HUYENVT": "HuyenDongHy"
+	},
+	{
+		"MATINH": "19",
+		"TINH": "Tỉnh Thái Nguyên",
+		"MAHUYEN": "173",
+		"HUYEN": "Huyện Phú Bình",
+		"TINHVT": "TinhThaiNguyen",
+		"HUYENVT": "HuyenPhuBinh"
+	},
+	{
+		"MATINH": "19",
+		"TINH": "Tỉnh Thái Nguyên",
+		"MAHUYEN": "168",
+		"HUYEN": "Huyện Phú Lương",
+		"TINHVT": "TinhThaiNguyen",
+		"HUYENVT": "HuyenPhuLuong"
+	},
+	{
+		"MATINH": "19",
+		"TINH": "Tỉnh Thái Nguyên",
+		"MAHUYEN": "170",
+		"HUYEN": "Huyện Võ Nhai",
+		"TINHVT": "TinhThaiNguyen",
+		"HUYENVT": "HuyenVoNhai"
+	},
+	{
+		"MATINH": "19",
+		"TINH": "Tỉnh Thái Nguyên",
+		"MAHUYEN": "165",
+		"HUYEN": "Thành phố Sông Công",
+		"TINHVT": "TinhThaiNguyen",
+		"HUYENVT": "ThanhphoSongCong"
+	},
+	{
+		"MATINH": "19",
+		"TINH": "Tỉnh Thái Nguyên",
+		"MAHUYEN": "164",
+		"HUYEN": "Thành phố Thái Nguyên",
+		"TINHVT": "TinhThaiNguyen",
+		"HUYENVT": "ThanhphoThaiNguyen"
+	},
+	{
+		"MATINH": "19",
+		"TINH": "Tỉnh Thái Nguyên",
+		"MAHUYEN": "172",
+		"HUYEN": "Thị xã Phổ Yên",
+		"TINHVT": "TinhThaiNguyen",
+		"HUYENVT": "ThixaPhoYen"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "386",
+		"HUYEN": "Huyện Bá Thước",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenBaThuoc"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "390",
+		"HUYEN": "Huyện Cẩm Thủy",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenCamThuy"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "405",
+		"HUYEN": "Huyện Đông Sơn",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenDongSon"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "392",
+		"HUYEN": "Huyện Hà Trung",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenHaTrung"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "400",
+		"HUYEN": "Huyện Hậu Lộc",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenHauLoc"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "399",
+		"HUYEN": "Huyện Hoằng Hóa",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenHoangHoa"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "388",
+		"HUYEN": "Huyện Lang Chánh",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenLangChanh"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "384",
+		"HUYEN": "Huyện Mường Lát",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenMuongLat"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "401",
+		"HUYEN": "Huyện Nga Sơn",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenNgaSon"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "389",
+		"HUYEN": "Huyện Ngọc Lặc",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenNgocLac"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "403",
+		"HUYEN": "Huyện Như Thanh",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenNhuThanh"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "402",
+		"HUYEN": "Huyện Như Xuân",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenNhuXuan"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "404",
+		"HUYEN": "Huyện Nông Cống",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenNongCong"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "385",
+		"HUYEN": "Huyện Quan Hóa",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenQuanHoa"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "387",
+		"HUYEN": "Huyện Quan Sơn",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenQuanSon"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "406",
+		"HUYEN": "Huyện Quảng Xương",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenQuangXuong"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "391",
+		"HUYEN": "Huyện Thạch Thành",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenThachThanh"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "398",
+		"HUYEN": "Huyện Thiệu Hóa",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenThieuHoa"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "395",
+		"HUYEN": "Huyện Thọ Xuân",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenThoXuan"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "396",
+		"HUYEN": "Huyện Thường Xuân",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenThuongXuan"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "407",
+		"HUYEN": "Huyện Tĩnh Gia",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenTinhGia"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "397",
+		"HUYEN": "Huyện Triệu Sơn",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenTrieuSon"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "393",
+		"HUYEN": "Huyện Vĩnh Lộc",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenVinhLoc"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "394",
+		"HUYEN": "Huyện Yên Định",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "HuyenYenDinh"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "382",
+		"HUYEN": "Thành phố Sầm Sơn",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "ThanhphoSamSon"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "380",
+		"HUYEN": "Thành phố Thanh Hóa",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "ThanhphoThanhHoa"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"MAHUYEN": "381",
+		"HUYEN": "Thị xã Bỉm Sơn",
+		"TINHVT": "TinhThanhHoa",
+		"HUYENVT": "ThixaBimSon"
+	},
+	{
+		"MATINH": "46",
+		"TINH": "Tỉnh Thừa Thiên Huế",
+		"MAHUYEN": "481",
+		"HUYEN": "Huyện A Lưới",
+		"TINHVT": "TinhThuaThienHue",
+		"HUYENVT": "HuyenALuoi"
+	},
+	{
+		"MATINH": "46",
+		"TINH": "Tỉnh Thừa Thiên Huế",
+		"MAHUYEN": "483",
+		"HUYEN": "Huyện Nam Đông",
+		"TINHVT": "TinhThuaThienHue",
+		"HUYENVT": "HuyenNamDong"
+	},
+	{
+		"MATINH": "46",
+		"TINH": "Tỉnh Thừa Thiên Huế",
+		"MAHUYEN": "476",
+		"HUYEN": "Huyện Phong Điền",
+		"TINHVT": "TinhThuaThienHue",
+		"HUYENVT": "HuyenPhongDien"
+	},
+	{
+		"MATINH": "46",
+		"TINH": "Tỉnh Thừa Thiên Huế",
+		"MAHUYEN": "482",
+		"HUYEN": "Huyện Phú Lộc",
+		"TINHVT": "TinhThuaThienHue",
+		"HUYENVT": "HuyenPhuLoc"
+	},
+	{
+		"MATINH": "46",
+		"TINH": "Tỉnh Thừa Thiên Huế",
+		"MAHUYEN": "478",
+		"HUYEN": "Huyện Phú Vang",
+		"TINHVT": "TinhThuaThienHue",
+		"HUYENVT": "HuyenPhuVang"
+	},
+	{
+		"MATINH": "46",
+		"TINH": "Tỉnh Thừa Thiên Huế",
+		"MAHUYEN": "477",
+		"HUYEN": "Huyện Quảng Điền",
+		"TINHVT": "TinhThuaThienHue",
+		"HUYENVT": "HuyenQuangDien"
+	},
+	{
+		"MATINH": "46",
+		"TINH": "Tỉnh Thừa Thiên Huế",
+		"MAHUYEN": "474",
+		"HUYEN": "Thành phố Huế",
+		"TINHVT": "TinhThuaThienHue",
+		"HUYENVT": "ThanhphoHue"
+	},
+	{
+		"MATINH": "46",
+		"TINH": "Tỉnh Thừa Thiên Huế",
+		"MAHUYEN": "479",
+		"HUYEN": "Thị xã Hương Thủy",
+		"TINHVT": "TinhThuaThienHue",
+		"HUYENVT": "ThixaHuongThuy"
+	},
+	{
+		"MATINH": "46",
+		"TINH": "Tỉnh Thừa Thiên Huế",
+		"MAHUYEN": "480",
+		"HUYEN": "Thị xã Hương Trà",
+		"TINHVT": "TinhThuaThienHue",
+		"HUYENVT": "ThixaHuongTra"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "819",
+		"HUYEN": "Huyện Cái Bè",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "HuyenCaiBe"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "820",
+		"HUYEN": "Huyện Cai Lậy",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "HuyenCaiLay"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "821",
+		"HUYEN": "Huyện Châu Thành",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "HuyenChauThanh"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "822",
+		"HUYEN": "Huyện Chợ Gạo",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "HuyenChoGao"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "824",
+		"HUYEN": "Huyện Gò Công Đông",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "HuyenGoCongDong"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "823",
+		"HUYEN": "Huyện Gò Công Tây",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "HuyenGoCongTay"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "825",
+		"HUYEN": "Huyện Tân Phú Đông",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "HuyenTanPhuDong"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "818",
+		"HUYEN": "Huyện Tân Phước",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "HuyenTanPhuoc"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "815",
+		"HUYEN": "Thành phố Mỹ Tho",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "ThanhphoMyTho"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "817",
+		"HUYEN": "Thị xã Cai Lậy",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "ThixaCaiLay"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"MAHUYEN": "816",
+		"HUYEN": "Thị xã Gò Công",
+		"TINHVT": "TinhTienGiang",
+		"HUYENVT": "ThixaGoCong"
+	},
+	{
+		"MATINH": "84",
+		"TINH": "Tỉnh Trà Vinh",
+		"MAHUYEN": "844",
+		"HUYEN": "Huyện Càng Long",
+		"TINHVT": "TinhTraVinh",
+		"HUYENVT": "HuyenCangLong"
+	},
+	{
+		"MATINH": "84",
+		"TINH": "Tỉnh Trà Vinh",
+		"MAHUYEN": "845",
+		"HUYEN": "Huyện Cầu Kè",
+		"TINHVT": "TinhTraVinh",
+		"HUYENVT": "HuyenCauKe"
+	},
+	{
+		"MATINH": "84",
+		"TINH": "Tỉnh Trà Vinh",
+		"MAHUYEN": "848",
+		"HUYEN": "Huyện Cầu Ngang",
+		"TINHVT": "TinhTraVinh",
+		"HUYENVT": "HuyenCauNgang"
+	},
+	{
+		"MATINH": "84",
+		"TINH": "Tỉnh Trà Vinh",
+		"MAHUYEN": "847",
+		"HUYEN": "Huyện Châu Thành",
+		"TINHVT": "TinhTraVinh",
+		"HUYENVT": "HuyenChauThanh"
+	},
+	{
+		"MATINH": "84",
+		"TINH": "Tỉnh Trà Vinh",
+		"MAHUYEN": "850",
+		"HUYEN": "Huyện Duyên Hải",
+		"TINHVT": "TinhTraVinh",
+		"HUYENVT": "HuyenDuyenHai"
+	},
+	{
+		"MATINH": "84",
+		"TINH": "Tỉnh Trà Vinh",
+		"MAHUYEN": "846",
+		"HUYEN": "Huyện Tiểu Cần",
+		"TINHVT": "TinhTraVinh",
+		"HUYENVT": "HuyenTieuCan"
+	},
+	{
+		"MATINH": "84",
+		"TINH": "Tỉnh Trà Vinh",
+		"MAHUYEN": "849",
+		"HUYEN": "Huyện Trà Cú",
+		"TINHVT": "TinhTraVinh",
+		"HUYENVT": "HuyenTraCu"
+	},
+	{
+		"MATINH": "84",
+		"TINH": "Tỉnh Trà Vinh",
+		"MAHUYEN": "842",
+		"HUYEN": "Thành phố Trà Vinh",
+		"TINHVT": "TinhTraVinh",
+		"HUYENVT": "ThanhphoTraVinh"
+	},
+	{
+		"MATINH": "84",
+		"TINH": "Tỉnh Trà Vinh",
+		"MAHUYEN": "851",
+		"HUYEN": "Thị xã Duyên Hải",
+		"TINHVT": "TinhTraVinh",
+		"HUYENVT": "ThixaDuyenHai"
+	},
+	{
+		"MATINH": "8",
+		"TINH": "Tỉnh Tuyên Quang",
+		"MAHUYEN": "73",
+		"HUYEN": "Huyện Chiêm Hóa",
+		"TINHVT": "TinhTuyenQuang",
+		"HUYENVT": "HuyenChiemHoa"
+	},
+	{
+		"MATINH": "8",
+		"TINH": "Tỉnh Tuyên Quang",
+		"MAHUYEN": "74",
+		"HUYEN": "Huyện Hàm Yên",
+		"TINHVT": "TinhTuyenQuang",
+		"HUYENVT": "HuyenHamYen"
+	},
+	{
+		"MATINH": "8",
+		"TINH": "Tỉnh Tuyên Quang",
+		"MAHUYEN": "71",
+		"HUYEN": "Huyện Lâm Bình",
+		"TINHVT": "TinhTuyenQuang",
+		"HUYENVT": "HuyenLamBinh"
+	},
+	{
+		"MATINH": "8",
+		"TINH": "Tỉnh Tuyên Quang",
+		"MAHUYEN": "72",
+		"HUYEN": "Huyện Na Hang",
+		"TINHVT": "TinhTuyenQuang",
+		"HUYENVT": "HuyenNaHang"
+	},
+	{
+		"MATINH": "8",
+		"TINH": "Tỉnh Tuyên Quang",
+		"MAHUYEN": "76",
+		"HUYEN": "Huyện Sơn Dương",
+		"TINHVT": "TinhTuyenQuang",
+		"HUYENVT": "HuyenSonDuong"
+	},
+	{
+		"MATINH": "8",
+		"TINH": "Tỉnh Tuyên Quang",
+		"MAHUYEN": "75",
+		"HUYEN": "Huyện Yên Sơn",
+		"TINHVT": "TinhTuyenQuang",
+		"HUYENVT": "HuyenYenSon"
+	},
+	{
+		"MATINH": "8",
+		"TINH": "Tỉnh Tuyên Quang",
+		"MAHUYEN": "70",
+		"HUYEN": "Thành phố Tuyên Quang",
+		"TINHVT": "TinhTuyenQuang",
+		"HUYENVT": "ThanhphoTuyenQuang"
+	},
+	{
+		"MATINH": "86",
+		"TINH": "Tỉnh Vĩnh Long",
+		"MAHUYEN": "859",
+		"HUYEN": "Huyện Vũng Liêm",
+		"TINHVT": "TinhVinhLong",
+		"HUYENVT": "HuyenVungLiem"
+	},
+	{
+		"MATINH": "86",
+		"TINH": "Tỉnh Vĩnh Long",
+		"MAHUYEN": "863",
+		"HUYEN": "Huyện Bình Tân",
+		"TINHVT": "TinhVinhLong",
+		"HUYENVT": "HuyenBinhTan"
+	},
+	{
+		"MATINH": "86",
+		"TINH": "Tỉnh Vĩnh Long",
+		"MAHUYEN": "857",
+		"HUYEN": "Huyện Long Hồ",
+		"TINHVT": "TinhVinhLong",
+		"HUYENVT": "HuyenLongHo"
+	},
+	{
+		"MATINH": "86",
+		"TINH": "Tỉnh Vĩnh Long",
+		"MAHUYEN": "858",
+		"HUYEN": "Huyện Mang Thít",
+		"TINHVT": "TinhVinhLong",
+		"HUYENVT": "HuyenMangThit"
+	},
+	{
+		"MATINH": "86",
+		"TINH": "Tỉnh Vĩnh Long",
+		"MAHUYEN": "860",
+		"HUYEN": "Huyện Tam Bình",
+		"TINHVT": "TinhVinhLong",
+		"HUYENVT": "HuyenTamBinh"
+	},
+	{
+		"MATINH": "86",
+		"TINH": "Tỉnh Vĩnh Long",
+		"MAHUYEN": "862",
+		"HUYEN": "Huyện Trà Ôn",
+		"TINHVT": "TinhVinhLong",
+		"HUYENVT": "HuyenTraOn"
+	},
+	{
+		"MATINH": "86",
+		"TINH": "Tỉnh Vĩnh Long",
+		"MAHUYEN": "855",
+		"HUYEN": "Thành phố Vĩnh Long",
+		"TINHVT": "TinhVinhLong",
+		"HUYENVT": "ThanhphoVinhLong"
+	},
+	{
+		"MATINH": "86",
+		"TINH": "Tỉnh Vĩnh Long",
+		"MAHUYEN": "861",
+		"HUYEN": "Thị xã Bình Minh",
+		"TINHVT": "TinhVinhLong",
+		"HUYENVT": "ThixaBinhMinh"
+	},
+	{
+		"MATINH": "26",
+		"TINH": "Tỉnh Vĩnh Phúc",
+		"MAHUYEN": "249",
+		"HUYEN": "Huyện Bình Xuyên",
+		"TINHVT": "TinhVinhPhuc",
+		"HUYENVT": "HuyenBinhXuyen"
+	},
+	{
+		"MATINH": "26",
+		"TINH": "Tỉnh Vĩnh Phúc",
+		"MAHUYEN": "246",
+		"HUYEN": "Huyện Lập Thạch",
+		"TINHVT": "TinhVinhPhuc",
+		"HUYENVT": "HuyenLapThach"
+	},
+	{
+		"MATINH": "26",
+		"TINH": "Tỉnh Vĩnh Phúc",
+		"MAHUYEN": "253",
+		"HUYEN": "Huyện Sông Lô",
+		"TINHVT": "TinhVinhPhuc",
+		"HUYENVT": "HuyenSongLo"
+	},
+	{
+		"MATINH": "26",
+		"TINH": "Tỉnh Vĩnh Phúc",
+		"MAHUYEN": "248",
+		"HUYEN": "Huyện Tam Đảo",
+		"TINHVT": "TinhVinhPhuc",
+		"HUYENVT": "HuyenTamDao"
+	},
+	{
+		"MATINH": "26",
+		"TINH": "Tỉnh Vĩnh Phúc",
+		"MAHUYEN": "247",
+		"HUYEN": "Huyện Tam Dương",
+		"TINHVT": "TinhVinhPhuc",
+		"HUYENVT": "HuyenTamDuong"
+	},
+	{
+		"MATINH": "26",
+		"TINH": "Tỉnh Vĩnh Phúc",
+		"MAHUYEN": "252",
+		"HUYEN": "Huyện Vĩnh Tường",
+		"TINHVT": "TinhVinhPhuc",
+		"HUYENVT": "HuyenVinhTuong"
+	},
+	{
+		"MATINH": "26",
+		"TINH": "Tỉnh Vĩnh Phúc",
+		"MAHUYEN": "251",
+		"HUYEN": "Huyện Yên Lạc",
+		"TINHVT": "TinhVinhPhuc",
+		"HUYENVT": "HuyenYenLac"
+	},
+	{
+		"MATINH": "26",
+		"TINH": "Tỉnh Vĩnh Phúc",
+		"MAHUYEN": "243",
+		"HUYEN": "Thành phố Vĩnh Yên",
+		"TINHVT": "TinhVinhPhuc",
+		"HUYENVT": "ThanhphoVinhYen"
+	},
+	{
+		"MATINH": "26",
+		"TINH": "Tỉnh Vĩnh Phúc",
+		"MAHUYEN": "244",
+		"HUYEN": "Thị xã Phúc Yên",
+		"TINHVT": "TinhVinhPhuc",
+		"HUYENVT": "ThixaPhucYen"
+	},
+	{
+		"MATINH": "15",
+		"TINH": "Tỉnh Yên Bái",
+		"MAHUYEN": "135",
+		"HUYEN": "Huyện Lục Yên",
+		"TINHVT": "TinhYenBai",
+		"HUYENVT": "HuyenLucYen"
+	},
+	{
+		"MATINH": "15",
+		"TINH": "Tỉnh Yên Bái",
+		"MAHUYEN": "137",
+		"HUYEN": "Huyện Mù Căng Chải",
+		"TINHVT": "TinhYenBai",
+		"HUYENVT": "HuyenMuCangChai"
+	},
+	{
+		"MATINH": "15",
+		"TINH": "Tỉnh Yên Bái",
+		"MAHUYEN": "139",
+		"HUYEN": "Huyện Trạm Tấu",
+		"TINHVT": "TinhYenBai",
+		"HUYENVT": "HuyenTramTau"
+	},
+	{
+		"MATINH": "15",
+		"TINH": "Tỉnh Yên Bái",
+		"MAHUYEN": "138",
+		"HUYEN": "Huyện Trấn Yên",
+		"TINHVT": "TinhYenBai",
+		"HUYENVT": "HuyenTranYen"
+	},
+	{
+		"MATINH": "15",
+		"TINH": "Tỉnh Yên Bái",
+		"MAHUYEN": "140",
+		"HUYEN": "Huyện Văn Chấn",
+		"TINHVT": "TinhYenBai",
+		"HUYENVT": "HuyenVanChan"
+	},
+	{
+		"MATINH": "15",
+		"TINH": "Tỉnh Yên Bái",
+		"MAHUYEN": "136",
+		"HUYEN": "Huyện Văn Yên",
+		"TINHVT": "TinhYenBai",
+		"HUYENVT": "HuyenVanYen"
+	},
+	{
+		"MATINH": "15",
+		"TINH": "Tỉnh Yên Bái",
+		"MAHUYEN": "141",
+		"HUYEN": "Huyện Yên Bình",
+		"TINHVT": "TinhYenBai",
+		"HUYENVT": "HuyenYenBinh"
+	},
+	{
+		"MATINH": "15",
+		"TINH": "Tỉnh Yên Bái",
+		"MAHUYEN": "132",
+		"HUYEN": "Thành phố Yên Bái",
+		"TINHVT": "TinhYenBai",
+		"HUYENVT": "ThanhphoYenBai"
+	},
+	{
+		"MATINH": "15",
+		"TINH": "Tỉnh Yên Bái",
+		"MAHUYEN": "133",
+		"HUYEN": "Thị xã Nghĩa Lộ",
+		"TINHVT": "TinhYenBai",
+		"HUYENVT": "ThixaNghiaLo"
+	}
+]

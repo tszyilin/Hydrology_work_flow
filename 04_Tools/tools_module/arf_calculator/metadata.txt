@@ -1,0 +1,17 @@
+[general]
+name=ARF Calculator
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Compute the ARR2019 Areal Reduction Factor for a catchment given region, area, duration and AEP. Single-value, batch-CSV and ARF-vs-duration plot modes.
+version=1.0.0
+author=User
+email=user@example.com
+about=Port of Tony Ladson's ARR2019 ARF Shiny app (https://hydrotools.shinyapps.io/ARR2019_ARF/). Implements ARR2019 Book 2 Chapter 4: long-duration regional equations for durations >= 24 h, short-duration national equations for durations <= 12 h, and interpolation for small areas (<10 km²) and mid-range durations (12-24 h). Batch mode processes a CSV of (area, duration, aep, [region]) rows.
+tracker=
+repository=
+tags=hydrology,arf,rainfall,areal reduction factor,arr2019,design flood
+homepage=
+category=Analysis
+icon=
+experimental=False
+deprecated=False

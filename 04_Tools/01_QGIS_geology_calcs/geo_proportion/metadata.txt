@@ -1,0 +1,17 @@
+[general]
+name=Geology Calculator
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Calculate the area and percentage of each geology type within each sub-catchment polygon. Outputs a CSV summary table for use in hydrology rainfall-runoff parameterisation.
+version=1.0.0
+author=User
+email=user@example.com
+about=Automates the geological proportion per sub-catchment workflow: intersects a geology polygon layer with sub-catchment polygons, calculates ellipsoidal areas, groups by geology type and sub-catchment ID, and exports a summary CSV with area (ha) and percentage columns.
+tracker=
+repository=
+tags=geology,hydrology,catchment,intersection,area,proportion
+homepage=
+category=Analysis
+icon=
+experimental=False
+deprecated=False

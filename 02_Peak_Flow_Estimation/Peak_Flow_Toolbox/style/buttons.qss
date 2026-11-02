@@ -1,0 +1,23 @@
+QPushButton {
+    padding: 4px 10px;
+    border: 1px solid #b0b7bd;
+    border-radius: 3px;
+    background: #f4f6f8;
+}
+QPushButton:hover  { background: #e6ecf1; }
+QPushButton:pressed{ background: #d6dee5; }
+QPushButton:disabled { color: #999; background: #eee; }
+
+QGroupBox {
+    border: 1px solid #c8ced3;
+    border-radius: 4px;
+    margin-top: 8px;
+    padding-top: 6px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 8px;
+    padding: 0 4px;
+    color: #12222f;
+    font-weight: 600;
+}

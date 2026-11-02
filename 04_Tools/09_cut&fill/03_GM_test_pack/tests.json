@@ -1,0 +1,134 @@
+[
+  {
+    "id": "T01",
+    "title": "Flat, 1 km square, MGA55 on the central meridian, 25 S",
+    "probes": "area model (latitude / distance from central meridian)",
+    "epsg": 7855,
+    "cell": 10.0,
+    "base_from": 1,
+    "base_to": 3,
+    "base_step": 1,
+    "folder": "T01"
+  },
+  {
+    "id": "T02",
+    "title": "Flat, 1 km square, MGA55 300 km east of the central meridian, 25 S",
+    "probes": "area model (latitude / distance from central meridian)",
+    "epsg": 7855,
+    "cell": 10.0,
+    "base_from": 1,
+    "base_to": 3,
+    "base_step": 1,
+    "folder": "T02"
+  },
+  {
+    "id": "T03",
+    "title": "Flat, 1 km square, MGA55 on the central meridian, 40 S",
+    "probes": "area model (latitude / distance from central meridian)",
+    "epsg": 7855,
+    "cell": 10.0,
+    "base_from": 1,
+    "base_to": 3,
+    "base_step": 1,
+    "folder": "T03"
+  },
+  {
+    "id": "T04",
+    "title": "Flat, 1 km square, MGA55 on the central meridian, 10 S",
+    "probes": "area model (latitude / distance from central meridian)",
+    "epsg": 7855,
+    "cell": 10.0,
+    "base_from": 1,
+    "base_to": 3,
+    "base_step": 1,
+    "folder": "T04"
+  },
+  {
+    "id": "T05",
+    "title": "Flat, 0.01 deg square, geographic GDA2020 (EPSG:7844), 25 S",
+    "probes": "area model in a geographic CRS",
+    "epsg": 7844,
+    "cell": 0.0001,
+    "base_from": 1,
+    "base_to": 3,
+    "base_step": 1,
+    "folder": "T05"
+  },
+  {
+    "id": "T06",
+    "title": "Flat, 1 km square in Web Mercator (EPSG:3857), 40 S",
+    "probes": "area model in a strongly distorted projection (Mercator scale 1.31 at 40 S)",
+    "epsg": 3857,
+    "cell": 10.0,
+    "base_from": 1,
+    "base_to": 3,
+    "base_step": 1,
+    "folder": "T06"
+  },
+  {
+    "id": "T07",
+    "title": "Single 10 m spike in one 10 m cell, 200 m square",
+    "probes": "interpolation (bilinear vs nearest vs triangles), spacing 1 m",
+    "epsg": 7855,
+    "cell": 10.0,
+    "base_from": 0,
+    "base_to": 10,
+    "base_step": 1,
+    "folder": "T07"
+  },
+  {
+    "id": "T08",
+    "title": "Egg-crate surface (sin x . sin y), wavelength 40 m, 10 m DEM, 400 m square",
+    "probes": "interpolation (bilinear vs triangles, which diagonal) and 3D area, spacing 2 m",
+    "epsg": 7855,
+    "cell": 10.0,
+    "base_from": 5,
+    "base_to": 15,
+    "base_step": 1,
+    "folder": "T08"
+  },
+  {
+    "id": "T09",
+    "title": "Tilted plane, 10 % slope, 1 km square",
+    "probes": "3D area scale (exact answer: plan area x sqrt(1.01))",
+    "epsg": 7855,
+    "cell": 10.0,
+    "base_from": 150,
+    "base_to": 250,
+    "base_step": 10,
+    "folder": "T09"
+  },
+  {
+    "id": "T10",
+    "title": "Egg-crate surface, wavelength 80 m, coarse 20 m DEM, 1 km square",
+    "probes": "coarse-DEM integration (the Example 1 puzzle), spacing 5 m",
+    "epsg": 7855,
+    "cell": 20.0,
+    "base_from": 5,
+    "base_to": 15,
+    "base_step": 1,
+    "folder": "T10"
+  },
+  {
+    "id": "T11",
+    "title": "Flat, circle radius 200 m (720 vertices)",
+    "probes": "boundary: exact polygon area vs whole samples, spacing 2 m",
+    "epsg": 7855,
+    "cell": 10.0,
+    "base_from": 1,
+    "base_to": 3,
+    "base_step": 1,
+    "folder": "T11"
+  },
+  {
+    "id": "T12",
+    "title": "Flat, thin strip 2000 m x 50 m",
+    "probes": "spacing rule on a very elongated polygon (expect 0.25 m) and boundary",
+    "epsg": 7855,
+    "cell": 10.0,
+    "base_from": 1,
+    "base_to": 3,
+    "base_step": 1,
+    "folder": "T12"
+  }
+]

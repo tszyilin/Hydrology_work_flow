@@ -1,0 +1,18 @@
+[general]
+name=RFFE Query
+qgisMinimumVersion=3.22
+qgisMaximumVersion=3.99
+description=Query the RFFE 2021 regional flood frequency model for a catchment picked on the map.
+version=0.1.0
+author=Jordan Gois
+email=jordygoose02@gmail.com
+about=Runs the RFFE 2021 model (rffe-2021.wmawater.com.au) without leaving QGIS. Pick the catchment outlet and centroid directly on the map canvas in any project CRS, enter the catchment area, and get design flood estimates for the 50%, 20%, 10%, 5%, 2% and 1% AEPs with 90% confidence limits. Results are written to a chosen output folder as CSV and JSON, and loaded into the project as layers: the fitted catchment polygon, outlet/centroid points carrying the recommended model's flows, and the gauged stations the regional models were fitted from (with record lengths, distances and at-site flood frequency curves) so you can judge how well constrained the estimate is. Requires an internet connection; no login or API key. Note the RFFE website's own dataset zip download is currently broken server-side, so catchment/stream shapefiles and map images are unavailable - the station data is recovered by other means.
+tracker=https://example.invalid/rffe_query/issues
+repository=https://example.invalid/rffe_query
+homepage=https://rffe-2021.wmawater.com.au/
+tags=hydrology,flood,rffe,frequency analysis,arr,australia
+category=Plugins
+icon=icons/rffe.svg
+experimental=True
+deprecated=False
+hasProcessingProvider=no

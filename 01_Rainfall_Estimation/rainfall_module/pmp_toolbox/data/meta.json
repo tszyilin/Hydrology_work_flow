@@ -1,0 +1,17 @@
+{
+ "cellsize": 0.05,
+ "top_lat": -9.990000000000004,
+ "left_lon": 109.99,
+ "nodata": -32768,
+ "scale": {
+  "epw_summer": 100.0,
+  "epw_winter": 100.0,
+  "taf": 10000.0,
+  "daf": 10000.0
+ },
+ "shape": [
+  681,
+  961
+ ],
+ "source": "BoM GTSMR CD (Sept 2005) gridded_data, resampled to 0.05 deg"
+}

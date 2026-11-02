@@ -1,0 +1,317 @@
+[
+	{
+		"MATINH": "92",
+		"TINH": "Thành phố Cần Thơ",
+		"TINHVT": "ThanhphoCanTho"
+	},
+	{
+		"MATINH": "48",
+		"TINH": "Thành phố Đà Nẵng",
+		"TINHVT": "ThanhphoDaNang"
+	},
+	{
+		"MATINH": "1",
+		"TINH": "Thành phố Hà Nội",
+		"TINHVT": "ThanhphoHaNoi"
+	},
+	{
+		"MATINH": "31",
+		"TINH": "Thành phố Hải Phòng",
+		"TINHVT": "ThanhphoHaiPhong"
+	},
+	{
+		"MATINH": "79",
+		"TINH": "Thành phố Hồ Chí Minh",
+		"TINHVT": "ThanhphoHoChiMinh"
+	},
+	{
+		"MATINH": "89",
+		"TINH": "Tỉnh An Giang",
+		"TINHVT": "TinhAnGiang"
+	},
+	{
+		"MATINH": "77",
+		"TINH": "Tỉnh Bà Rịa - Vũng Tàu",
+		"TINHVT": "TinhBaRia-VungTau"
+	},
+	{
+		"MATINH": "24",
+		"TINH": "Tỉnh Bắc Giang",
+		"TINHVT": "TinhBacGiang"
+	},
+	{
+		"MATINH": "6",
+		"TINH": "Tỉnh Bắc Kạn",
+		"TINHVT": "TinhBacKan"
+	},
+	{
+		"MATINH": "95",
+		"TINH": "Tỉnh Bạc Liêu",
+		"TINHVT": "TinhBacLieu"
+	},
+	{
+		"MATINH": "27",
+		"TINH": "Tỉnh Bắc Ninh",
+		"TINHVT": "TinhBacNinh"
+	},
+	{
+		"MATINH": "83",
+		"TINH": "Tỉnh Bến Tre",
+		"TINHVT": "TinhBenTre"
+	},
+	{
+		"MATINH": "52",
+		"TINH": "Tỉnh Bình Định",
+		"TINHVT": "TinhBinhDinh"
+	},
+	{
+		"MATINH": "74",
+		"TINH": "Tỉnh Bình Dương",
+		"TINHVT": "TinhBinhDuong"
+	},
+	{
+		"MATINH": "70",
+		"TINH": "Tỉnh Bình Phước",
+		"TINHVT": "TinhBinhPhuoc"
+	},
+	{
+		"MATINH": "60",
+		"TINH": "Tỉnh Bình Thuận",
+		"TINHVT": "TinhBinhThuan"
+	},
+	{
+		"MATINH": "96",
+		"TINH": "Tỉnh Cà Mau",
+		"TINHVT": "TinhCaMau"
+	},
+	{
+		"MATINH": "4",
+		"TINH": "Tỉnh Cao Bằng",
+		"TINHVT": "TinhCaoBang"
+	},
+	{
+		"MATINH": "66",
+		"TINH": "Tỉnh Đắk Lắk",
+		"TINHVT": "TinhDakLak"
+	},
+	{
+		"MATINH": "67",
+		"TINH": "Tỉnh Đắk Nông",
+		"TINHVT": "TinhDakNong"
+	},
+	{
+		"MATINH": "11",
+		"TINH": "Tỉnh Điện Biên",
+		"TINHVT": "TinhDienBien"
+	},
+	{
+		"MATINH": "75",
+		"TINH": "Tỉnh Đồng Nai",
+		"TINHVT": "TinhDongNai"
+	},
+	{
+		"MATINH": "87",
+		"TINH": "Tỉnh Đồng Tháp",
+		"TINHVT": "TinhDongThap"
+	},
+	{
+		"MATINH": "64",
+		"TINH": "Tỉnh Gia Lai",
+		"TINHVT": "TinhGiaLai"
+	},
+	{
+		"MATINH": "2",
+		"TINH": "Tỉnh Hà Giang",
+		"TINHVT": "TinhHaGiang"
+	},
+	{
+		"MATINH": "35",
+		"TINH": "Tỉnh Hà Nam",
+		"TINHVT": "TinhHaNam"
+	},
+	{
+		"MATINH": "42",
+		"TINH": "Tỉnh Hà Tĩnh",
+		"TINHVT": "TinhHaTinh"
+	},
+	{
+		"MATINH": "30",
+		"TINH": "Tỉnh Hải Dương",
+		"TINHVT": "TinhHaiDuong"
+	},
+	{
+		"MATINH": "93",
+		"TINH": "Tỉnh Hậu Giang",
+		"TINHVT": "TinhHauGiang"
+	},
+	{
+		"MATINH": "17",
+		"TINH": "Tỉnh Hoà Bình",
+		"TINHVT": "TinhHoaBinh"
+	},
+	{
+		"MATINH": "33",
+		"TINH": "Tỉnh Hưng Yên",
+		"TINHVT": "TinhHungYen"
+	},
+	{
+		"MATINH": "56",
+		"TINH": "Tỉnh Khánh Hòa",
+		"TINHVT": "TinhKhanhHoa"
+	},
+	{
+		"MATINH": "91",
+		"TINH": "Tỉnh Kiên Giang",
+		"TINHVT": "TinhKienGiang"
+	},
+	{
+		"MATINH": "62",
+		"TINH": "Tỉnh Kon Tum",
+		"TINHVT": "TinhKonTum"
+	},
+	{
+		"MATINH": "12",
+		"TINH": "Tỉnh Lai Châu",
+		"TINHVT": "TinhLaiChau"
+	},
+	{
+		"MATINH": "68",
+		"TINH": "Tỉnh Lâm Đồng",
+		"TINHVT": "TinhLamDong"
+	},
+	{
+		"MATINH": "20",
+		"TINH": "Tỉnh Lạng Sơn",
+		"TINHVT": "TinhLangSon"
+	},
+	{
+		"MATINH": "10",
+		"TINH": "Tỉnh Lào Cai",
+		"TINHVT": "TinhLaoCai"
+	},
+	{
+		"MATINH": "80",
+		"TINH": "Tỉnh Long An",
+		"TINHVT": "TinhLongAn"
+	},
+	{
+		"MATINH": "36",
+		"TINH": "Tỉnh Nam Định",
+		"TINHVT": "TinhNamDinh"
+	},
+	{
+		"MATINH": "40",
+		"TINH": "Tỉnh Nghệ An",
+		"TINHVT": "TinhNgheAn"
+	},
+	{
+		"MATINH": "37",
+		"TINH": "Tỉnh Ninh Bình",
+		"TINHVT": "TinhNinhBinh"
+	},
+	{
+		"MATINH": "58",
+		"TINH": "Tỉnh Ninh Thuận",
+		"TINHVT": "TinhNinhThuan"
+	},
+	{
+		"MATINH": "25",
+		"TINH": "Tỉnh Phú Thọ",
+		"TINHVT": "TinhPhuTho"
+	},
+	{
+		"MATINH": "54",
+		"TINH": "Tỉnh Phú Yên",
+		"TINHVT": "TinhPhuYen"
+	},
+	{
+		"MATINH": "44",
+		"TINH": "Tỉnh Quảng Bình",
+		"TINHVT": "TinhQuangBinh"
+	},
+	{
+		"MATINH": "49",
+		"TINH": "Tỉnh Quảng Nam",
+		"TINHVT": "TinhQuangNam"
+	},
+	{
+		"MATINH": "51",
+		"TINH": "Tỉnh Quảng Ngãi",
+		"TINHVT": "TinhQuangNgai"
+	},
+	{
+		"MATINH": "22",
+		"TINH": "Tỉnh Quảng Ninh",
+		"TINHVT": "TinhQuangNinh"
+	},
+	{
+		"MATINH": "45",
+		"TINH": "Tỉnh Quảng Trị",
+		"TINHVT": "TinhQuangTri"
+	},
+	{
+		"MATINH": "94",
+		"TINH": "Tỉnh Sóc Trăng",
+		"TINHVT": "TinhSocTrang"
+	},
+	{
+		"MATINH": "14",
+		"TINH": "Tỉnh Sơn La",
+		"TINHVT": "TinhSonLa"
+	},
+	{
+		"MATINH": "72",
+		"TINH": "Tỉnh Tây Ninh",
+		"TINHVT": "TinhTayNinh"
+	},
+	{
+		"MATINH": "34",
+		"TINH": "Tỉnh Thái Bình",
+		"TINHVT": "TinhThaiBinh"
+	},
+	{
+		"MATINH": "19",
+		"TINH": "Tỉnh Thái Nguyên",
+		"TINHVT": "TinhThaiNguyen"
+	},
+	{
+		"MATINH": "38",
+		"TINH": "Tỉnh Thanh Hóa",
+		"TINHVT": "TinhThanhHoa"
+	},
+	{
+		"MATINH": "46",
+		"TINH": "Tỉnh Thừa Thiên Huế",
+		"TINHVT": "TinhThuaThienHue"
+	},
+	{
+		"MATINH": "82",
+		"TINH": "Tỉnh Tiền Giang",
+		"TINHVT": "TinhTienGiang"
+	},
+	{
+		"MATINH": "84",
+		"TINH": "Tỉnh Trà Vinh",
+		"TINHVT": "TinhTraVinh"
+	},
+	{
+		"MATINH": "8",
+		"TINH": "Tỉnh Tuyên Quang",
+		"TINHVT": "TinhTuyenQuang"
+	},
+	{
+		"MATINH": "86",
+		"TINH": "Tỉnh Vĩnh Long",
+		"TINHVT": "TinhVinhLong"
+	},
+	{
+		"MATINH": "26",
+		"TINH": "Tỉnh Vĩnh Phúc",
+		"TINHVT": "TinhVinhPhuc"
+	},
+	{
+		"MATINH": "15",
+		"TINH": "Tỉnh Yên Bái",
+		"TINHVT": "TinhYenBai"
+	}
+]

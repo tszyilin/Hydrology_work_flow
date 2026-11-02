@@ -1,0 +1,73 @@
+Copy the following script to the Command Window of MATLAB/Octave
+
+Set the File path to W:\Technical\Hydrology\MatlabSRC\MDR_Bill
+
+1. Day Per Line (DPL) to Year Per Page (YPP)
+Script: BOM_DPL2YPP4.m
+35016:
+
+1898-2025:
+[Status]=BOM_DPL2YPP4('Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\01.Input\35016_1898-2025.csv', '35016', 'Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\02.Output\01.DPPToYPP\35016\35016.')
+
+35032:
+
+1890-1976:
+[Status]=BOM_DPL2YPP4('Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\01.Input\35032_1890-1976.csv','35032','Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\02.Output\01.DPPToYPP\35032\35032.')
+
+
+
+2. Run Double Mass 
+Script: YPP_DoubleMass.m
+function [ B2AadjF,Nc,Rab,Bdblm,Rdblm,DblMcummRatio,DimMaxDev ] = YPP_DoubleMass(A_YPPpathfilePrefix,B_YPPpathfilePrefix,Syr,Eyr,dAB,ResultFile,RptType )
+
+Base station = '35032' (closer to West Wall)
+
+[B2AadjF,Nc,Rab,Bdblm,Rdblm,DblMcummRatio,DimMaxDev ] = YPP_DoubleMass('Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\02.Output\01.DPPToYPP\35032\35032.', 'Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\02.Output\01.DPPToYPP\35016\35016.', 1890, 2025, 0,'Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\02.Output\02.Double Mass Curve\Result', 'Full') 
+
+3. Infilling data
+Script: YPP_Comp_Build2017.m
+[Status]=YPP_Comp_Build2017(StnListFile,StartYr,EndYr,StnName,CompPathFilePrefix)
+
+[Status]=YPP_Comp_Build2017('Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\01.Input\DM_Input_2432.txt', 1890, 2025, 'Group1', 'Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\02.Output\03.Infilled\Group1.')
+
+The correction factor should be whatever returns the station to the 1:1 fit line to the 'base station', i.e. correction factor*filling station = 'base station'
+It should be taken as either the double mass gradient (B2A) or 1/B2A depending on what converts the filling station to the 'base station'. 
+
+Matlab scripts - MDR:
+W:\Technical\Hydrology\MatlabSRC\MDR_Bill
+
+4. Running MDR
+
+MDR_Build2012.m
+[dummy]=MDR_Build2012(RunPathFile)
+
+[dummy]=MDR_Build2012('Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\01.Input\MDR_2432.txt')
+
+
+5. Creating Design Curve Fit
+MDR_DesignCurveFit2012.m
+MDR_DesignCurveFit2022_Restricted_Sampling.m
+[amin,Status]=MDR_DesignCurveFit2012(ARIWgtPwr,DWgtPwr,SourceFile,ResultFile,StnTitle,NcolDur,NcolRank,NcolARI,NcolRain,ARImin,astart)
+
+ARIWgtPwr = 0.5
+DWgtPwr = -0.1
+StnTitle = 'Gregory'
+NcolDur = 1
+NcolRank = 2
+NcolARI = 3
+NcolRain = 4
+ARImin = 2
+astart = 1 - can be any number
+
+[amin,Status]=MDR_DesignCurveFit2022_Restricted_Sampling(0.5,-0.1,'Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\02.Output\04.MDR\Curve_Fit','Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\02.Output\04.MDR\DesignCurveFit','Porgera',1,2,3,4,2,1)
+
+6. Plotting design curve
+MDR_DesignCurvePlotData2012.m
+[Status]=MDR_DesignCurvePlotData2012(a,ARI,MaxDur,dT,StnTitle,GrapherFile)
+
+[Status]=MDR_DesignCurvePlotData2012([68.586, 14.324, 0.5906, 33.208, 6.2051, 0.5938],[2 5 10 20 50 100 200 500 1000 2000],150,1,'Gregory','Q:\PSM2432\Eng Gregory\03. TSF\04. Hydrology\02.Rainfall\02.MDR Curve\02.Output\04.MDR\Grapher')
+
+Matlab Scripts - IFD:
+ATan_Loop.m
+Fit0_24Atan2012.m
+Interp0_24HrATan2012.m

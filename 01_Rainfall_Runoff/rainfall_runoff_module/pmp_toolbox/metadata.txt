@@ -1,0 +1,19 @@
+[general]
+name=PMP Toolbox
+qgisMinimumVersion=3.28
+description=Probable Maximum Precipitation for a catchment layer: GSDM depth-duration, the GSDM areal distribution by optimised ellipse placement, and the long-duration GTSMR and GSAM methods.
+about=Estimates Probable Maximum Precipitation directly from a catchment polygon, following the Bureau of Meteorology's generalised methods. The GSDM tab gives catchment-average depth against duration for storms of 0.25 to 6 hours. The Areal GSDM tab automates section 6 of the Generalised Short-Duration Method (June 2003): the Bulletin has an analyst overlay the Figure 6 spatial distribution on a catchment map and shuffle it by hand to obtain the best fit by the smallest possible ellipse, and this restates that as a search over the template centre and rotation, then runs Steps 2-9 for the per-ring mean rainfall depths. The GTSMR / GSAM tab covers 24 to 120 hours using the Bureau's extreme precipitable water, topographic and decay grids. Area, centroid, moisture adjustment, duration limit, PMP zone and grid factors are all read from the catchment layer rather than typed in, and every derived value shows where it came from.
+version=0.8.3
+author=tszyilin
+email=tszyilin@gmail.com
+
+tracker=
+repository=
+homepage=
+
+category=Plugins
+icon=icon.png
+experimental=True
+deprecated=False
+
+tags=hydrology,pmp,rainfall,gsdm,gtsmr,gsam,precipitation,catchment

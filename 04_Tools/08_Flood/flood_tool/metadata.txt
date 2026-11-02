@@ -1,0 +1,17 @@
+[general]
+name=Water Level
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Flood a DEM to a given water level and output the flooded area as a polygon.
+version=1.0.0
+author=User
+email=user@example.com
+about=Pick a DEM raster, enter a water level and (optionally) an extent. The tool flags every cell with elevation at or below the water level, polygonises the result and adds it to the current QGIS project as a single-feature polygon layer with a user-chosen fill colour and opacity.
+tracker=
+repository=
+tags=flood,dem,bathtub,polygonize,hydrology
+homepage=
+category=Raster
+icon=
+experimental=False
+deprecated=False

@@ -1,0 +1,18 @@
+[general]
+name=Peak Flow Toolbox
+qgisMinimumVersion=3.16
+description=Compare peak-flow estimates from RFFE, ARR regional methods and RORB.
+version=0.1
+author=Safin
+email=tszyilin@gmail.com
+
+about=A QGIS plugin for comparing catchment peak-flow estimates across RFFE (Regional Flood Frequency Estimation), ARR Book 3 regional methods and imported RORB model results.
+
+hasProcessingProvider=No
+tags=hydrology,peak flow,rffe,rorb,regional flood,flood estimation
+
+category=Plugins
+icon=icons/icon.png
+experimental=True
+deprecated=False
+server=False

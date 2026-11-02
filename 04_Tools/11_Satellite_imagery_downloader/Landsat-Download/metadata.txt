@@ -1,0 +1,43 @@
+[general]
+name=Landsat Download
+qgisMinimumVersion=3.16
+description=Bulk download of Landsat 4-9 Collection 2 Level-2 imagery (global archive since 1982, no account needed) for an AOI from a layer or GPKG file, with automatic ready-symbolised products: RGB, CIR, SWIR, GEO composites, NDVI, NDWI, NDMI, NBR, NDSI indices and land surface temperature in °C.
+about=BULK LANDSAT DOWNLOADS WITH READY-TO-USE PRODUCTS — NO ACCOUNT NEEDED
+    The plugin searches and bulk-downloads Landsat imagery from the USGS Landsat Collection 2 Level-2 archive (surface reflectance and surface temperature, 30 m resolution, global coverage since 1982) served openly through the Microsoft Planetary Computer STAC API. No registration, no sign-in, no API keys.
+    
+    MISSIONS: Landsat 8 + 9 (2013 — today), Landsat 7 (1999 — 2022), Landsat 4 + 5 (1982 — 2013) or all of them at once — four decades of Earth observation for change analyses.
+    
+    AREA OF INTEREST: a polygon layer from the project or a GeoPackage (.gpkg) file.
+    
+    FILTERS AND SCENE SELECTION:
+    - date range, maximum cloud cover, scene limit,
+    - strategies: all scenes / manual checklist / month filter / automatically the 3 least cloudy scenes of each month.
+    
+    DOWNLOADING:
+    - the plugin downloads ONLY the bands needed for the chosen products (small, fast transfers),
+    - up to 4 parallel downloads, automatic retries after errors,
+    - resuming of interrupted sessions (finished scenes are skipped),
+    - a CSV summary report; raw band files can be kept or removed.
+    
+    AUTOMATIC PRODUCTS (GeoTIFF with ready-made symbology — coloured in QGIS from the first second):
+    - colour composites: RGB (natural colours), CIR (vegetation in red), SWIR (agriculture), GEO (geology); transparent scene corners,
+    - indices computed on true surface reflectance, with colour ramps and legends (QML files applied automatically): NDVI (vegetation condition), NDWI (surface water), NDMI (vegetation moisture, droughts), NBR (burn severity), NDSI (snow and ice),
+    - TEMP — land surface temperature in degrees Celsius from the Landsat thermal band, with a blue-to-red temperature ramp (urban heat islands, drought monitoring),
+    - finished products can be loaded into the QGIS project automatically.
+version=1.0.0
+author=Grzegorz Górniak
+email=gorniakgrzegorz@gmail.com
+changelog=1.0.0 (first release)
+    - Bulk download of Landsat 4-9 Collection 2 Level-2 imagery via the Microsoft Planetary Computer STAC API (no account needed)
+    - AOI from a project layer or a GPKG file; date, cloud-cover and scene-limit filters; mission picker
+    - Scene picker: all scenes, manual checklist, month filter or the 3 least cloudy scenes per month
+    - Downloads only the bands required for the chosen products; up to 4 parallel downloads with retries, resuming and a CSV report
+    - Automatic ready-symbolised GeoTIFF products: RGB, CIR, SWIR, GEO composites, NDVI, NDWI, NDMI, NBR, NDSI indices (on true surface reflectance) and land surface temperature in °C
+tags=landsat,landsat 8,landsat 9,landsat 5,usgs,collection 2,level-2,download,bulk,satellite,remote sensing,surface reflectance,surface temperature,thermal,rgb,cir,swir,ndvi,ndwi,ndmi,nbr,ndsi,temperature,indices,composites,cloud cover,stac,planetary computer,time series,change detection
+homepage=https://github.com/gorniakgrzegorz/landsat-download
+tracker=https://github.com/gorniakgrzegorz/landsat-download/issues
+repository=https://github.com/gorniakgrzegorz/landsat-download
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=no

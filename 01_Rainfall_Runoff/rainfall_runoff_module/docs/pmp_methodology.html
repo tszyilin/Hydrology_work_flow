@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PMP Methodology — Hydrology Workflow Suite</title>
+<style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+                     Helvetica, Arial, sans-serif;
+        max-width: 960px;
+        margin: 24px auto;
+        padding: 0 24px 64px;
+        color: #12222f;
+        line-height: 1.55;
+    }
+    h1 { border-bottom: 3px solid #0f8b8d; padding-bottom: 8px; }
+    h2 {
+        margin-top: 40px;
+        padding: 6px 12px;
+        background: #eef5f6;
+        border-left: 4px solid #0f8b8d;
+        color: #0d3d66;
+    }
+    h3 { color: #0d3d66; margin-top: 24px; }
+    code {
+        background: #f2f4f7;
+        padding: 1px 6px;
+        border-radius: 3px;
+        font-size: 0.95em;
+    }
+    pre {
+        background: #f2f4f7;
+        padding: 12px 14px;
+        border-radius: 4px;
+        overflow-x: auto;
+        border-left: 3px solid #0f8b8d;
+    }
+    table {
+        border-collapse: collapse;
+        margin: 12px 0;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #d4dbe0;
+        padding: 6px 10px;
+        text-align: left;
+    }
+    th { background: #eef5f6; }
+    tr:nth-child(even) td { background: #fafbfc; }
+    .ref {
+        background: #fff4d6;
+        border-left: 4px solid #e6c14d;
+        padding: 8px 14px;
+        margin: 12px 0;
+        border-radius: 3px;
+    }
+    .note {
+        background: #eef7ec;
+        border-left: 4px solid #4caf50;
+        padding: 8px 14px;
+        margin: 12px 0;
+        border-radius: 3px;
+    }
+    .warn {
+        background: #ffe9d6;
+        border-left: 4px solid #d0721e;
+        padding: 8px 14px;
+        margin: 12px 0;
+        border-radius: 3px;
+    }
+    nav {
+        background: #f6f8fa;
+        padding: 12px 16px;
+        border-radius: 4px;
+        border: 1px solid #d4dbe0;
+    }
+    nav a { display: block; padding: 2px 0; color: #0d3d66; }
+</style>
+</head>
+<body>
+
+<h1>PMP Methodology &mdash; how the plugin calculates each component</h1>
+
+<p>This page documents every arithmetic step the plugin performs for the GSDM,
+GTSMR and GSAM methods, and links every step to the corresponding section
+of the Bureau of Meteorology's guidebooks.  If a plugin result disagrees
+with an external estimate, this is where to check which rule is being
+applied.</p>
+
+<nav>
+    <strong>Contents</strong>
+    <a href="#overview">1. Overview of PMP methods</a>
+    <a href="#zone">2. PMP zone lookup</a>
+    <a href="#dda">3. Depth&ndash;Duration&ndash;Area (DDA) lookup</a>
+    <a href="#sub1">4. Catchments smaller than 1 km²</a>
+    <a href="#maf">5. Moisture Adjustment Factor (MAF)</a>
+    <a href="#taf">6. Topographic Adjustment Factor (TAF)</a>
+    <a href="#daf">7. Decay Amplitude Factor (DAF)</a>
+    <a href="#sampling">8. Centroid vs catchment-averaged sampling</a>
+    <a href="#gsam-autumn">9. GSAM autumn: a separate EPW grid</a>
+    <a href="#gsdm-terrain">10. GSDM terrain weighting and EAF</a>
+    <a href="#refs">11. Reference documents</a>
+</nav>
+
+<h2 id="overview">1. Overview of PMP methods</h2>
+
+<p>The Bureau of Meteorology's Australian PMP methods each cover a different
+duration and terrain range:</p>
+
+<table>
+<thead>
+<tr><th>Method</th><th>Durations</th><th>Areal limit</th><th>Adjustments applied</th></tr>
+</thead>
+<tbody>
+<tr>
+    <td><strong>GSDM</strong> &mdash; Generalised Short-Duration Method</td>
+    <td>0.25 &ndash; 6 hr</td>
+    <td>Up to 1&nbsp;000 km²</td>
+    <td>terrain-weighted depth, Elevation Adjustment Factor (EAF),
+        Moisture Adjustment Factor (MAF)</td>
+</tr>
+<tr>
+    <td><strong>GTSMR</strong> &mdash; Generalised Tropical Storm Method Revised</td>
+    <td>24 &ndash; 120 hr</td>
+    <td>1 &ndash; 150&nbsp;000 km²</td>
+    <td>TAF, DAF, and MAF (per season: summer + winter)</td>
+</tr>
+<tr>
+    <td><strong>GSAM</strong> &mdash; Generalised Southeast Australia Method</td>
+    <td>24 &ndash; 96 hr</td>
+    <td>1 &ndash; 100&nbsp;000 km²</td>
+    <td>TAF and MAF only (no DAF). Summer + autumn.</td>
+</tr>
+</tbody>
+</table>
+
+<p>Every method returns depth as a function of duration.  Each duration's
+final PMP is rounded to the nearest 10 mm; the controlling duration is
+picked on the <em>unrounded</em> depths so a rounding tie can never move
+the controlling duration.  Code: <code>pmp_toolbox.core.depth.round_pmp</code>.</p>
+
+<h2 id="zone">2. PMP zone lookup</h2>
+
+<p>Every catchment centroid is intersected with the Bureau's own zone
+polygons (from the GTSMR CD's <code>pmp_zones/pmp_zones.shp</code>).  The
+zone determines which method(s) apply and which zone code is passed to the
+DDA table.</p>
+
+<div class="ref">
+    <strong>Reference:</strong> GTSMR guidebook (2003), Figure 1 and §2.1.
+    GSAM guidebook (2006), Figure 1.  The plugin ships the same polygons
+    from the GTSMR CD 2005 &mdash; see <code>data/zones_all.json</code>.
+</div>
+
+<p>Ray-casting point-in-polygon runs against a simplified copy of the rings
+(0.9 km simplification, islands under about 40 km² dropped) so a small
+island can miss the zone.  The transition zones make both methods
+applicable at once; the plugin now flags both as usable and seeds the
+GSAM Coastal/Autumn zones so you can compare the two answers as the
+guidebook expects.  Code: <code>pmp_toolbox.core.zones.lookup</code>.</p>
+
+<h2 id="dda">3. Depth&ndash;Duration&ndash;Area (DDA) lookup</h2>
+
+<p>Every method reads its raw depth from a tabulated Depth-Duration-Area
+table shipped in <code>data/</code> as CSV.  Interpolation is
+<strong>log-linear in area</strong> and <strong>linear in duration</strong>:</p>
+
+<pre>D(area, duration) = D(area_lo, duration_lo)
+    + (D(area_hi, duration_lo) - D(area_lo, duration_lo)) *
+      (log(area) - log(area_lo)) / (log(area_hi) - log(area_lo))
+    ... same for area_hi, then interpolate between duration_lo, duration_hi.</pre>
+
+<div class="ref">
+    <strong>Reference:</strong>
+    <ul>
+        <li><strong>GSDM Figure 4</strong> curves (digitised from
+            <code>GSDM_Depth_Area_Curves_Digitise.xlsx</code>) drive
+            <code>DDACurves</code>.</li>
+        <li><strong>GTSMR</strong> tables and <strong>GSAM</strong>
+            tables come straight from the Bureau CDs
+            (<code>depth_area_data/*.xls</code>) and drive
+            <code>AreaDepthTable</code>.</li>
+    </ul>
+    Code: <code>pmp_toolbox.core.dda</code>.
+</div>
+
+<h2 id="sub1">4. Catchments smaller than 1 km²</h2>
+
+<p>The GTSMR / GSAM depth-area tables tabulate down to 1 km².  When your
+catchment is smaller, the plugin gives you a choice on the GTSMR/GSAM
+inputs tab:</p>
+
+<ul>
+    <li><strong>Default (checkbox off) &mdash; clamp at 1 km².</strong>
+        The 1 km² depth is used for any smaller catchment.  This matches
+        the Bureau's own Toolbox website and follows §2.2 of the
+        guidebooks, which describes the areal limit.</li>
+    <li><strong>Extrapolate below 1 km² (checkbox on).</strong>
+        Log-linearly extrapolate off the 1 km² and 1.5 km² rows.  This
+        matches spreadsheet templates that carry a smaller catchment
+        through without clamping (e.g. PSM's PMP_Estimation template).
+        Depths will be slightly higher because the log-area curves rise
+        as area shrinks.</li>
+</ul>
+
+<p>Either way, the plugin adds a warning to the result table that says
+which behaviour applied.  Code:
+<code>pmp_toolbox.core.dda.AreaDepthTable.depth</code>.</p>
+
+<h2 id="maf">5. Moisture Adjustment Factor (MAF)</h2>
+
+<p>MAF scales the raw depth from a standard storm to the catchment's
+climate:</p>
+
+<pre>MAF = EPW_catchment / EPW_standard</pre>
+
+<p>where the standard values are prescribed by the guidebook:</p>
+
+<table>
+<thead><tr><th>Method / season</th><th>EPW standard</th><th>Guidebook reference</th></tr></thead>
+<tbody>
+<tr><td>GTSMR summer</td><td>120.0 mm</td><td>GTSMR §2.3.1</td></tr>
+<tr><td>GTSMR winter</td><td>82.3 mm</td><td>GTSMR §2.3.1</td></tr>
+<tr><td>GSAM summer</td><td>80.8 mm</td><td>GSAM §2.3</td></tr>
+<tr><td>GSAM autumn</td><td>71.0 mm</td><td>GSAM §2.3</td></tr>
+</tbody>
+</table>
+
+<p>EPW_catchment is either sampled at the catchment centroid or averaged
+over the polygon (see §8).</p>
+
+<div class="warn">
+    <strong>Common trap:</strong> the GSAM autumn EPW is <em>not</em> the
+    GTSMR winter EPW.  Some workbooks re-use the winter grid; the plugin
+    reads GSAM's own <code>epw_autumn.asc</code> from the Oct 2006 CD.
+    Substituting the winter value into GSAM autumn will produce PMPs that
+    are roughly 10&ndash;15% too low along the NSW coast.
+</div>
+
+<h2 id="taf">6. Topographic Adjustment Factor (TAF)</h2>
+
+<p>TAF is a dimensionless ratio (typically 0.95 &ndash; 1.5) that lifts or
+suppresses the design storm to account for orographic effects.  It comes
+straight off a gridded surface:</p>
+
+<ul>
+    <li><strong>GTSMR</strong> uses <code>ifdr005m.asc</code> from the GTSMR CD.</li>
+    <li><strong>GSAM</strong> uses <code>gsam_taf.asc</code> from the GSAM CD.
+        This grid only covers Australia east of about 118 °E &mdash; outside
+        that footprint the plugin falls back to the GTSMR TAF.</li>
+</ul>
+
+<p>Both grids are quantised and packed into
+<code>data/gtsmr_grids.npz</code> at 0.05° resolution (from 0.005°
+native).  Resampling error measured against the full-resolution grids:
+&lt; 0.0005 for TAF, &lt; 0.010 mm for EPW.</p>
+
+<div class="ref">
+    <strong>Reference:</strong> GTSMR §2.3.2, GSAM §2.3.  Code:
+    <code>pmp_toolbox.core.grids.lookup</code> and
+    <code>pmp_toolbox.core.grids.average_at_points</code>.
+</div>
+
+<h2 id="daf">7. Decay Amplitude Factor (DAF) &mdash; GTSMR only</h2>
+
+<p>The DAF captures how the design storm's rainfall depth decays with
+duration relative to a reference storm; the number is applied to the
+GTSMR depths only.  It comes from the same 0.005° grid packed at 0.05°
+into <code>daf</code>.</p>
+
+<div class="ref">
+    <strong>Reference:</strong> GTSMR §2.3.3.  GSAM has no DAF.
+</div>
+
+<h2 id="sampling">8. Centroid vs catchment-averaged sampling</h2>
+
+<p>The guidebooks (§2.3 in both) prescribe that grid-derived factors are
+<em>averaged over the catchment outline</em>.  In practice most worked
+spreadsheets sample at the centroid because it is faster and reproduces
+the guidebook worked examples to within 0.03%.  The plugin now does the
+guidebook version: it walks every 0.05° cell centre whose point-in-polygon
+falls inside the catchment and averages those cells per grid.</p>
+
+<h3>How the average is computed, step by step</h3>
+
+<ol>
+    <li>Reproject the catchment polygon to WGS84 (EPSG:4326).</li>
+    <li>Snap the polygon's bounding box to the packed grid's index range.</li>
+    <li>For every grid cell centre in that range, run
+        <code>QgsGeometryEngine.intersects</code> against the polygon.</li>
+    <li>Keep the (lat, lon) pairs that landed inside; discard the rest.</li>
+    <li>For every grid (EPW summer, EPW winter, TAF, DAF, GSAM autumn,
+        GSAM TAF), sample the value at each kept cell and average.
+        NODATA cells are skipped per grid, so a coastal fringe still
+        produces sensible numbers.</li>
+</ol>
+
+<p>If the catchment is smaller than one 0.05° cell (i.e. no cell centre
+lands inside), the plugin falls back to the centroid value.  This
+guarantees a sub-30 km² catchment always gets an answer.  Code:
+<code>qgis_bridge.catchment_grid_points</code> +
+<code>grids.average_at_points</code>.</p>
+
+<div class="note">
+    For sub-1 km² catchments the two methods give the same number because
+    one cell dominates.  For large catchments straddling a steep TAF
+    gradient (coastal escarpment) the area-averaged number can differ
+    from the centroid by a few percent &mdash; that difference is the
+    signal §2.3 was written to capture.
+</div>
+
+<h2 id="gsam-autumn">9. GSAM autumn: a separate EPW grid</h2>
+
+<p>Historically, spreadsheet workflows re-used the GTSMR winter EPW grid
+(<code>gtsmrwin005pwm.asc</code>) for GSAM autumn.  Winter and autumn
+are different meteorological seasons, and at NSW coastal sites this
+substitution understates the autumn EPW by around 10 mm.  The plugin ships
+the GSAM CD's own <code>epw_autumn.asc</code> as <code>gsam_epw_autumn</code>
+and reads from it in the GSAM autumn seed.  This is the largest single
+error corrected in the switch from workbook to plugin.</p>
+
+<h2 id="gsdm-terrain">10. GSDM terrain weighting and EAF</h2>
+
+<p>GSDM has two DDA curves per duration (Smooth and Rough).  The
+catchment's terrain fraction weights them:</p>
+
+<pre>D = S * D_smooth + R * D_rough        (S + R = 1)</pre>
+
+<div class="ref">
+    <strong>Reference:</strong> GSDM §4.2.
+</div>
+
+<p>The Elevation Adjustment Factor (EAF) is 1.0 below 1500 m and rises
+linearly with mean catchment elevation above that.</p>
+
+<div class="ref">
+    <strong>Reference:</strong> GSDM §4.3.  Code:
+    <code>pmp_toolbox.core.gsdm</code>.
+</div>
+
+<p>Finally, GSDM depths are scaled by MAF (from Figure 3) &mdash; not the
+gridded EPW ratio that GTSMR / GSAM use.  In the plugin the MAF value is
+entered directly on the GSDM tab.</p>
+
+<h2 id="refs">11. Reference documents</h2>
+
+<ul>
+    <li>Bureau of Meteorology (2003), <em>The estimation of probable
+        maximum precipitation in Australia: Generalised Short Duration
+        Method</em> (GSDM guidebook).</li>
+    <li>Bureau of Meteorology (2003 revision), <em>Generalised Tropical
+        Storm Method Revised</em> (GTSMR guidebook), sections 2.1
+        (zones), 2.2 (DDA tables), 2.3.1 (MAF), 2.3.2 (TAF), 2.3.3
+        (DAF).</li>
+    <li>Bureau of Meteorology (2006), <em>Generalised Southeast Australia
+        Method</em> (GSAM guidebook), section 2.3 (adjustments) and
+        Table 2.1 (standard EPW values 80.8, 71.0 mm).</li>
+    <li>GTSMR CD 2005 &mdash; ships the annual and winter EPW,
+        <code>ifdr005m.asc</code> (TAF), and <code>daf.asc</code> grids.</li>
+    <li>GSAM CD Oct 2006 &mdash; ships <code>epw_annual.asc</code>,
+        <code>epw_autumn.asc</code>, and <code>gsam_taf.asc</code>.</li>
+</ul>
+
+<p>Source code the calculations live in (all under the
+<code>pmp_toolbox</code> package):</p>
+
+<ul>
+    <li><code>core/depth.py</code> &mdash; the per-method arithmetic
+        (<code>calc_gsdm</code>, <code>calc_gtsmr</code>,
+        <code>calc_gsam</code>) and the shared <code>_long_duration</code>
+        that applies MAF and TAF / DAF.</li>
+    <li><code>core/dda.py</code> &mdash; log-in-area / linear-in-duration
+        interpolation over the DDA tables.  Also the sub-1 km² clamp /
+        extrapolate switch.</li>
+    <li><code>core/grids.py</code> &mdash; <code>lookup</code> for centroid
+        sampling, <code>average_at_points</code> for the area-averaged path.</li>
+    <li><code>core/zones.py</code> &mdash; PMP application zone lookup and
+        transition-zone handling.</li>
+    <li><code>qgis_bridge.py</code> &mdash;
+        <code>catchment_grid_points</code> enumerates the cells inside the
+        catchment polygon for the area-averaged path.</li>
+</ul>
+
+<p style="margin-top: 48px; padding-top: 12px; border-top: 1px solid #d4dbe0;
+          color: #7a8794; font-size: 0.85em;">
+Hydrology Workflow Suite &mdash; PMP methodology documentation.
+Generated from the source-of-truth code paths; if code and this document
+disagree, the code is correct.
+</p>
+
+</body>
+</html>

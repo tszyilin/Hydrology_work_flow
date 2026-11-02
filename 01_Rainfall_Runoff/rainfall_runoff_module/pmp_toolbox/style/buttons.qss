@@ -1,0 +1,61 @@
+/* Button and results-table styling for the PMP Toolbox tabs.
+
+   Applied with QWidget.setStyleSheet() on each tab widget, never on
+   QApplication, so it cannot bleed into the rest of QGIS's UI. Only buttons
+   and table headers are themed; inputs and tables otherwise keep QGIS's
+   native look, which is what makes the panel read as part of QGIS rather
+   than as a foreign application embedded in it.
+
+   The palette is the Drain Design Toolbox's, so the two plugins look like
+   they came from the same hand. */
+
+QPushButton {
+    background: #0f8b8d;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 14px;
+    color: #ffffff;
+}
+QPushButton:hover { background: #0d7a7c; }
+QPushButton:pressed { background: #0b6b6c; }
+QPushButton:disabled { color: #cfe8e8; background: #6fb4b5; }
+
+/* Small buttons that sit inside a form row next to their field -- the
+   "From centroid" lookups -- would push the row height around at the full
+   padding, so they get a tighter box and an outline instead of a fill. */
+QPushButton#lookupButton {
+    background: #ffffff;
+    color: #0f8b8d;
+    border: 1px solid #0f8b8d;
+    border-radius: 3px;
+    padding: 3px 10px;
+}
+QPushButton#lookupButton:hover { background: #e4f4f4; }
+QPushButton#lookupButton:pressed { background: #c9e7e7; }
+QPushButton#lookupButton:disabled { color: #9db3c4; border-color: #cfd8dc; background: #f7f8f7; }
+
+/* Inside the ProjectPanel row, the outline-style lookupButton buttons
+   sit next to the filled Save / Save As, so they need the same vertical
+   padding — otherwise they render visibly shorter. */
+QGroupBox#projectPanel QPushButton#lookupButton {
+    padding: 9px 14px;
+}
+
+/* The provenance line under a looked-up value: where on the figure it was
+   read, or why it could not be. Muted so it reads as an annotation. */
+QLabel#provenance {
+    color: #5b7480;
+}
+
+QGroupBox {
+    font-weight: 600;
+}
+
+QHeaderView::section {
+    background: #f1f3f3;
+    border: none;
+    border-right: 1px solid #dde3e5;
+    border-bottom: 1px solid #cfd8dc;
+    padding: 4px 6px;
+    font-weight: 600;
+}

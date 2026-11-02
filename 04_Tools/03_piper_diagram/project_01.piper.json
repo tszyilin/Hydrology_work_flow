@@ -1,0 +1,117 @@
+{
+  "input": "G:/My Drive/02_Coding/Coding/25_piper_diagram/Molyhil_Piper_Diagram_Data_Script_Input_SL.xlsx",
+  "plot": "G:\\My Drive\\02_Coding\\Coding\\25_piper_diagram\\Molyhil_Piper_Diagram.png",
+  "csv": "G:\\My Drive\\02_Coding\\Coding\\25_piper_diagram\\Molyhil_Piper_Register.csv",
+  "xlsx": "G:\\My Drive\\02_Coding\\Coding\\25_piper_diagram\\Molyhil_Piper_Register.xlsx",
+  "gap": 30.0,
+  "rotation_mode": "along",
+  "rotation_offset": 0.0,
+  "facies": true,
+  "title": "Piper Diagram - Molyhil Project (C260813)\nMajor Ion Composition, 23 June 2026",
+  "samples": [
+    {
+      "orig": "WQ01 - Molyhil Pit (2026)",
+      "name": "WQ01 - Molyhil Pit (2026)",
+      "marker": "o",
+      "color": "#ff0000",
+      "size": 80.0,
+      "filled": true
+    },
+    {
+      "orig": "WQ02 - Molyhil Dam (2026)",
+      "name": "WQ02 - Molyhil Dam (2026)",
+      "marker": "s",
+      "color": "#ff0000",
+      "size": 80.0,
+      "filled": true
+    },
+    {
+      "orig": "P2 (2012)",
+      "name": "P2 (2012)",
+      "marker": "^",
+      "color": "#ff0000",
+      "size": 80.0,
+      "filled": false
+    },
+    {
+      "orig": "P1 (2012)",
+      "name": "P1 (2012)",
+      "marker": "D",
+      "color": "#ff0000",
+      "size": 80.0,
+      "filled": false
+    },
+    {
+      "orig": "Pool #1 (2026)",
+      "name": "Pool #1 (2026)",
+      "marker": "v",
+      "color": "#ff0000",
+      "size": 80.0,
+      "filled": true
+    },
+    {
+      "orig": "Stock Dam (2026)",
+      "name": "Stock Dam (2026)",
+      "marker": "P",
+      "color": "#ff0000",
+      "size": 80.0,
+      "filled": true
+    },
+    {
+      "orig": "Pit Lake (2026)",
+      "name": "Pit Lake (2026)",
+      "marker": "P",
+      "color": "#ff0000",
+      "size": 80.0,
+      "filled": true
+    },
+    {
+      "orig": "WQ03 - Gap Bore (2026)",
+      "name": "WQ03 - Gap Bore (2026)",
+      "marker": "o",
+      "color": "#00ff00",
+      "size": 80.0,
+      "filled": true
+    },
+    {
+      "orig": "RN13000 - Prices Bore (2026)",
+      "name": "RN13000 - Prices Bore (2026)",
+      "marker": "s",
+      "color": "#00ff00",
+      "size": 80.0,
+      "filled": true
+    },
+    {
+      "orig": "RN12687 - Gap Bore (2026)",
+      "name": "RN12687 - Gap Bore (2026)",
+      "marker": "^",
+      "color": "#00ff00",
+      "size": 80.0,
+      "filled": true
+    },
+    {
+      "orig": "RN12684 - Molyhil Duplicate (2026)",
+      "name": "RN12684 - Molyhil Duplicate (2026)",
+      "marker": "D",
+      "color": "#00ff00",
+      "size": 80.0,
+      "filled": true
+    },
+    {
+      "orig": "TMRC60 (2026)",
+      "name": "TMRC60 (2026)",
+      "marker": "v",
+      "color": "#00ff00",
+      "size": 80.0,
+      "filled": true
+    },
+    {
+      "orig": "SW09 (2026)",
+      "name": "SW09 (2026)",
+      "marker": "o",
+      "color": "#0080ff",
+      "size": 80.0,
+      "filled": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[general]
+name=Wind Fetch Calculator
+qgisMinimumVersion=3.0
+description=Calculate wind fetch distances from an embankment point across a water body in all directions, for dam/TSF wave run-up design.
+about=Given a point on an embankment crest and a water polygon (reservoir or TSF pond), computes fetch distances at a user-defined angular interval and reports the maximum fetch and its bearing (per ANCOLD wave run-up workflow).
+version=0.1.0
+author=Safin Lin
+email=tszyilin@gmail.com
+category=Vector
+icon=icon.png
+experimental=True
+deprecated=False
+tags=fetch,wind,wave,dam,tsf,hydrology,ancold

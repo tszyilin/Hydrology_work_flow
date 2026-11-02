@@ -1,0 +1,14 @@
+sub_catchment_id,geology_type,area_ha,pct_of_subcatchment
+21,Felsic intrusive,0.7403,0.3
+21,Regolith,68.4629,27.89
+21,Siliciclastic,176.2647,71.81
+23,Regolith,70.9223,42.01
+23,Siliciclastic,85.9458,50.91
+23,Volcaniclastic,11.9585,7.08
+29,Felsic intrusive,26.5377,10.06
+29,Regolith,167.4113,63.44
+29,Siliciclastic,69.9379,26.5
+32,Regolith,56.0233,42.24
+32,Siliciclastic,76.594,57.76
+36,Regolith,220.0924,80.06
+36,Siliciclastic,54.8277,19.94

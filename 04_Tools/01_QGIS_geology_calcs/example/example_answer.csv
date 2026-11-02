@@ -1,0 +1,7 @@
+Combined,,,,,,
+Junction Nodes,I/O Identifier,Catchment Area (km2),Av. Dist. (km),Rock Area,Sandy Area,Total Area
+21,node_21,2.456,1.0467,1.771,0.685,2.456
+23,node_23,1.689,1.0965,0.98,0.71,1.69
+29,node_29,2.64,1.2295,0.967,1.675,2.642
+32,node_32,1.327,0.9907,0.766,0.561,1.327
+36,Outlet,2.751,1.4024,0.549,2.202,2.751
